@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Condoléances en Islam : Messages, Prières et Formules Complètes",
-  description: "Comment exprimer ses condoléances en Islam ? Prière, messages en arabe et en français, gestes à faire, durée du deuil. Guide complet.",
-  keywords: ["condoléances islam", "condoleances musulmanes", "message condoléances islam", "inna lillahi wa inna ilayhi rajioun"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/condoleances-islam";
+  return {
+    title: "Condoléances en Islam : Messages, Prières et Formules Complètes",
+    description: "Comment exprimer ses condoléances en Islam ? Prière, messages en arabe et en français, gestes à faire, durée du deuil. Guide complet.",
+    keywords: ["condoléances islam",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Condoléances en Islam : Messages, Prières et Formules Complètes",
+      description: "Comment exprimer ses condoléances en Islam ? Prière, messages en arabe et en français, gestes à faire, durée du deuil. Guide complet.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function CondoleancesIslamPage() {
   return (

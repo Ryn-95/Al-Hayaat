@@ -4,7 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = { title: "Doua après l&apos;Enterrement en Islam", description: "Invocations à réciter après l&apos;enterrement musulman.", keywords: ["doua après enterrement","invocation après enterrement islam"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/doua-apres-enterrement";
+  return {
+    title: "Doua après l&apos;Enterrement en Islam",
+    description: "Invocations à réciter après l&apos;enterrement musulman.",
+    keywords: ["doua après enterrement",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Doua après l&apos;Enterrement en Islam",
+      description: "Invocations à réciter après l&apos;enterrement musulman.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

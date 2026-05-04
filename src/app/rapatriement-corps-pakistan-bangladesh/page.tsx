@@ -2,7 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = { title: "Rapatriement de Corps au Pakistan et Bangladesh — Al Hayat", description: "Rapatriement de corps au Pakistan et au Bangladesh depuis la France. Al Hayat gère toutes les démarches.", keywords: ["rapatriement corps Pakistan","rapatriement corps Bangladesh"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-pakistan-bangladesh";
+  return {
+    title: "Rapatriement de Corps au Pakistan et Bangladesh — Al Hayat",
+    description: "Rapatriement de corps au Pakistan et au Bangladesh depuis la France. Al Hayat gère toutes les démarches.",
+    keywords: ["rapatriement corps Pakistan",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Rapatriement de Corps au Pakistan et Bangladesh — Al Hayat",
+      description: "Rapatriement de corps au Pakistan et au Bangladesh depuis la France. Al Hayat gère toutes les démarches.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 
 // Brand palette from logo
@@ -698,10 +699,11 @@ export default function HomePage() {
       {/* ── CTA FINAL ── */}
       <section className="w-full relative overflow-hidden py-20 md:py-32">
         <div className="absolute inset-0">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop"
             alt="Fond nature"
-            className="w-full h-full object-cover opacity-20 grayscale"
+            fill
+            className="object-cover opacity-20 grayscale"
           />
           <div className="absolute inset-0 bg-[#0D1208]/92" />
         </div>

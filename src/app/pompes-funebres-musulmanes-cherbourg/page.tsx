@@ -4,7 +4,39 @@ import CityPageTemplate from "@/components/sections/CityPageTemplate";
 
 const city = normandieCities.find((c) => c.slug === "pompes-funebres-musulmanes-cherbourg")!;
 
-export const metadata: Metadata = { title: city.title, description: city.metaDescription, keywords: city.keywords };
+export const hasUniqueContent = false;
+
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-cherbourg";
+  return {
+    title: city.title,
+    description: city.metaDescription,
+    
+    robots: {
+    index: false,
+    follow: true,
+  },
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: city.title,
+      description: city.metaDescription,
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function CherbourgPage() {
   return <CityPageTemplate data={city} breadcrumbs={[{ label: "Normandie", href: "/normandie" }, { label: "Cherbourg", href: "/pompes-funebres-musulmanes-cherbourg" }]} />;

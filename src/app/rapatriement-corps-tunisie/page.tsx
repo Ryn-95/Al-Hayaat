@@ -2,11 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Rapatriement de Corps en Tunisie — Al Hayat",
-  description: "Rapatriement de corps en Tunisie depuis la France. Démarches, documents, délais. Al Hayat vous accompagne de A à Z.",
-  keywords: ["rapatriement corps Tunisie", "rapatriement Tunisie France", "transfert corps Tunisie"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-tunisie";
+  return {
+    title: "Rapatriement de Corps en Tunisie — Al Hayat",
+    description: "Rapatriement de corps en Tunisie depuis la France. Démarches, documents, délais. Al Hayat vous accompagne de A à Z.",
+    keywords: ["rapatriement corps Tunisie",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Rapatriement de Corps en Tunisie — Al Hayat",
+      description: "Rapatriement de corps en Tunisie depuis la France. Démarches, documents, délais. Al Hayat vous accompagne de A à Z.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function RapatriementTunisiePage() {
   return (

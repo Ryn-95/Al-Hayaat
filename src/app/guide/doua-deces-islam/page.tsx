@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Doua pour un Mort en Islam — Invocations (Arabe + Français)",
-  description: "Douas complètes pour un défunt en Islam : texte arabe, phonétique et traduction française. Invocations Salat Janaza, cimetière, proches endeuillés.",
-  keywords: ["doua pour un mort", "doua pour le mort", "invocations pour un mort", "doua décès islam", "doua défunt", "invocation mort islam", "doua janaza"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/doua-deces-islam";
+  return {
+    title: "Doua pour un Mort en Islam — Invocations (Arabe + Français)",
+    description: "Douas complètes pour un défunt en Islam : texte arabe, phonétique et traduction française. Invocations Salat Janaza, cimetière, proches endeuillés.",
+    keywords: ["doua pour un mort",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Doua pour un Mort en Islam — Invocations (Arabe + Français)",
+      description: "Douas complètes pour un défunt en Islam : texte arabe, phonétique et traduction française. Invocations Salat Janaza, cimetière, proches endeuillés.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 const faqs = [
   { question: "Quelle doua réciter pour un mort en Islam ?", answer: "La doua la plus connue est : Allahoumma ighfir lahu warhamhu, wa 'afihi wa'fou 'anhu (Ô Allah, pardonne-lui et accorde-lui Ta miséricorde). Elle est tirée du hadith rapporté par Muslim (n°963)." },

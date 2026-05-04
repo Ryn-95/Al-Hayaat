@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 export function Header() {
@@ -42,11 +43,12 @@ export function Header() {
         <div className="w-full max-w-[1280px] mx-auto px-6 md:px-12 flex items-center justify-between">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center transition-transform duration-300 hover:scale-105 relative z-[70] group">
-            <img 
+          <Link href="/" className="flex items-center transition-transform duration-300 hover:scale-105 relative z-[70] group h-14 md:h-16 w-32 md:w-40">
+            <Image 
               src="/Image/Logo_ALHAYAAT.jpeg" 
-              alt="Al Hayaat" 
-              className={`h-14 md:h-16 w-auto object-contain rounded-[2px] transition-all duration-500 ${
+              alt="Al Hayaat Pompes Funèbres Musulmanes" 
+              fill
+              className={`object-contain rounded-[2px] transition-all duration-500 ${
                 (scrolled || !isHome || mobileMenuOpen) ? "mix-blend-multiply" : "brightness-0 invert opacity-90 group-hover:opacity-100"
               }`} 
             />

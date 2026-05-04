@@ -4,10 +4,34 @@ import { getServiceBySlug } from "@/lib/services-data";
 
 const data = getServiceBySlug("toilette-rituelle-ghusl")!;
 
-export const metadata: Metadata = {
-  title: data.title,
-  description: data.metaDescription,
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/toilette-rituelle-ghusl";
+  return {
+    title: data.title,
+    description: data.metaDescription,
+    
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: data.title,
+      description: data.metaDescription,
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function ToiletteRituelleGhuslPage() {
   return <ServicePageContent data={data} />;

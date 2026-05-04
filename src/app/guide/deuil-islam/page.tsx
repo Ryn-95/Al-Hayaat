@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Le Deuil en Islam : Durée, Règles, Obligations et Invocations",
-  description: "Combien de temps dure le deuil en Islam ? 3 jours, 40 jours, viduité : tout ce qu'il faut savoir. Obligations, invocations, pratiques islamiques du deuil.",
-  keywords: ["deuil islam", "deuil musulman", "40 jours islam", "durée deuil islam", "iddah veuvage islam", "viduité islam"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/deuil-islam";
+  return {
+    title: "Le Deuil en Islam : Durée, Règles, Obligations et Invocations",
+    description: "Combien de temps dure le deuil en Islam ? 3 jours, 40 jours, viduité : tout ce qu'il faut savoir. Obligations, invocations, pratiques islamiques du deuil.",
+    keywords: ["deuil islam",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Le Deuil en Islam : Durée, Règles, Obligations et Invocations",
+      description: "Combien de temps dure le deuil en Islam ? 3 jours, 40 jours, viduité : tout ce qu'il faut savoir. Obligations, invocations, pratiques islamiques du deuil.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function DeuilIslamPage() {
   return (

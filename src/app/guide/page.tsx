@@ -2,10 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Guide Islam & Funérailles — Al Hayat",
-  description: "Guides complets sur les rites funéraires islamiques : douas, condoléances, deuil, salat janaza, kafan. Ressources en arabe et français.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide";
+  return {
+    title: "Guide Islam & Funérailles — Al Hayat",
+    description: "Guides complets sur les rites funéraires islamiques : douas, condoléances, deuil, salat janaza, kafan. Ressources en arabe et français.",
+    
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Guide Islam & Funérailles — Al Hayat",
+      description: "Guides complets sur les rites funéraires islamiques : douas, condoléances, deuil, salat janaza, kafan. Ressources en arabe et français.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 const articles = [
   { title: "Doua pour un Mort en Islam", desc: "Toutes les invocations pour un défunt : en arabe, phonétique et français.", href: "/guide/doua-deces-islam", tag: "Invocations" },

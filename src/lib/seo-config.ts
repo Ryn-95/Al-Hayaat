@@ -3,16 +3,16 @@
 // ═══════════════════════════════════════════
 
 export const SITE_CONFIG = {
-  name: "Al Hayat Pompes Funèbres Musulmanes",
-  shortName: "Al Hayat",
-  baseUrl: "https://al-hayaat.fr",
-  phone: "+33 1 XX XX XX XX", // TODO: Replace with real number
-  phoneDisplay: "01 XX XX XX XX",
-  email: "contact@al-hayaat.fr",
+  name: "Al Hayaat Pompes Funèbres Musulmanes",
+  shortName: "Al Hayaat",
+  baseUrl: "https://pompesfunebres-alhayaat.fr",
+  phone: "+33763214656",
+  phoneDisplay: "07 63 21 46 56",
+  email: "contact@pompesfunebres-alhayaat.fr",
   address: {
-    street: "VOTRE ADRESSE", // TODO: Replace
-    city: "Rouen",
-    postalCode: "76000",
+    street: "44 Rue Saint-Jacques",
+    city: "Le Havre",
+    postalCode: "76600",
     region: "Normandie",
     country: "FR",
   },
@@ -20,7 +20,6 @@ export const SITE_CONFIG = {
   priceRange: "€€",
   availableLanguages: ["French", "Arabic"],
   social: {
-    // TODO: Add social links
   },
 } as const;
 

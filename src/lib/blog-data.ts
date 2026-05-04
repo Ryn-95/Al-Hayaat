@@ -236,3 +236,5 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
 export function getRelatedPosts(slugs: string[]): BlogPost[] {
   return blogPosts.filter((p) => slugs.includes(p.slug));
 }
+
+export function getBlogPages() { return blogPosts.map(b => ({ path: `/blog/${b.slug}` })); }

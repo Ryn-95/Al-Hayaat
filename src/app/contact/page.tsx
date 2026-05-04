@@ -1,11 +1,34 @@
 import { Metadata } from "next";
 import { ContactForm } from "@/components/sections/ContactForm";
 
-export const metadata: Metadata = {
-  title: "Contact — Al Hayaat Pompes Funèbres Musulmanes",
-  description:
-    "Contactez Al Hayaat 24h/24, 7j/7. Par téléphone, WhatsApp ou formulaire. Devis gratuit pour obsèques musulmanes et rapatriement.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/contact";
+  return {
+    title: "Contact — Al Hayaat Pompes Funèbres Musulmanes",
+    description: "Contactez Al Hayaat 24h/24, 7j/7. Par téléphone, WhatsApp ou formulaire. Devis gratuit pour obsèques musulmanes et rapatriement.",
+    
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Contact — Al Hayaat Pompes Funèbres Musulmanes",
+      description: "Contactez Al Hayaat 24h/24, 7j/7. Par téléphone, WhatsApp ou formulaire. Devis gratuit pour obsèques musulmanes et rapatriement.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function ContactPage() {
   return (

@@ -2,11 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Carrés Musulmans Paris & Île-de-France — Guide Complet",
-  description: "Où se trouvent les carrés musulmans à Paris et en Île-de-France ? Bobigny, Joncherolles, Thiais. Adresses, conditions, démarches. Al Hayat.",
-  keywords: ["carré musulman Paris", "carré musulman IDF", "carré musulman Bobigny", "inhumation musulmane Paris"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/carre-musulman-paris-ile-de-france";
+  return {
+    title: "Carrés Musulmans Paris & Île-de-France — Guide Complet",
+    description: "Où se trouvent les carrés musulmans à Paris et en Île-de-France ? Bobigny, Joncherolles, Thiais. Adresses, conditions, démarches. Al Hayat.",
+    keywords: ["carré musulman Paris",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Carrés Musulmans Paris & Île-de-France — Guide Complet",
+      description: "Où se trouvent les carrés musulmans à Paris et en Île-de-France ? Bobigny, Joncherolles, Thiais. Adresses, conditions, démarches. Al Hayat.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function CarreMusulmanParisPage() {
   return (

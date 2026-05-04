@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Démarches Administratives Décès Musulman — Al Hayat",
-  description: "Que faire après un décès musulman ? Déclaration en mairie, acte de décès, formalités consulaires pour rapatriement. Al Hayat gère tout pour vous, 24h/24.",
-  keywords: ["démarches administratives décès", "que faire après décès", "déclaration décès mairie", "acte de décès", "formalités décès musulman"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/demarches-administratives-deces";
+  return {
+    title: "Démarches Administratives Décès Musulman — Al Hayat",
+    description: "Que faire après un décès musulman ? Déclaration en mairie, acte de décès, formalités consulaires pour rapatriement. Al Hayat gère tout pour vous, 24h/24.",
+    keywords: ["démarches administratives décès",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Démarches Administratives Décès Musulman — Al Hayat",
+      description: "Que faire après un décès musulman ? Déclaration en mairie, acte de décès, formalités consulaires pour rapatriement. Al Hayat gère tout pour vous, 24h/24.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 const faqs = [
   { question: "Quel est le premier geste à faire après un décès ?", answer: "Appelez un médecin pour obtenir le certificat de décès, puis contactez Al Hayat immédiatement. Nous prenons en charge toutes les démarches suivantes : déclaration en mairie, acte de décès, autorisations." },

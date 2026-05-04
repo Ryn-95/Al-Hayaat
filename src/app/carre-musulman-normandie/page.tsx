@@ -2,11 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Carrés Musulmans en Normandie : Rouen, Le Havre, Caen — Guide Complet",
-  description: "Où se trouvent les carrés musulmans en Normandie ? Rouen, Le Havre, Caen : adresses, conditions, démarches. Guide complet par Al Hayat.",
-  keywords: ["carré musulman Normandie", "carré musulman Rouen", "carré musulman Le Havre", "carré musulman Caen", "inhumation musulmane Normandie"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/carre-musulman-normandie";
+  return {
+    title: "Carrés Musulmans en Normandie : Rouen, Le Havre, Caen — Guide Complet",
+    description: "Où se trouvent les carrés musulmans en Normandie ? Rouen, Le Havre, Caen : adresses, conditions, démarches. Guide complet par Al Hayat.",
+    keywords: ["carré musulman Normandie",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Carrés Musulmans en Normandie : Rouen, Le Havre, Caen — Guide Complet",
+      description: "Où se trouvent les carrés musulmans en Normandie ? Rouen, Le Havre, Caen : adresses, conditions, démarches. Guide complet par Al Hayat.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function CarreMusulmanNormandiePage() {
   return (

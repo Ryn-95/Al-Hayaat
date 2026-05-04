@@ -249,3 +249,5 @@ export const servicesData: ServicePageData[] = [
 export function getServiceBySlug(slug: string): ServicePageData | undefined {
   return servicesData.find((s) => s.slug === slug);
 }
+
+export function getServicesPages() { return servicesData.map(s => ({ path: `/${s.slug}` })); }

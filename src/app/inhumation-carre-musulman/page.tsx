@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayat",
-  description: "Inhumation islamique dans un carré musulman en Normandie et Île-de-France. Orientation Qibla, démarches de concession, loi française. Al Hayat 24h/24.",
-  keywords: ["inhumation islamique", "carré musulman France", "enterrement islamique", "inhumation rite musulman", "concession carré musulman", "carré musulman Rouen", "carré musulman Paris"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/inhumation-carre-musulman";
+  return {
+    title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayat",
+    description: "Inhumation islamique dans un carré musulman en Normandie et Île-de-France. Orientation Qibla, démarches de concession, loi française. Al Hayat 24h/24.",
+    keywords: ["inhumation islamique",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayat",
+      description: "Inhumation islamique dans un carré musulman en Normandie et Île-de-France. Orientation Qibla, démarches de concession, loi française. Al Hayat 24h/24.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 const faqs = [
   { question: "Qu\u0027est-ce qu\u0027un carré musulman ?", answer: "Un carré musulman est une section dédiée dans un cimetière communal français, réservée aux défunts de confession musulmane. Les tombes y sont orientées vers La Mecque. On en compte environ 70 en France." },

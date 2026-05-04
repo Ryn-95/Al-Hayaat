@@ -2,11 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Assurance Décès Musulmane & Rapatriement — Al Hayat",
-  description: "Préparer ses obsèques et son rapatriement à l'avance. Assurance décès islamique, prévoyance obsèques. Al Hayat vous conseille.",
-  keywords: ["assurance décès musulmane", "assurance décès islamique", "assurance rapatriement corps", "prévoyance obsèques musulmane"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/assurance-deces-musulmane";
+  return {
+    title: "Assurance Décès Musulmane & Rapatriement — Al Hayat",
+    description: "Préparer ses obsèques et son rapatriement à l'avance. Assurance décès islamique, prévoyance obsèques. Al Hayat vous conseille.",
+    keywords: ["assurance décès musulmane",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Assurance Décès Musulmane & Rapatriement — Al Hayat",
+      description: "Préparer ses obsèques et son rapatriement à l'avance. Assurance décès islamique, prévoyance obsèques. Al Hayat vous conseille.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function AssuranceDecesPage() {
   return (

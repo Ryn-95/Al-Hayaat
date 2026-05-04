@@ -2,7 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = { title: "Rapatriement de Corps aux Comores — Al Hayat", description: "Rapatriement de corps aux Comores depuis la France. Al Hayat disponible 24h/24.", keywords: ["rapatriement corps Comores","rapatriement Moroni"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-comores";
+  return {
+    title: "Rapatriement de Corps aux Comores — Al Hayat",
+    description: "Rapatriement de corps aux Comores depuis la France. Al Hayat disponible 24h/24.",
+    keywords: ["rapatriement corps Comores",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Rapatriement de Corps aux Comores — Al Hayat",
+      description: "Rapatriement de corps aux Comores depuis la France. Al Hayat disponible 24h/24.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

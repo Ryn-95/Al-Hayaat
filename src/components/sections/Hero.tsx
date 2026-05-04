@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -9,10 +10,12 @@ export function Hero() {
       
       {/* Background Image (Immersive) */}
       <div className="absolute inset-0 z-0">
-        <img 
+        <Image 
           src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53?q=80&w=2070&auto=format&fit=crop" 
-          alt="Paysage serein" 
-          className="w-full h-full object-cover grayscale-[20%]"
+          alt="pompes funèbres musulmanes Rouen Al Hayaat"
+          fill
+          priority
+          className="object-cover grayscale-[20%]"
         />
         {/* Soft overlay to ensure text legibility while keeping the image very visible */}
         <div className="absolute inset-0 bg-parchment/60 backdrop-blur-[2px]"></div>

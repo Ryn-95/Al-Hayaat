@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
   },
+  openGraph: {
+    title: "Pompes Funèbres Musulmanes à Rouen (76) | Al Hayaat",
+    description: "PF Al Hayaat, agence de pompes funèbres musulmanes intervenant à Rouen. Inhumation en carré musulman, toilette rituelle (Ghusl) et rapatriement international.",
+    url: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
+    siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+    locale: "fr_FR",
+    type: "website",
+    images: [
+      {
+        url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Al Hayaat Pompes Funèbres Musulmanes Rouen",
+      }
+    ],
+  },
 };
 
 const jsonLd = {

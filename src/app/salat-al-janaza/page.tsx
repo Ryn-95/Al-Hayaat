@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Salat al-Janaza — Prière Funèbre Musulmane | Al Hayat",
-  description: "Organisation de la Salat al-Janaza en Normandie et Paris. Coordination avec les mosquées, les 4 Takbir expliqués. Al Hayat disponible 24h/24.",
-  keywords: ["salat al-janaza", "prière funèbre musulmane", "salat janaza", "prière mortuaire islam", "janaza prière", "comment faire salat janaza"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/salat-al-janaza";
+  return {
+    title: "Salat al-Janaza — Prière Funèbre Musulmane | Al Hayat",
+    description: "Organisation de la Salat al-Janaza en Normandie et Paris. Coordination avec les mosquées, les 4 Takbir expliqués. Al Hayat disponible 24h/24.",
+    keywords: ["salat al-janaza",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Salat al-Janaza — Prière Funèbre Musulmane | Al Hayat",
+      description: "Organisation de la Salat al-Janaza en Normandie et Paris. Coordination avec les mosquées, les 4 Takbir expliqués. Al Hayat disponible 24h/24.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 const faqs = [
   { question: "La Salat al-Janaza est-elle obligatoire ?", answer: "Oui, la Salat al-Janaza est une obligation collective (fard kifaya). Si un groupe suffisant de musulmans l\u0027accomplit, l\u0027obligation est levée pour les autres. Si personne ne l\u0027accomplit, toute la communauté est en péché." },

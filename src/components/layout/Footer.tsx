@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -8,11 +9,12 @@ export function Footer() {
           
           {/* Brand Column */}
           <div className="lg:col-span-4 flex flex-col items-start">
-            <Link href="/" className="mb-6 mix-blend-multiply">
-              <img 
+            <Link href="/" className="mb-6 mix-blend-multiply relative h-12 w-32">
+              <Image 
                 src="/Image/Logo_ALHAYAAT.jpeg" 
-                alt="Al Hayaat" 
-                className="h-12 w-auto object-contain rounded-[2px]" 
+                alt="Al Hayaat Pompes Funèbres Musulmanes" 
+                fill
+                className="object-contain rounded-[2px]" 
               />
             </Link>
             <p className="text-[13px] text-[#666] leading-[1.7] font-light max-w-[300px]">

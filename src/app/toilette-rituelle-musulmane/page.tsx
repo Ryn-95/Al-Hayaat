@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayat",
-  description: "Toilette rituelle musulmane (Ghusl) réalisée selon la Sunnah par une équipe qualifiée. Hommes et femmes. Al Hayat en Normandie et Paris, 24h/24.",
-  keywords: ["toilette rituelle musulmane", "ghusl mayyit", "ghusl al-mayyit", "lavage mortuaire islam", "toilette mortuaire islamique", "purification défunt islam"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/toilette-rituelle-musulmane";
+  return {
+    title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayat",
+    description: "Toilette rituelle musulmane (Ghusl) réalisée selon la Sunnah par une équipe qualifiée. Hommes et femmes. Al Hayat en Normandie et Paris, 24h/24.",
+    keywords: ["toilette rituelle musulmane",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayat",
+      description: "Toilette rituelle musulmane (Ghusl) réalisée selon la Sunnah par une équipe qualifiée. Hommes et femmes. Al Hayat en Normandie et Paris, 24h/24.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 const faqs = [
   { question: "Qui peut réaliser la toilette rituelle musulmane ?", answer: "La toilette rituelle doit être effectuée par des personnes du même sexe que le défunt. Exception : un époux peut laver son épouse et inversement. Chez Al Hayat, nous disposons d\u0027une équipe mixte formée aux rites islamiques." },

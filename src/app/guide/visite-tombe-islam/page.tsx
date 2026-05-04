@@ -4,7 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = { title: "Visite de Tombe en Islam : Règles et Invocations", description: "Comment visiter une tombe en Islam ? Règles, douas.", keywords: ["visite tombe islam","visite cimetière islam règles"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/visite-tombe-islam";
+  return {
+    title: "Visite de Tombe en Islam : Règles et Invocations",
+    description: "Comment visiter une tombe en Islam ? Règles, douas.",
+    keywords: ["visite tombe islam",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Visite de Tombe en Islam : Règles et Invocations",
+      description: "Comment visiter une tombe en Islam ? Règles, douas.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

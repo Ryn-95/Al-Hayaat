@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Cercueil Musulman — Loi, Tradition et Rapatriement | Al Hayat",
-  description: "Cercueil musulman en France : matériaux, sobriété islamique, mise en bière, cercueil hermétique pour rapatriement. Guide complet par Al Hayat.",
-  keywords: ["cercueil musulman", "cercueil islamique", "cercueil islam", "mise en bière islamique", "cercueil hermétique rapatriement"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/cercueil-musulman";
+  return {
+    title: "Cercueil Musulman — Loi, Tradition et Rapatriement | Al Hayat",
+    description: "Cercueil musulman en France : matériaux, sobriété islamique, mise en bière, cercueil hermétique pour rapatriement. Guide complet par Al Hayat.",
+    keywords: ["cercueil musulman",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Cercueil Musulman — Loi, Tradition et Rapatriement | Al Hayat",
+      description: "Cercueil musulman en France : matériaux, sobriété islamique, mise en bière, cercueil hermétique pour rapatriement. Guide complet par Al Hayat.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 const faqs = [
   { question: "Le cercueil est-il obligatoire en Islam ?", answer: "Non, la Sunnah prescrit l\u0027inhumation dans le linceul (kafan) seul. Cependant, la loi française impose le cercueil pour toute inhumation. Al Hayat fournit un cercueil sobre en bois naturel, conforme aux deux traditions." },

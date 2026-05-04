@@ -4,7 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = { title: "La Première Nuit après le Décès en Islam", description: "Que se passe-t-il la première nuit dans la tombe ?", keywords: ["nuit du décès islam","première nuit tombe islam"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/nuit-du-deces-islam";
+  return {
+    title: "La Première Nuit après le Décès en Islam",
+    description: "Que se passe-t-il la première nuit dans la tombe ?",
+    keywords: ["nuit du décès islam",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "La Première Nuit après le Décès en Islam",
+      description: "Que se passe-t-il la première nuit dans la tombe ?",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

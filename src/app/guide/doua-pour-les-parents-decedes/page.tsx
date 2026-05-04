@@ -4,7 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = { title: "Doua pour les Parents Décédés en Islam", description: "Invocations pour les parents décédés en arabe et français.", keywords: ["doua parents décédés","invocation parents morts islam"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/doua-pour-les-parents-decedes";
+  return {
+    title: "Doua pour les Parents Décédés en Islam",
+    description: "Invocations pour les parents décédés en arabe et français.",
+    keywords: ["doua parents décédés",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Doua pour les Parents Décédés en Islam",
+      description: "Invocations pour les parents décédés en arabe et français.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

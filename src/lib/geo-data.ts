@@ -22,11 +22,13 @@ export interface CityPageData {
   zonesContent: string;
   whyAlHayatContent: string;
   faqs: { question: string; answer: string }[];
+  hasUniqueContent?: boolean;
 }
 
 export const normandieCities: CityPageData[] = [
   {
     slug: "pompes-funebres-musulmanes-rouen",
+    hasUniqueContent: true,
     city: "Rouen",
     department: "Seine-Maritime",
     departmentCode: "76",
@@ -57,6 +59,7 @@ export const normandieCities: CityPageData[] = [
   },
   {
     slug: "pompes-funebres-musulmanes-le-havre",
+    hasUniqueContent: true,
     city: "Le Havre",
     department: "Seine-Maritime",
     departmentCode: "76",
@@ -1248,3 +1251,5 @@ export const allCities = [...normandieCities, ...normandieDepartments, ...parisC
 export function getCityBySlug(slug: string): CityPageData | undefined {
   return allCities.find((c) => c.slug === slug);
 }
+
+export function getGeoPages() { return [...normandieCities, ...idfCities].map(c => ({ path: `/${c.slug}`, hasUniqueContent: c.hasUniqueContent })); }

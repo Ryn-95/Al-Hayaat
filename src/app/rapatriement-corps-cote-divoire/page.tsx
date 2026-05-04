@@ -2,7 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = { title: "Rapatriement de Corps en Côte d&apos;Ivoire — Al Hayat", description: "Rapatriement de corps en Côte d&apos;Ivoire depuis la France. Abidjan. Al Hayat.", keywords: ["rapatriement corps Côte d&apos;Ivoire","rapatriement Abidjan"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-cote-divoire";
+  return {
+    title: "Rapatriement de Corps en Côte d&apos;Ivoire — Al Hayat",
+    description: "Rapatriement de corps en Côte d&apos;Ivoire depuis la France. Abidjan. Al Hayat.",
+    keywords: ["rapatriement corps Côte d&apos;Ivoire",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Rapatriement de Corps en Côte d&apos;Ivoire — Al Hayat",
+      description: "Rapatriement de corps en Côte d&apos;Ivoire depuis la France. Abidjan. Al Hayat.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

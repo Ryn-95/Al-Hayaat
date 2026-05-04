@@ -4,7 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = { title: "Sadaqa en Mémoire du Défunt en Islam", description: "Faire une aumône pour un mort : règles et vertus.", keywords: ["sadaqa défunt","aumône pour un mort islam"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/sadaqa-en-memoire-defunt";
+  return {
+    title: "Sadaqa en Mémoire du Défunt en Islam",
+    description: "Faire une aumône pour un mort : règles et vertus.",
+    keywords: ["sadaqa défunt",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Sadaqa en Mémoire du Défunt en Islam",
+      description: "Faire une aumône pour un mort : règles et vertus.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

@@ -4,7 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = { title: "Transport de Corps en France : Règles et Démarches", description: "Réglementation du transport funéraire en France.", keywords: ["transport corps France","transport funéraire réglementation"] };
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/guide/transport-corps-france";
+  return {
+    title: "Transport de Corps en France : Règles et Démarches",
+    description: "Réglementation du transport funéraire en France.",
+    keywords: ["transport corps France",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Transport de Corps en France : Règles et Démarches",
+      description: "Réglementation du transport funéraire en France.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function Page() {
   return (

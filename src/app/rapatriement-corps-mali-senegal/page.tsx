@@ -2,11 +2,34 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
-export const metadata: Metadata = {
-  title: "Rapatriement de Corps en Afrique Subsaharienne — Al Hayat",
-  description: "Rapatriement de corps en Afrique : Mali, Sénégal, Guinée, Côte d'Ivoire. Al Hayat gère les démarches depuis la Normandie et Paris.",
-  keywords: ["rapatriement corps Mali", "rapatriement corps Sénégal", "rapatriement corps Guinée", "rapatriement Afrique subsaharienne"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-mali-senegal";
+  return {
+    title: "Rapatriement de Corps en Afrique Subsaharienne — Al Hayat",
+    description: "Rapatriement de corps en Afrique : Mali, Sénégal, Guinée, Côte d'Ivoire. Al Hayat gère les démarches depuis la Normandie et Paris.",
+    keywords: ["rapatriement corps Mali",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Rapatriement de Corps en Afrique Subsaharienne — Al Hayat",
+      description: "Rapatriement de corps en Afrique : Mali, Sénégal, Guinée, Côte d'Ivoire. Al Hayat gère les démarches depuis la Normandie et Paris.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function RapatriementAfriquePage() {
   return (

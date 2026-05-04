@@ -4,11 +4,34 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema } from "@/lib/seo-config";
 
-export const metadata: Metadata = {
-  title: "Rapatriement de Corps en Algérie — Al Hayat Normandie & Paris",
-  description: "Rapatriement de corps en Algérie depuis la Normandie et Paris. Fonds de solidarité algérien, documents requis, délais. Al Hayat prend tout en charge.",
-  keywords: ["rapatriement corps Algérie", "rapatriement corps algérie France", "transfert corps Algérie", "fonds solidarité algérien"],
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-algerie";
+  return {
+    title: "Rapatriement de Corps en Algérie — Al Hayat Normandie & Paris",
+    description: "Rapatriement de corps en Algérie depuis la Normandie et Paris. Fonds de solidarité algérien, documents requis, délais. Al Hayat prend tout en charge.",
+    keywords: ["rapatriement corps Algérie",
+    
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: "Rapatriement de Corps en Algérie — Al Hayat Normandie & Paris",
+      description: "Rapatriement de corps en Algérie depuis la Normandie et Paris. Fonds de solidarité algérien, documents requis, délais. Al Hayat prend tout en charge.",
+      url: url,
+      siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+      locale: "fr_FR",
+      type: "website",
+      images: [
+        {
+          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Al Hayaat Pompes Funèbres Musulmanes",
+        }
+      ],
+    },
+  };
+}
 
 export default function RapatriementAlgeriePage() {
   return (

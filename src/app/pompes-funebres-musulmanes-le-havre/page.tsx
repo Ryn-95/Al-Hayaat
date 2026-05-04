@@ -7,6 +7,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
   },
+  openGraph: {
+    title: "Pompes Funèbres Musulmanes au Havre (76) | Al Hayaat",
+    description: "PF Al Hayaat, pompes funèbres musulmanes au Havre (76600). Organisation complète d'obsèques, toilette rituelle (ghusl), inhumation et rapatriement 24h/24.",
+    url: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
+    siteName: "Al Hayaat Pompes Funèbres Musulmanes",
+    locale: "fr_FR",
+    type: "website",
+    images: [
+      {
+        url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Al Hayaat Pompes Funèbres Musulmanes Le Havre",
+      }
+    ],
+  },
 };
 
 const jsonLd = {
