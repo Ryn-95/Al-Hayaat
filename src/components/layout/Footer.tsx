@@ -55,8 +55,8 @@ export function Footer() {
               { label: "Dieppe", href: "/pompes-funebres-musulmanes-dieppe" },
               { label: "Évreux", href: "/pompes-funebres-musulmanes-evreux" },
               { label: "Paris", href: "/pompes-funebres-musulmanes-paris" },
-              { label: "Saint-Denis (93)", href: "/pompes-funebres-musulmanes-saint-denis" },
-              { label: "Argenteuil (95)", href: "/pompes-funebres-musulmanes-argenteuil" },
+              { label: "Saint-Denis (93)", href: "/pompes-funebres-musulmanes-93-saint-denis" },
+              { label: "Argenteuil (95)", href: "/pompes-funebres-musulmanes-95-argenteuil" },
               { label: "Toute la Normandie", href: "/normandie" }
             ].map((l) => (
               <Link
