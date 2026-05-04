@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Pages Géographiques Locales (Priorité 0.8) - Crucial pour le SEO local
   const geoPages = getGeoPages()
+    .filter((geo) => geo.hasUniqueContent !== false)
     .map((geo) => ({
       url: `${SITE_URL}${geo.path}`,
       lastModified: currentDate,
