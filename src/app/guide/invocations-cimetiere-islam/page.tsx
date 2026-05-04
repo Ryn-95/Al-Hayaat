@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Invocations au Cimetière en Islam : Douas à Réciter Devant une Tombe",
     description: "Que dire lors d'une visite au cimetière en Islam ? Invocations en arabe, phonétique et traduction.",
-    keywords: ["invocations cimetière islam",
+    keywords: ["invocations cimetière islam"],
     
     alternates: {
       canonical: url,

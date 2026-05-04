@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Le Kafan (Linceul) en Islam : Règles, Mise en Place et Signification",
     description: "Tout savoir sur le kafan : le linceul blanc islamique. Règles, différences homme/femme, mise en place.",
-    keywords: ["kafan islam",
+    keywords: ["kafan islam"],
     
     alternates: {
       canonical: url,

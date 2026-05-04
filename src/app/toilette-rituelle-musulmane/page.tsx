@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayat",
     description: "Toilette rituelle musulmane (Ghusl) réalisée selon la Sunnah par une équipe qualifiée. Hommes et femmes. Al Hayat en Normandie et Paris, 24h/24.",
-    keywords: ["toilette rituelle musulmane",
+    keywords: ["toilette rituelle musulmane"],
     
     alternates: {
       canonical: url,

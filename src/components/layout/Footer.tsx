@@ -19,7 +19,7 @@ export function Footer() {
             </Link>
             <p className="text-[13px] text-[#666] leading-[1.7] font-light max-w-[300px]">
               Al Hayaat — Pompes Funèbres Musulmanes<br/>
-              Spécialisée dans les obsèques islamiques en Normandie et à Paris. Toilette rituelle (Ghusl), Salat al-Janaza, inhumation en carré musulman, rapatriement vers l'Algérie, le Maroc, la Tunisie et +20 pays. Habilitation préfectorale. Disponibles 24h/24, 7j/7.
+              Spécialisée dans les obsèques islamiques en Normandie et à Paris. Toilette rituelle (Ghusl), Salat al-Janaza, inhumation en carré musulman, rapatriement vers l&apos;Algérie, le Maroc, la Tunisie et +20 pays. Habilitation préfectorale. Disponibles 24h/24, 7j/7.
             </p>
           </div>
 
@@ -47,7 +47,7 @@ export function Footer() {
 
           {/* Zones Column */}
           <div className="lg:col-span-2 flex flex-col gap-5">
-            <span className="text-[10px] tracking-[0.2em] font-semibold text-[#111] uppercase">Zones d'intervention</span>
+            <span className="text-[10px] tracking-[0.2em] font-semibold text-[#111] uppercase">Zones d&apos;intervention</span>
             {[
               { label: "Rouen", href: "/pompes-funebres-musulmanes-rouen" },
               { label: "Le Havre", href: "/pompes-funebres-musulmanes-le-havre" },

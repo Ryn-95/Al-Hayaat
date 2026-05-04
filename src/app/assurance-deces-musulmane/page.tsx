@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Assurance Décès Musulmane & Rapatriement — Al Hayat",
     description: "Préparer ses obsèques et son rapatriement à l'avance. Assurance décès islamique, prévoyance obsèques. Al Hayat vous conseille.",
-    keywords: ["assurance décès musulmane",
+    keywords: ["assurance décès musulmane", "assurance obseques islam", "prevoyance funeraire musulmane", "assurance rapatriement corps", "assurance al hayat"],
     
     alternates: {
       canonical: url,

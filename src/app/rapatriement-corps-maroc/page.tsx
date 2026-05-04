@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps au Maroc — Al Hayat Normandie & Paris",
     description: "Rapatriement de corps au Maroc depuis la Normandie et Paris. Documents, délais, prise en charge. Al Hayat gère toutes les démarches administratives.",
-    keywords: ["rapatriement corps Maroc",
+    keywords: ["rapatriement corps Maroc"],
     
     alternates: {
       canonical: url,

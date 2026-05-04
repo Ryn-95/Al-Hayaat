@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Les 40 Jours en Islam après un Décès : Vrai ou Faux ?",
     description: "Que dit l'Islam sur les 40 jours après un décès ? Origine, pratiques, ce que le Coran dit vraiment.",
-    keywords: ["40 jours islam",
+    keywords: ["40 jours islam"],
     
     alternates: {
       canonical: url,

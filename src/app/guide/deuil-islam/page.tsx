@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Le Deuil en Islam : Durée, Règles, Obligations et Invocations",
     description: "Combien de temps dure le deuil en Islam ? 3 jours, 40 jours, viduité : tout ce qu'il faut savoir. Obligations, invocations, pratiques islamiques du deuil.",
-    keywords: ["deuil islam",
+    keywords: ["deuil islam"],
     
     alternates: {
       canonical: url,

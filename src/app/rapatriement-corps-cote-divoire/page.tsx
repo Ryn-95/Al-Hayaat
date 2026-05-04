@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps en Côte d&apos;Ivoire — Al Hayat",
     description: "Rapatriement de corps en Côte d&apos;Ivoire depuis la France. Abidjan. Al Hayat.",
-    keywords: ["rapatriement corps Côte d&apos;Ivoire",
+    keywords: ["rapatriement corps Côte d&apos;Ivoire"],
     
     alternates: {
       canonical: url,

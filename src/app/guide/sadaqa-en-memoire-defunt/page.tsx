@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Sadaqa en Mémoire du Défunt en Islam",
     description: "Faire une aumône pour un mort : règles et vertus.",
-    keywords: ["sadaqa défunt",
+    keywords: ["sadaqa défunt"],
     
     alternates: {
       canonical: url,

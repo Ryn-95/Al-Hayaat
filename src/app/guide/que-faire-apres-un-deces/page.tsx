@@ -6,7 +6,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Que Faire après un Décès ? Guide Complet",
     description: "Les premières démarches après un décès. Guide pratique.",
-    keywords: ["que faire après décès",
+    keywords: ["que faire après décès"],
     
     alternates: {
       canonical: url,

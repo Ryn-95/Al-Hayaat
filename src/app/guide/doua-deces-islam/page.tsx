@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Doua pour un Mort en Islam — Invocations (Arabe + Français)",
     description: "Douas complètes pour un défunt en Islam : texte arabe, phonétique et traduction française. Invocations Salat Janaza, cimetière, proches endeuillés.",
-    keywords: ["doua pour un mort",
+    keywords: ["doua pour un mort"],
     
     alternates: {
       canonical: url,

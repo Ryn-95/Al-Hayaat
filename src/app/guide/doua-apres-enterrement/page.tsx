@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Doua après l&apos;Enterrement en Islam",
     description: "Invocations à réciter après l&apos;enterrement musulman.",
-    keywords: ["doua après enterrement",
+    keywords: ["doua après enterrement"],
     
     alternates: {
       canonical: url,

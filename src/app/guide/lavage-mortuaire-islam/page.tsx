@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Le Lavage Mortuaire en Islam (Ghusl) : Tout ce qu'il Faut Savoir",
     description: "Guide complet du lavage mortuaire islamique (Ghusl al-Mayyit) : étapes, règles, qui peut le réaliser.",
-    keywords: ["lavage mortuaire islam",
+    keywords: ["lavage mortuaire islam"],
     
     alternates: {
       canonical: url,

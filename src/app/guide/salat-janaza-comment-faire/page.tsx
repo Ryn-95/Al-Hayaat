@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Comment Faire la Salat Janaza ? Les 4 Takbir Expliqués",
     description: "Guide complet pour faire la Salat al-Janaza : étapes, takbir, douas, règles. Avec les textes en arabe, phonétique et traduction française.",
-    keywords: ["salat janaza comment faire",
+    keywords: ["salat janaza comment faire"],
     
     alternates: {
       canonical: url,

@@ -107,7 +107,7 @@ export default function PompesFunebresRouen() {
             Pompes Funèbres Musulmanes<br className="hidden md:block" /> à Rouen (76)
           </h1>
           <p className="text-[15px] md:text-[16px] font-light leading-[1.7] text-[#555] max-w-[700px]">
-            Perdre un être cher est un moment d'une profonde vulnérabilité. Pour les familles endeuillées de la capitale normande, <strong>PF Al Hayaat</strong> assure un accompagnement global et bienveillant. Notre agence de pompes funèbres musulmanes intervient à Rouen (76000) et dans toute sa métropole. Habilités par la préfecture, nous mettons notre savoir-faire à votre service 24h/24 afin de garantir des obsèques fidèles aux préceptes de l'Islam, tout en vous préservant des lourdeurs administratives.
+            Perdre un être cher est un moment d&apos;une profonde vulnérabilité. Pour les familles endeuillées de la capitale normande, <strong>PF Al Hayaat</strong> assure un accompagnement global et bienveillant. Notre agence de pompes funèbres musulmanes intervient à Rouen (76000) et dans toute sa métropole. Habilités par la préfecture, nous mettons notre savoir-faire à votre service 24h/24 afin de garantir des obsèques fidèles aux préceptes de l&apos;Islam, tout en vous préservant des lourdeurs administratives.
           </p>
         </div>
       </section>
@@ -125,8 +125,8 @@ export default function PompesFunebresRouen() {
             </p>
             <ul className="list-disc pl-5 space-y-3">
               <li><strong>Purification (Ghusl) :</strong> Lavage rituel effectué par des frères et sœurs pieux, selon la tradition prophétique, garantissant la dignité du défunt.</li>
-              <li><strong>Gestion documentaire :</strong> Nous nous chargeons de déclarer le décès auprès de l'état civil de Rouen et de solliciter toutes les autorisations légales.</li>
-              <li><strong>Cérémonie et Inhumation :</strong> Mise en place du convoi funéraire, de la prière mortuaire jusqu'à la mise en terre locale ou au départ pour l'étranger.</li>
+              <li><strong>Gestion documentaire :</strong> Nous nous chargeons de déclarer le décès auprès de l&apos;état civil de Rouen et de solliciter toutes les autorisations légales.</li>
+              <li><strong>Cérémonie et Inhumation :</strong> Mise en place du convoi funéraire, de la prière mortuaire jusqu&apos;à la mise en terre locale ou au départ pour l&apos;étranger.</li>
               <li><strong>Écoute et conseil :</strong> Une présence continue pour répondre à vos interrogations religieuses et pratiques.</li>
             </ul>
           </div>
@@ -136,10 +136,10 @@ export default function PompesFunebresRouen() {
               Inhumation dans un carré musulman à Rouen
             </h2>
             <p>
-              Le repos éternel en terre (sans caveau bétonné lorsque la législation le permet) et l'orientation du visage vers la Qibla sont des droits fondamentaux du défunt musulman. La ville de Rouen met à disposition des espaces dédiés, communément appelés carrés musulmans, notamment au Cimetière de l'Ouest et au Cimetière Monumental.
+              Le repos éternel en terre (sans caveau bétonné lorsque la législation le permet) et l&apos;orientation du visage vers la Qibla sont des droits fondamentaux du défunt musulman. La ville de Rouen met à disposition des espaces dédiés, communément appelés carrés musulmans, notamment au Cimetière de l&apos;Ouest et au Cimetière Monumental.
             </p>
             <p>
-              Nos conseillers funéraires vous assistent dans l'achat de la concession auprès de la mairie rouennaise. Nous coordonnons l'intervention des fossoyeurs pour que l'inhumation se déroule dans la sérénité et le recueillement, en conformité totale avec la jurisprudence islamique (Fiqh).
+              Nos conseillers funéraires vous assistent dans l&apos;achat de la concession auprès de la mairie rouennaise. Nous coordonnons l&apos;intervention des fossoyeurs pour que l&apos;inhumation se déroule dans la sérénité et le recueillement, en conformité totale avec la jurisprudence islamique (Fiqh).
             </p>
           </div>
 
@@ -148,10 +148,10 @@ export default function PompesFunebresRouen() {
               Rapatriement de corps depuis Rouen
             </h2>
             <p>
-              Beaucoup de familles souhaitent que leur parent repose sur sa terre natale. Notre pôle <Link href="/rapatriement-corps" className="text-[#2D6A2D] underline underline-offset-4">rapatriement de corps</Link> organise le transfert international depuis la région rouennaise. Nous gérons les vols vers le Maroc, l'Algérie, la Tunisie, ainsi que vers l'Afrique subsaharienne (Sénégal, Mali, Côte d'Ivoire).
+              Beaucoup de familles souhaitent que leur parent repose sur sa terre natale. Notre pôle <Link href="/rapatriement-corps" className="text-[#2D6A2D] underline underline-offset-4">rapatriement de corps</Link> organise le transfert international depuis la région rouennaise. Nous gérons les vols vers le Maroc, l&apos;Algérie, la Tunisie, ainsi que vers l&apos;Afrique subsaharienne (Sénégal, Mali, Côte d&apos;Ivoire).
             </p>
             <p>
-              Ce processus complexe inclut le passage par le consulat compétent, la traduction des actes de décès, la mise en bière dans un cercueil hermétique obligatoire pour les vols internationaux, et le transport routier depuis la chambre funéraire de Rouen jusqu'aux aéroports de Paris (CDG ou Orly).
+              Ce processus complexe inclut le passage par le consulat compétent, la traduction des actes de décès, la mise en bière dans un cercueil hermétique obligatoire pour les vols internationaux, et le transport routier depuis la chambre funéraire de Rouen jusqu&apos;aux aéroports de Paris (CDG ou Orly).
             </p>
           </div>
 
@@ -160,16 +160,16 @@ export default function PompesFunebresRouen() {
               Salat al-Janaza à Rouen
             </h2>
             <p>
-              L'office de la prière sur le défunt (Salat al-Janaza) est une étape cruciale pour solliciter la miséricorde divine. En fonction de vos souhaits et des capacités d'accueil, cette prière peut être accomplie au sein des mosquées de l'agglomération (comme la Mosquée El Kaouthar à Rouen ou la Mosquée Yahya à Saint-Étienne-du-Rouvray) ou directement devant la sépulture au cimetière, juste avant l'enterrement.
+              L&apos;office de la prière sur le défunt (Salat al-Janaza) est une étape cruciale pour solliciter la miséricorde divine. En fonction de vos souhaits et des capacités d&apos;accueil, cette prière peut être accomplie au sein des mosquées de l&apos;agglomération (comme la Mosquée El Kaouthar à Rouen ou la Mosquée Yahya à Saint-Étienne-du-Rouvray) ou directement devant la sépulture au cimetière, juste avant l&apos;enterrement.
             </p>
           </div>
 
           <div className="space-y-6">
             <h2 className="text-[24px] font-medium text-[#111] tracking-tight">
-              Nos zones d'intervention depuis Rouen
+              Nos zones d&apos;intervention depuis Rouen
             </h2>
             <p>
-              Notre rayon d'action couvre l'intégralité de la Métropole Rouen Normandie. En cas d'urgence, nos véhicules agréés se déplacent rapidement sur Rouen (Rive Droite et Rive Gauche), mais également à Sotteville-lès-Rouen, Petit-Quevilly, Grand-Quevilly, Saint-Étienne-du-Rouvray, Mont-Saint-Aignan, Bois-Guillaume, ainsi que dans les communes plus éloignées comme Elbeuf ou Barentin.
+              Notre rayon d&apos;action couvre l&apos;intégralité de la Métropole Rouen Normandie. En cas d&apos;urgence, nos véhicules agréés se déplacent rapidement sur Rouen (Rive Droite et Rive Gauche), mais également à Sotteville-lès-Rouen, Petit-Quevilly, Grand-Quevilly, Saint-Étienne-du-Rouvray, Mont-Saint-Aignan, Bois-Guillaume, ainsi que dans les communes plus éloignées comme Elbeuf ou Barentin.
             </p>
           </div>
 

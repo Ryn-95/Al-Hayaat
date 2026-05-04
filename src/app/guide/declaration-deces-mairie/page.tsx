@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Déclaration de Décès en Mairie : Guide Complet",
     description: "Comment déclarer un décès en mairie ? Délais, documents.",
-    keywords: ["déclaration décès mairie",
+    keywords: ["déclaration décès mairie"],
     
     alternates: {
       canonical: url,

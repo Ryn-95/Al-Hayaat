@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayat",
     description: "Inhumation islamique dans un carré musulman en Normandie et Île-de-France. Orientation Qibla, démarches de concession, loi française. Al Hayat 24h/24.",
-    keywords: ["inhumation islamique",
+    keywords: ["inhumation islamique"],
     
     alternates: {
       canonical: url,

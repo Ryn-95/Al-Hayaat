@@ -4,7 +4,7 @@ import CityPageTemplate from "@/components/sections/CityPageTemplate";
 
 const city = normandieCities.find((c) => c.slug === "pompes-funebres-musulmanes-saint-etienne-du-rouvray")!;
 
-export const hasUniqueContent = false;
+
 
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-saint-etienne-du-rouvray";

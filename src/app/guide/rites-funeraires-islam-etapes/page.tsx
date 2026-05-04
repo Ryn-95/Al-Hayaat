@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Les Rites Funéraires Islamiques : De la Mort à l'Inhumation",
     description: "Toutes les étapes des funérailles musulmanes : annonce du décès, toilette rituelle, linceul, prière Janaza, inhumation.",
-    keywords: ["rites funéraires islamiques",
+    keywords: ["rites funéraires islamiques"],
     
     alternates: {
       canonical: url,

@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Certificat de Décès : Démarches et Obtention",
     description: "Comment obtenir un certificat de décès en France ?",
-    keywords: ["certificat de décès",
+    keywords: ["certificat de décès"],
     
     alternates: {
       canonical: url,

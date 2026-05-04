@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Carrés Musulmans en Normandie : Rouen, Le Havre, Caen — Guide Complet",
     description: "Où se trouvent les carrés musulmans en Normandie ? Rouen, Le Havre, Caen : adresses, conditions, démarches. Guide complet par Al Hayat.",
-    keywords: ["carré musulman Normandie",
+    keywords: ["carré musulman Normandie", "cimetiere carre musulman", "carré musulman Rouen", "carré musulman Le Havre", "carré musulman Caen"],
     
     alternates: {
       canonical: url,

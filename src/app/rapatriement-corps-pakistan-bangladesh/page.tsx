@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps au Pakistan et Bangladesh — Al Hayat",
     description: "Rapatriement de corps au Pakistan et au Bangladesh depuis la France. Al Hayat gère toutes les démarches.",
-    keywords: ["rapatriement corps Pakistan",
+    keywords: ["rapatriement corps Pakistan"],
     
     alternates: {
       canonical: url,

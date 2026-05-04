@@ -44,7 +44,7 @@ export function CookieBanner() {
                 <h3 className="text-[15px] font-medium text-[#111] mb-2 tracking-tight">Respect de votre vie privée</h3>
                 <p className="text-[13px] md:text-[14px] font-light text-[#555] leading-relaxed">
                   Pour vous offrir la meilleure expérience, nous utilisons des cookies strictement nécessaires au fonctionnement du site. 
-                  Nous n'utilisons aucun tracker publicitaire intrusif. Pour en savoir plus, consultez notre{" "}
+                  Nous n&apos;utilisons aucun tracker publicitaire intrusif. Pour en savoir plus, consultez notre{" "}
                   <Link href="/politique-confidentialite" className="underline underline-offset-4 decoration-black/20 hover:decoration-black/100 transition-all">
                     politique de confidentialité
                   </Link>.

@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Carrés Musulmans Paris & Île-de-France — Guide Complet",
     description: "Où se trouvent les carrés musulmans à Paris et en Île-de-France ? Bobigny, Joncherolles, Thiais. Adresses, conditions, démarches. Al Hayat.",
-    keywords: ["carré musulman Paris",
+    keywords: ["carré musulman Paris", "cimetiere musulman ile de france", "carré musulman 93", "carré musulman 94", "carré musulman 95", "carré musulman 75", "carré musulman Bobigny", "carré musulman Thiais", "carré musulman Joncherolles"],
     
     alternates: {
       canonical: url,

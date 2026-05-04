@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Doua pour les Parents Décédés en Islam",
     description: "Invocations pour les parents décédés en arabe et français.",
-    keywords: ["doua parents décédés",
+    keywords: ["doua parents décédés"],
     
     alternates: {
       canonical: url,

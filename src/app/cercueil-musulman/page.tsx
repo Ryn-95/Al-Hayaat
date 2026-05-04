@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Cercueil Musulman — Loi, Tradition et Rapatriement | Al Hayat",
     description: "Cercueil musulman en France : matériaux, sobriété islamique, mise en bière, cercueil hermétique pour rapatriement. Guide complet par Al Hayat.",
-    keywords: ["cercueil musulman",
+    keywords: ["cercueil musulman", "cercueil islam", "cercueil rapatriement", "mise en bière islam", "cercueil hermétique"],
     
     alternates: {
       canonical: url,

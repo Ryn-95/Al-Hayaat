@@ -3,7 +3,7 @@ import { parisCities } from "@/lib/geo-data";
 import CityPageTemplate from "@/components/sections/CityPageTemplate";
 
 const city = parisCities.find((c) => c.slug === "pompes-funebres-musulmanes-95-argenteuil")!;
-export const hasUniqueContent = false;
+
 
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-95-argenteuil";

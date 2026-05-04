@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps en Guinée — Al Hayat",
     description: "Rapatriement de corps en Guinée (Conakry) depuis la Normandie et Paris. Al Hayat.",
-    keywords: ["rapatriement corps Guinée",
+    keywords: ["rapatriement corps Guinée"],
     
     alternates: {
       canonical: url,

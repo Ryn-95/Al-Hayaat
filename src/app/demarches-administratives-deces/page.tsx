@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Démarches Administratives Décès Musulman — Al Hayat",
     description: "Que faire après un décès musulman ? Déclaration en mairie, acte de décès, formalités consulaires pour rapatriement. Al Hayat gère tout pour vous, 24h/24.",
-    keywords: ["démarches administratives décès",
+    keywords: ["démarches administratives décès", "que faire après un deces musulman", "déclaration décès", "acte de décès", "formalités obsèques"],
     
     alternates: {
       canonical: url,

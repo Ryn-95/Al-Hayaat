@@ -26,7 +26,7 @@ export function Header() {
 
   const navLinks = [
     { label: "Services", href: "/#services" },
-    { label: "Zones d'intervention", href: "/#zones" },
+    { label: "Zones d&apos;intervention", href: "/#zones" },
     { label: "Guide islamique", href: "/guide" },
     { label: "Contact", href: "/contact" },
   ];

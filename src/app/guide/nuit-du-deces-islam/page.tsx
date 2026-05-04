@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "La Première Nuit après le Décès en Islam",
     description: "Que se passe-t-il la première nuit dans la tombe ?",
-    keywords: ["nuit du décès islam",
+    keywords: ["nuit du décès islam"],
     
     alternates: {
       canonical: url,

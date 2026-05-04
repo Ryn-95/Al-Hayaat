@@ -6,7 +6,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Prix des Obsèques Musulmanes en France — Guide 2024",
     description: "Combien coûtent des obsèques musulmanes en France ? Tarifs détaillés.",
-    keywords: ["prix obsèques musulmanes",
+    keywords: ["prix obsèques musulmanes"],
     
     alternates: {
       canonical: url,

@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Comment s'Habiller pour un Enterrement Musulman ? Guide Complet",
     description: "Quelle tenue adopter pour un enterrement musulman ? Couleurs, habits appropriés, ce qu'il faut éviter. Guide complet pour hommes et femmes.",
-    keywords: ["enterrement islam vêtement",
+    keywords: ["enterrement islam vêtement"],
     
     alternates: {
       canonical: url,

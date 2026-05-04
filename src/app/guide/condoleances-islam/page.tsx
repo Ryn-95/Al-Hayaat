@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Condoléances en Islam : Messages, Prières et Formules Complètes",
     description: "Comment exprimer ses condoléances en Islam ? Prière, messages en arabe et en français, gestes à faire, durée du deuil. Guide complet.",
-    keywords: ["condoléances islam",
+    keywords: ["condoléances islam"],
     
     alternates: {
       canonical: url,

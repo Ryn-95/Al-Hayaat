@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps aux Comores — Al Hayat",
     description: "Rapatriement de corps aux Comores depuis la France. Al Hayat disponible 24h/24.",
-    keywords: ["rapatriement corps Comores",
+    keywords: ["rapatriement corps Comores"],
     
     alternates: {
       canonical: url,

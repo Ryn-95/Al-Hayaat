@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Assurance Rapatriement de Corps : Comparatif",
     description: "Comparatif des meilleures assurances rapatriement.",
-    keywords: ["assurance rapatriement corps comparatif",
+    keywords: ["assurance rapatriement corps comparatif"],
     
     alternates: {
       canonical: url,

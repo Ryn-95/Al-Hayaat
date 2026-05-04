@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Transport de Corps en France : Règles et Démarches",
     description: "Réglementation du transport funéraire en France.",
-    keywords: ["transport corps France",
+    keywords: ["transport corps France"],
     
     alternates: {
       canonical: url,

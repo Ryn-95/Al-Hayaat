@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps en Afrique Subsaharienne — Al Hayat",
     description: "Rapatriement de corps en Afrique : Mali, Sénégal, Guinée, Côte d'Ivoire. Al Hayat gère les démarches depuis la Normandie et Paris.",
-    keywords: ["rapatriement corps Mali",
+    keywords: ["rapatriement corps Mali"],
     
     alternates: {
       canonical: url,

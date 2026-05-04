@@ -107,7 +107,7 @@ export default function PompesFunebresLeHavre() {
             Pompes Funèbres Musulmanes<br className="hidden md:block" /> à Le Havre (76)
           </h1>
           <p className="text-[15px] md:text-[16px] font-light leading-[1.7] text-[#555] max-w-[700px]">
-            La perte d'un proche est une épreuve douloureuse. Au Havre (76600) et dans toute l'agglomération havraise, <strong>PF Al Hayaat</strong> (habilitation préfectorale) vous accompagne avec dignité et humanité. Située au 30 Rue Saint-Jacques au Havre, notre équipe est disponible 24h/24 et 7j/7 pour organiser des obsèques strictement conformes au rite islamique, vous déchargeant ainsi de tout le poids administratif et logistique.
+            La perte d&apos;un proche est une épreuve douloureuse. Au Havre (76600) et dans toute l&apos;agglomération havraise, <strong>PF Al Hayaat</strong> (habilitation préfectorale) vous accompagne avec dignité et humanité. Située au 30 Rue Saint-Jacques au Havre, notre équipe est disponible 24h/24 et 7j/7 pour organiser des obsèques strictement conformes au rite islamique, vous déchargeant ainsi de tout le poids administratif et logistique.
           </p>
         </div>
       </section>
@@ -125,9 +125,9 @@ export default function PompesFunebresLeHavre() {
             </p>
             <ul className="list-disc pl-5 space-y-3">
               <li><strong>Toilette rituelle (Ghusl) :</strong> Réalisée par des équipes pieuses et formées, dans la discrétion des chambres funéraires de la région havraise.</li>
-              <li><strong>Démarches administratives :</strong> Déclaration de décès à la mairie du Havre, obtention des autorisations de transport et d'inhumation.</li>
-              <li><strong>Inhumation ou rapatriement :</strong> Organisation complète, que le défunt repose en France ou dans son pays d'origine.</li>
-              <li><strong>Soutien familial :</strong> Un accompagnement bienveillant pour vous guider dans ce moment d'épreuve.</li>
+              <li><strong>Démarches administratives :</strong> Déclaration de décès à la mairie du Havre, obtention des autorisations de transport et d&apos;inhumation.</li>
+              <li><strong>Inhumation ou rapatriement :</strong> Organisation complète, que le défunt repose en France ou dans son pays d&apos;origine.</li>
+              <li><strong>Soutien familial :</strong> Un accompagnement bienveillant pour vous guider dans ce moment d&apos;épreuve.</li>
             </ul>
           </div>
 
@@ -136,10 +136,10 @@ export default function PompesFunebresLeHavre() {
               Inhumation dans un carré musulman au Havre
             </h2>
             <p>
-              L'inhumation en pleine terre et l'orientation du défunt vers La Mecque (Qibla) sont des piliers du rite funéraire musulman. Au Havre, plusieurs infrastructures permettent d'accueillir les défunts de confession musulmane dans des carrés dédiés, notamment au sein des grands cimetières de l'agglomération havraise (Cimetière Nord, Cimetière Sainte-Marie, etc., selon les disponibilités et réglementations communales). 
+              L&apos;inhumation en pleine terre et l&apos;orientation du défunt vers La Mecque (Qibla) sont des piliers du rite funéraire musulman. Au Havre, plusieurs infrastructures permettent d&apos;accueillir les défunts de confession musulmane dans des carrés dédiés, notamment au sein des grands cimetières de l&apos;agglomération havraise (Cimetière Nord, Cimetière Sainte-Marie, etc., selon les disponibilités et réglementations communales). 
             </p>
             <p>
-              Nous gérons pour vous l'acquisition de la concession funéraire auprès des services de l'état civil du Havre, ainsi que les travaux de fossoyage (ouverture et fermeture du caveau ou de la fosse).
+              Nous gérons pour vous l&apos;acquisition de la concession funéraire auprès des services de l&apos;état civil du Havre, ainsi que les travaux de fossoyage (ouverture et fermeture du caveau ou de la fosse).
             </p>
           </div>
 
@@ -148,10 +148,10 @@ export default function PompesFunebresLeHavre() {
               Rapatriement de corps depuis Le Havre (76)
             </h2>
             <p>
-              Si la volonté du défunt ou de la famille est un retour vers la terre d'origine, PF Al Hayaat est spécialiste du <Link href="/rapatriement-corps" className="text-[#2D6A2D] underline underline-offset-4">rapatriement international</Link>. Depuis Le Havre, nous coordonnons le transfert du corps vers les aéroports parisiens (Roissy-Charles de Gaulle ou Orly), pour un départ vers le Maghreb (Algérie, Maroc, Tunisie), l'Afrique de l'Ouest (Sénégal, Mali, Guinée) ou d'autres destinations.
+              Si la volonté du défunt ou de la famille est un retour vers la terre d&apos;origine, PF Al Hayaat est spécialiste du <Link href="/rapatriement-corps" className="text-[#2D6A2D] underline underline-offset-4">rapatriement international</Link>. Depuis Le Havre, nous coordonnons le transfert du corps vers les aéroports parisiens (Roissy-Charles de Gaulle ou Orly), pour un départ vers le Maghreb (Algérie, Maroc, Tunisie), l&apos;Afrique de l&apos;Ouest (Sénégal, Mali, Guinée) ou d&apos;autres destinations.
             </p>
             <p>
-              Ce service inclut les soins de conservation obligatoires pour le transport aérien (lorsque la loi l'exige), la fourniture d'un cercueil hermétique zingué, la réservation des vols, et la gestion complète des visas et laissez-passer mortuaires auprès des consulats.
+              Ce service inclut les soins de conservation obligatoires pour le transport aérien (lorsque la loi l&apos;exige), la fourniture d&apos;un cercueil hermétique zingué, la réservation des vols, et la gestion complète des visas et laissez-passer mortuaires auprès des consulats.
             </p>
           </div>
 
@@ -160,16 +160,16 @@ export default function PompesFunebresLeHavre() {
               Salat al-Janaza à Le Havre
             </h2>
             <p>
-              La prière mortuaire est une obligation communautaire (Fard Kifaya). Nous organisons la Salat al-Janaza en étroite collaboration avec les lieux de culte de la ville, qu'il s'agisse de la Mosquée En-Nour (quartier Caucriauville), de la Mosquée de Mont-Gaillard, ou des autres salles de prière de l'agglomération. Lorsque cela est nécessaire ou préféré par la famille, la prière peut également se tenir directement au cimetière.
+              La prière mortuaire est une obligation communautaire (Fard Kifaya). Nous organisons la Salat al-Janaza en étroite collaboration avec les lieux de culte de la ville, qu&apos;il s&apos;agisse de la Mosquée En-Nour (quartier Caucriauville), de la Mosquée de Mont-Gaillard, ou des autres salles de prière de l&apos;agglomération. Lorsque cela est nécessaire ou préféré par la famille, la prière peut également se tenir directement au cimetière.
             </p>
           </div>
 
           <div className="space-y-6">
             <h2 className="text-[24px] font-medium text-[#111] tracking-tight">
-              Nos zones d'intervention en Normandie
+              Nos zones d&apos;intervention en Normandie
             </h2>
             <p>
-              Notre siège social étant établi au 30 Rue Saint-Jacques au Havre, notre réactivité est optimale dans toute l'agglomération de la communauté urbaine Le Havre Seine Métropole. Nous intervenons rapidement à Sainte-Adresse, Harfleur, Montivilliers, Gonfreville-l'Orcher, Octeville-sur-Mer, ainsi que dans tout le département de la Seine-Maritime (76) et au-delà en Normandie (Rouen, Caen, Évreux).
+              Notre siège social étant établi au 30 Rue Saint-Jacques au Havre, notre réactivité est optimale dans toute l&apos;agglomération de la communauté urbaine Le Havre Seine Métropole. Nous intervenons rapidement à Sainte-Adresse, Harfleur, Montivilliers, Gonfreville-l&apos;Orcher, Octeville-sur-Mer, ainsi que dans tout le département de la Seine-Maritime (76) et au-delà en Normandie (Rouen, Caen, Évreux).
             </p>
           </div>
 

@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps en Algérie — Al Hayat Normandie & Paris",
     description: "Rapatriement de corps en Algérie depuis la Normandie et Paris. Fonds de solidarité algérien, documents requis, délais. Al Hayat prend tout en charge.",
-    keywords: ["rapatriement corps Algérie",
+    keywords: ["rapatriement corps Algérie"],
     
     alternates: {
       canonical: url,

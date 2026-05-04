@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "20 Messages de Condoléances en Arabe avec Traduction Française",
     description: "Messages de condoléances en arabe : 20 exemples avec traduction en français. Pour WhatsApp, SMS, visite à la famille.",
-    keywords: ["message condoléances arabe",
+    keywords: ["message condoléances arabe"],
     
     alternates: {
       canonical: url,

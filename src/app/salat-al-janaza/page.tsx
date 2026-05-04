@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Salat al-Janaza — Prière Funèbre Musulmane | Al Hayat",
     description: "Organisation de la Salat al-Janaza en Normandie et Paris. Coordination avec les mosquées, les 4 Takbir expliqués. Al Hayat disponible 24h/24.",
-    keywords: ["salat al-janaza",
+    keywords: ["salat al-janaza"],
     
     alternates: {
       canonical: url,

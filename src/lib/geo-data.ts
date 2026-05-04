@@ -1252,4 +1252,4 @@ export function getCityBySlug(slug: string): CityPageData | undefined {
   return allCities.find((c) => c.slug === slug);
 }
 
-export function getGeoPages() { return [...normandieCities, ...idfCities].map(c => ({ path: `/${c.slug}`, hasUniqueContent: c.hasUniqueContent })); }
+export function getGeoPages() { return allCities.map(c => ({ path: `/${c.slug}`, hasUniqueContent: c.hasUniqueContent })); }

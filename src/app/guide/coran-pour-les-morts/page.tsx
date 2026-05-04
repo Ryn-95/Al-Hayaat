@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Lire le Coran pour les Morts en Islam",
     description: "Peut-on réciter le Coran pour un défunt ?",
-    keywords: ["coran pour les morts",
+    keywords: ["coran pour les morts"],
     
     alternates: {
       canonical: url,

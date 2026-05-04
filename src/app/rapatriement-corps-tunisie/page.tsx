@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps en Tunisie — Al Hayat",
     description: "Rapatriement de corps en Tunisie depuis la France. Démarches, documents, délais. Al Hayat vous accompagne de A à Z.",
-    keywords: ["rapatriement corps Tunisie",
+    keywords: ["rapatriement corps Tunisie"],
     
     alternates: {
       canonical: url,

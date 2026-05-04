@@ -4,7 +4,7 @@ import CityPageTemplate from "@/components/sections/CityPageTemplate";
 
 const city = normandieCities.find((c) => c.slug === "pompes-funebres-musulmanes-dieppe")!;
 
-export const hasUniqueContent = false;
+
 
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-dieppe";
@@ -13,9 +13,9 @@ export async function generateMetadata(): Promise<Metadata> {
     description: city.metaDescription,
     
     robots: {
-    index: false,
-    follow: true,
-  },
+      index: false,
+      follow: true,
+    },
     alternates: {
       canonical: url,
     },

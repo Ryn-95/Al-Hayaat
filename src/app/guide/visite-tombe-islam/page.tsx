@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Visite de Tombe en Islam : Règles et Invocations",
     description: "Comment visiter une tombe en Islam ? Règles, douas.",
-    keywords: ["visite tombe islam",
+    keywords: ["visite tombe islam"],
     
     alternates: {
       canonical: url,

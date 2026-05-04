@@ -82,10 +82,12 @@ export default function HomePage() {
           className="absolute inset-0 bg-[#0D1208]"
           style={{ y: prefersReducedMotion ? 0 : heroY, opacity: heroOpacity }}
         >
-          <img
+          <Image
             src="/Image/HERO.png"
             alt="Cimetière paisible"
-            className="w-full h-full object-cover object-center opacity-55 animate-[kenburns-soft_18s_ease-in-out_infinite_alternate]"
+            fill
+            priority
+            className="object-cover object-center opacity-55 animate-[kenburns-soft_18s_ease-in-out_infinite_alternate]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0D1208]/95 via-[#0D1208]/70 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0D1208]/60 via-transparent to-transparent" />
@@ -271,11 +273,13 @@ export default function HomePage() {
 
           {/* Right : Image + overlapping quote */}
           <div className="w-full lg:w-[52%] relative order-1 lg:order-2 mb-4 lg:mb-0">
-            <div className="w-full aspect-[4/3] md:aspect-[3/4] max-h-[400px] md:max-h-[680px] rounded-[12px] md:rounded-[14px] overflow-hidden bg-[#F3EEE7]">
-              <img
+            <div className="w-full aspect-[4/3] md:aspect-[3/4] max-h-[400px] md:max-h-[680px] rounded-[12px] md:rounded-[14px] overflow-hidden bg-[#F3EEE7] relative">
+              <Image
                 src="/Image/DÉMARCHES ADMINISTRATIVES (CRÉDIBILITÉ).png"
                 alt="Conseiller Al Hayaat"
-                className="w-full h-full object-cover"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover"
               />
             </div>
 
@@ -284,11 +288,15 @@ export default function HomePage() {
                 &quot;La mort n&apos;est pas une fin — c&apos;est un passage. Notre rôle est de l&apos;accompagner avec toute la dignité qu&apos;il mérite, et d&apos;alléger votre fardeau à chaque instant.&quot;
               </p>
               <div className="flex items-center gap-3">
-                <img
-                  src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=200&auto=format&fit=crop"
-                  alt="Fondateur Al Hayaat"
-                  className="w-8 h-8 md:w-10 md:h-10 rounded-full object-cover"
-                />
+                <div className="relative w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden">
+                  <Image
+                    src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=200&auto=format&fit=crop"
+                    alt="Fondateur Al Hayaat"
+                    fill
+                    sizes="40px"
+                    className="object-cover"
+                  />
+                </div>
                 <div className="flex flex-col">
                   <span className="text-[12px] md:text-[13.5px] font-semibold text-[#111827]">Équipe Al Hayaat</span>
                   <span className="text-[11px] md:text-[12px] text-[#6B7280] font-normal">Fondateurs &amp; Conseillers</span>
@@ -332,10 +340,12 @@ export default function HomePage() {
 
           {/* Right image */}
           <div className="w-full lg:w-[50%] relative min-h-[350px] md:min-h-[500px] lg:min-h-[700px] order-1 lg:order-2">
-            <img
+            <Image
               src="/Image/Hero2.png"
               alt="Accompagnement"
-              className="absolute inset-0 w-full h-full object-cover"
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="object-cover"
             />
             {/* CTA bottom */}
             <div className="absolute bottom-4 left-4 md:bottom-8 md:left-8">
@@ -375,10 +385,12 @@ export default function HomePage() {
             >
               {/* Cinematic Image Reveal */}
               <div className="absolute inset-0 z-0 pointer-events-none">
-                <img 
+                <Image 
                   src={s.img} 
                   alt={s.title} 
-                  className="w-full h-full object-cover opacity-[0.8] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105" 
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover opacity-[0.8] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#111] via-[#111]/40 to-transparent" />
               </div>
@@ -454,10 +466,12 @@ export default function HomePage() {
         
         {/* Full Bleed Background Image */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="/Image/IMAGE PRINCIPALE (SECTION “ÉTAPE PAR ÉTAPE”).png"
             alt="Philosophie"
-            className="w-full h-full object-cover opacity-30 md:opacity-40 grayscale-[20%] transition-transform duration-[10s] ease-out hover:scale-105"
+            fill
+            sizes="100vw"
+            className="object-cover opacity-30 md:opacity-40 grayscale-[20%] transition-transform duration-[10s] ease-out hover:scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent w-full md:w-[65%]" />
           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/40" />
@@ -551,8 +565,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
             
             <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-40px" }} className="flex flex-col">
-              <div className="w-full aspect-[4/3] bg-[#EBEBEB] mb-6 overflow-hidden rounded-[8px]">
-                <img src="/Image/IMAGE ÉTAPE 01 — L’APPEL.png" alt="Étape 1" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+              <div className="w-full aspect-[4/3] bg-[#EBEBEB] mb-6 overflow-hidden rounded-[8px] relative">
+                <Image src="/Image/IMAGE ÉTAPE 01 — L’APPEL.png" alt="Étape 1" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-700 hover:scale-105" />
               </div>
               <span className="text-[11px] font-semibold tracking-wider text-[#999] mb-3">01 — L'APPEL</span>
               <h3 className="text-[18px] md:text-[20px] font-medium text-[#111] mb-3">Prise en charge immédiate</h3>
@@ -562,8 +576,8 @@ export default function HomePage() {
             </motion.div>
 
             <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-40px" }} className="flex flex-col">
-              <div className="w-full aspect-[4/3] bg-[#EBEBEB] mb-6 overflow-hidden rounded-[8px]">
-                <img src="/Image/IMAGE ÉTAPE 02 — PRISE EN CHARGE.png" alt="Étape 2" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+              <div className="w-full aspect-[4/3] bg-[#EBEBEB] mb-6 overflow-hidden rounded-[8px] relative">
+                <Image src="/Image/IMAGE ÉTAPE 02 — PRISE EN CHARGE.png" alt="Étape 2" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-700 hover:scale-105" />
               </div>
               <span className="text-[11px] font-semibold tracking-wider text-[#999] mb-3">02 — LOGISTIQUE</span>
               <h3 className="text-[18px] md:text-[20px] font-medium text-[#111] mb-3">Intervention & Démarches</h3>
@@ -573,8 +587,8 @@ export default function HomePage() {
             </motion.div>
 
             <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-40px" }} className="flex flex-col">
-              <div className="w-full aspect-[4/3] bg-[#EBEBEB] mb-6 overflow-hidden rounded-[8px]">
-                <img src="/Image/IMAGE ÉTAPE 03 — INHUMATION.png" alt="Étape 3" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+              <div className="w-full aspect-[4/3] bg-[#EBEBEB] mb-6 overflow-hidden rounded-[8px] relative">
+                <Image src="/Image/IMAGE ÉTAPE 03 — INHUMATION.png" alt="Étape 3" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-700 hover:scale-105" />
               </div>
               <span className="text-[11px] font-semibold tracking-wider text-[#999] mb-3">03 — CÉRÉMONIE</span>
               <h3 className="text-[18px] md:text-[20px] font-medium text-[#111] mb-3">Inhumation ou Rapatriement</h3>
@@ -714,7 +728,7 @@ export default function HomePage() {
               <span className="text-[#999]">Maintenant. Partout en Normandie et à Paris.</span>
             </h2>
             <p className="text-[14px] md:text-[15px] font-light text-[#999] max-w-[500px]">
-              Une famille en deuil ne devrait pas gérer les démarches seule. C'est notre rôle — pas le vôtre. Que le décès vienne de survenir ou que vous souhaitiez anticiper l'organisation des obsèques, notre équipe est disponible maintenant.
+              Une famille en deuil ne devrait pas gérer les démarches seule. C&apos;est notre rôle — pas le vôtre. Que le décès vienne de survenir ou que vous souhaitiez anticiper l&apos;organisation des obsèques, notre équipe est disponible maintenant.
             </p>
           </motion.div>
 

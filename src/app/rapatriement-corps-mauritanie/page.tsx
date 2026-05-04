@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Rapatriement de Corps en Mauritanie — Al Hayat",
     description: "Rapatriement de corps en Mauritanie depuis la France. Démarches complètes.",
-    keywords: ["rapatriement corps Mauritanie",
+    keywords: ["rapatriement corps Mauritanie"],
     
     alternates: {
       canonical: url,
