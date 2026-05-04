@@ -35,14 +35,14 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/Image/Favicon.png" },
-      { url: "/Image/Favicon.png", type: "image/png" }
+      { url: "/icon.png" },
+      { url: "/icon.png", type: "image/png" }
     ],
-    shortcut: "/Image/Favicon.png",
-    apple: "/Image/Favicon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
     other: {
       rel: "apple-touch-icon-precomposed",
-      url: "/Image/Favicon.png",
+      url: "/icon.png",
     },
   },
   robots: {
