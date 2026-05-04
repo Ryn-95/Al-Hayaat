@@ -75,12 +75,12 @@ export function Footer() {
             <span className="text-[10px] tracking-[0.2em] font-semibold text-[#111] uppercase">Nos services</span>
             {[
               { label: "Obsèques Musulmanes", href: "/obseques-musulmanes" },
-              { label: "Toilette Rituelle (Ghusl)", href: "/toilette-rituelle-ghusl" },
+              { label: "Toilette Rituelle (Ghusl)", href: "/toilette-rituelle-musulmane" },
               { label: "Salat al-Janaza", href: "/salat-al-janaza" },
-              { label: "Rapatriement Algérie", href: "/rapatriement-algerie" },
-              { label: "Rapatriement Maroc", href: "/rapatriement-maroc" },
-              { label: "Carré Musulman", href: "/fossoyage-caveau" },
-              { label: "Démarches Admin.", href: "/gestion-administrative" }
+              { label: "Rapatriement Algérie", href: "/rapatriement-corps-algerie" },
+              { label: "Rapatriement Maroc", href: "/rapatriement-corps-maroc" },
+              { label: "Carré Musulman", href: "/inhumation-carre-musulman" },
+              { label: "Démarches Admin.", href: "/demarches-administratives-deces" }
             ].map((l) => (
               <Link
                 key={l.label}

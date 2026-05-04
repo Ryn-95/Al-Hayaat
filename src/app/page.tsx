@@ -29,21 +29,21 @@ const servicesList = [
     num: "03",
     title: "Toilette Rituelle — Ghusl al-Mayyit",
     desc: "Le lavage mortuaire est réalisé selon la Sunnah du Prophète ﷺ, par des professionnels formés et expérimentés. Équipes séparées hommes et femmes, dans un cadre de dignité absolue.",
-    href: "/toilette-rituelle-ghusl",
+    href: "/toilette-rituelle-musulmane",
     img: "/Image/TOILETTE RITUELLE (GHUSL — VERSION SYMBOLIQUE).png"
   },
   {
     num: "04",
     title: "Démarches Administratives complètes",
     desc: "Prise en charge de toutes les formalités : déclaration de décès en mairie, acte de décès, autorisation de fermeture de cercueil, autorisation de transport, certificat de non-contagion, coordination consulaire. Vous n'avez rien à gérer.",
-    href: "/gestion-administrative",
+    href: "/demarches-administratives-deces",
     img: "/Image/DÉMARCHES ADMINISTRATIVES (CRÉDIBILITÉ).png"
   },
   {
     num: "05",
     title: "Fossoyage & Carré Musulman",
     desc: "Acquisition de concession dans un carré musulman en Normandie et en Île-de-France. Ouverture et fermeture de caveau. Inhumation orientée vers La Mecque (Qibla), selon les prescriptions islamiques.",
-    href: "/fossoyage-caveau",
+    href: "/inhumation-carre-musulman",
     img: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1600&auto=format&fit=crop"
   },
   {

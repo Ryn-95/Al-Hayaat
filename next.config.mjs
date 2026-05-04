@@ -27,20 +27,30 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/pompes-funebres-musulmanes-argenteuil",
-        destination: "/pompes-funebres-musulmanes-95-argenteuil",
+        source: "/pompes-funebres-musulmanes-95-argenteuil",
+        destination: "/pompes-funebres-musulmanes-argenteuil",
         permanent: true,
       },
       {
-        source: "/pompes-funebres-musulmanes-saint-denis",
-        destination: "/pompes-funebres-musulmanes-93-saint-denis",
+        source: "/pompes-funebres-musulmanes-93-saint-denis",
+        destination: "/pompes-funebres-musulmanes-saint-denis",
         permanent: true,
       },
       {
-        source: "/ile-de-france",
-        destination: "/paris-ile-de-france",
+        source: "/paris-ile-de-france",
+        destination: "/ile-de-france",
         permanent: true,
       },
+      {
+        source: "/rapatriement-algerie",
+        destination: "/rapatriement-corps-algerie",
+        permanent: true,
+      },
+      {
+        source: "/rapatriement-maroc",
+        destination: "/rapatriement-corps-maroc",
+        permanent: true,
+      }
     ];
   },
 };
