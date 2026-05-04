@@ -1056,7 +1056,7 @@ export const parisCities: CityPageData[] = [
     ],
   },
   {
-    slug: "pompes-funebres-musulmanes-93-saint-denis",
+    slug: "pompes-funebres-musulmanes-saint-denis",
     city: "Saint-Denis", department: "Seine-Saint-Denis", departmentCode: "93", region: "Île-de-France",
     title: "Pompes Funèbres Musulmanes Saint-Denis (93) — Al Hayat",
     metaDescription: "Pompes funèbres musulmanes à Saint-Denis (93). Forte communauté musulmane. Toilette rituelle, rapatriement. Al Hayat 24h/24.",
@@ -1164,7 +1164,7 @@ export const parisCities: CityPageData[] = [
     ],
   },
   {
-    slug: "pompes-funebres-musulmanes-95-argenteuil",
+    slug: "pompes-funebres-musulmanes-argenteuil",
     city: "Argenteuil", department: "Val-d'Oise", departmentCode: "95", region: "Île-de-France",
     title: "Pompes Funèbres Musulmanes Argenteuil (95) — Al Hayat",
     metaDescription: "Pompes funèbres musulmanes à Argenteuil (95). Grande communauté musulmane. Toilette rituelle, rapatriement. Al Hayat 24h/24.",

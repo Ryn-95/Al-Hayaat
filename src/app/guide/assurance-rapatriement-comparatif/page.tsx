@@ -47,7 +47,7 @@ export default function Page() {
       <section className="w-full bg-[#F5F0E8] py-20 md:py-28">
         <div className="w-full max-w-[1280px] mx-auto px-8 md:px-12"><div className="max-w-[780px]">
           <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Contenu en cours de rédaction. Consultez nos autres guides : <Link href="/guide/doua-deces-islam" className="text-[#2D6A2D] font-medium hover:underline">Doua pour un mort</Link> · <Link href="/guide/condoleances-islam" className="text-[#2D6A2D] font-medium hover:underline">Condoléances en Islam</Link> · <Link href="/guide/rites-funeraires-islam-etapes" className="text-[#2D6A2D] font-medium hover:underline">Rites funéraires islamiques</Link>.</p>
-          <p className="text-[15px] font-light text-[#555] leading-[1.8]">Al Hayat accompagne les familles musulmanes en <Link href="/normandie" className="text-[#2D6A2D] font-medium hover:underline">Normandie</Link> et à <Link href="/paris-ile-de-france" className="text-[#2D6A2D] font-medium hover:underline">Paris</Link>. <Link href="/contact" className="text-[#2D6A2D] font-medium hover:underline">Contactez-nous 24h/24</Link>.</p>
+          <p className="text-[15px] font-light text-[#555] leading-[1.8]">Al Hayat accompagne les familles musulmanes en <Link href="/normandie" className="text-[#2D6A2D] font-medium hover:underline">Normandie</Link> et à <Link href="/ile-de-france" className="text-[#2D6A2D] font-medium hover:underline">Paris</Link>. <Link href="/contact" className="text-[#2D6A2D] font-medium hover:underline">Contactez-nous 24h/24</Link>.</p>
         </div></div>
       </section>
     </div>

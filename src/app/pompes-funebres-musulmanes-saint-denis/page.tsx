@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { parisCities } from "@/lib/geo-data";
 import CityPageTemplate from "@/components/sections/CityPageTemplate";
 
-const city = parisCities.find((c) => c.slug === "pompes-funebres-musulmanes-93-saint-denis")!;
+const city = parisCities.find((c) => c.slug === "pompes-funebres-musulmanes-saint-denis")!;
 
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-93-saint-denis";
+  const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-saint-denis";
   return {
     title: city.title,
     description: city.metaDescription,
@@ -38,5 +38,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function SaintDenisPage() {
-  return <CityPageTemplate data={city} breadcrumbs={[{ label: "Paris & Île-de-France", href: "/paris-ile-de-france" }, { label: "Saint-Denis (93)", href: "/pompes-funebres-musulmanes-93-saint-denis" }]} />;
+  return <CityPageTemplate data={city} breadcrumbs={[{ label: "Paris & Île-de-France", href: "/ile-de-france" }, { label: "Saint-Denis (93)", href: "/pompes-funebres-musulmanes-saint-denis" }]} />;
 }

@@ -85,7 +85,7 @@ export default function CondoleancesIslamPage() {
 
           <div className="p-6 bg-[#0D1208] rounded-[12px] text-white mt-10">
             <p className="text-[15px] font-medium mb-3">Besoin d&apos;accompagnement ?</p>
-            <p className="text-[14px] font-light text-white/60 mb-4">Al Hayat accompagne les familles musulmanes en <Link href="/normandie" className="text-[#6BAA6B] hover:underline">Normandie</Link> et à <Link href="/paris-ile-de-france" className="text-[#6BAA6B] hover:underline">Paris</Link>.</p>
+            <p className="text-[14px] font-light text-white/60 mb-4">Al Hayat accompagne les familles musulmanes en <Link href="/normandie" className="text-[#6BAA6B] hover:underline">Normandie</Link> et à <Link href="/ile-de-france" className="text-[#6BAA6B] hover:underline">Paris</Link>.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 bg-[#2D6A2D] text-white px-5 py-3 rounded-[5px] text-[13.5px] font-medium hover:bg-[#255525] transition-colors">Nous contacter</Link>
           </div>
         </div></div>

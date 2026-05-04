@@ -152,7 +152,7 @@ export default function ToiletteRituellePage() {
             {/* CTA */}
             <div className="p-6 bg-[#0D1208] rounded-[12px] text-white mt-10">
               <p className="text-[15px] font-medium mb-3">Al Hayat vous accompagne</p>
-              <p className="text-[14px] font-light text-white/60 mb-4">Si vous avez besoin d&apos;aide pour organiser la toilette rituelle ou les obsèques complètes, notre équipe est disponible 24h/24. Nous intervenons en <Link href="/normandie" className="text-[#6BAA6B] hover:underline">Normandie</Link> et à <Link href="/paris-ile-de-france" className="text-[#6BAA6B] hover:underline">Paris</Link>.</p>
+              <p className="text-[14px] font-light text-white/60 mb-4">Si vous avez besoin d&apos;aide pour organiser la toilette rituelle ou les obsèques complètes, notre équipe est disponible 24h/24. Nous intervenons en <Link href="/normandie" className="text-[#6BAA6B] hover:underline">Normandie</Link> et à <Link href="/ile-de-france" className="text-[#6BAA6B] hover:underline">Paris</Link>.</p>
               <Link href="/contact" className="inline-flex items-center gap-2 bg-[#2D6A2D] text-white px-5 py-3 rounded-[5px] text-[13.5px] font-medium hover:bg-[#255525] transition-colors">Nous contacter</Link>
             </div>
 

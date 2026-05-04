@@ -50,7 +50,7 @@ export default function RapatriementTunisiePage() {
             <ul className="flex flex-col gap-2">{["Certificat de décès médical", "Acte de décès mairie", "Certificat de non-contagion", "Autorisation préfectorale de transport", "Passeport tunisien ou CNIE", "Coordination avec l'ambassade de Tunisie"].map((d, i) => (<li key={i} className="flex items-start gap-3 text-[14px] text-[#555] font-light"><span className="text-[#2D6A2D]">✓</span>{d}</li>))}</ul>
           </div>
           <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Délais et organisation</h2>
-          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Le rapatriement vers la Tunisie depuis la <Link href="/normandie" className="text-[#2D6A2D] font-medium hover:underline">Normandie</Link> ou <Link href="/paris-ile-de-france" className="text-[#2D6A2D] font-medium hover:underline">Paris</Link> prend généralement 48 à 72 heures.</p>
+          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Le rapatriement vers la Tunisie depuis la <Link href="/normandie" className="text-[#2D6A2D] font-medium hover:underline">Normandie</Link> ou <Link href="/ile-de-france" className="text-[#2D6A2D] font-medium hover:underline">Paris</Link> prend généralement 48 à 72 heures.</p>
           <Link href="/contact" className="inline-flex items-center gap-2 bg-[#2D6A2D] text-white px-5 py-3 rounded-[5px] text-[13.5px] font-medium hover:bg-[#255525] transition-colors">Nous contacter</Link>
         </div></div>
       </section>

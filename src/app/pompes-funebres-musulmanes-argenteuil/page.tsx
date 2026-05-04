@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { parisCities } from "@/lib/geo-data";
 import CityPageTemplate from "@/components/sections/CityPageTemplate";
 
-const city = parisCities.find((c) => c.slug === "pompes-funebres-musulmanes-95-argenteuil")!;
+const city = parisCities.find((c) => c.slug === "pompes-funebres-musulmanes-argenteuil")!;
 
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-95-argenteuil";
+  const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-argenteuil";
   return {
     title: city.title,
     description: city.metaDescription,
@@ -38,5 +38,5 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default function ArgenteuiIlPage() {
-  return <CityPageTemplate data={city} breadcrumbs={[{ label: "Paris & Île-de-France", href: "/paris-ile-de-france" }, { label: "Argenteuil (95)", href: "/pompes-funebres-musulmanes-95-argenteuil" }]} />;
+  return <CityPageTemplate data={city} breadcrumbs={[{ label: "Paris & Île-de-France", href: "/ile-de-france" }, { label: "Argenteuil (95)", href: "/pompes-funebres-musulmanes-argenteuil" }]} />;
 }

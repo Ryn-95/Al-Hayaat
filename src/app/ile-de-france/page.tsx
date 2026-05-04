@@ -28,7 +28,7 @@ export default function ParisIleDeFrancePage() {
       <section className="relative w-full pt-28 pb-20 bg-[#0D1208] text-white">
         <div className="absolute inset-0 bg-gradient-to-b from-[#0D1208] via-[#0D1208]/95 to-[#0D1208]" />
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8 md:px-12">
-          <Breadcrumbs items={[{ label: "Paris & Île-de-France", href: "/paris-ile-de-france" }]} />
+          <Breadcrumbs items={[{ label: "Paris & Île-de-France", href: "/ile-de-france" }]} />
           <motion.div initial="hidden" animate="visible" variants={{ visible: { transition: { staggerChildren: 0.12 } } }}>
             <motion.h1 variants={fadeUp} className="text-[2.2rem] md:text-[3rem] font-semibold leading-[1.1] tracking-[-0.02em] text-white mb-6 mt-6 max-w-[700px]">
               Pompes Funèbres Musulmanes à Paris et en Île-de-France

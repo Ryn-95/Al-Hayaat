@@ -59,7 +59,7 @@ export default function DeuilIslamPage() {
           <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">Pendant le deuil, il est recommandé de réciter des <Link href="/guide/doua-deces-islam" className="text-[#2D6A2D] font-medium hover:underline">douas pour le défunt</Link> et de présenter ses <Link href="/guide/condoleances-islam" className="text-[#2D6A2D] font-medium hover:underline">condoléances</Link> à la famille.</p>
 
           <div className="p-6 bg-[#0D1208] rounded-[12px] text-white mt-10">
-            <p className="text-[14px] font-light text-white/60 mb-4">Al Hayat accompagne les familles musulmanes en <Link href="/normandie" className="text-[#6BAA6B] hover:underline">Normandie</Link> et à <Link href="/paris-ile-de-france" className="text-[#6BAA6B] hover:underline">Paris</Link>.</p>
+            <p className="text-[14px] font-light text-white/60 mb-4">Al Hayat accompagne les familles musulmanes en <Link href="/normandie" className="text-[#6BAA6B] hover:underline">Normandie</Link> et à <Link href="/ile-de-france" className="text-[#6BAA6B] hover:underline">Paris</Link>.</p>
             <Link href="/contact" className="inline-flex items-center gap-2 bg-[#2D6A2D] text-white px-5 py-3 rounded-[5px] text-[13.5px] font-medium hover:bg-[#255525] transition-colors">Nous contacter</Link>
           </div>
         </div></div>

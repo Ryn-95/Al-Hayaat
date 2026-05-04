@@ -58,7 +58,7 @@ export default function RapatriementAlgeriePage() {
           <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Le consulat d&apos;Algérie propose un fonds de solidarité qui peut prendre en charge gratuitement le rapatriement du défunt algérien en France, sous conditions de ressources. Al Hayat vous aide à constituer le dossier et à vérifier votre éligibilité. Ce dispositif permet de soulager financièrement les familles dans cette épreuve.</p>
 
           <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Délais depuis la Normandie et Paris</h2>
-          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Le rapatriement vers l&apos;Algérie depuis la <Link href="/normandie" className="text-[#2D6A2D] font-medium hover:underline">Normandie</Link> ou <Link href="/paris-ile-de-france" className="text-[#2D6A2D] font-medium hover:underline">Paris</Link> prend généralement entre 48 et 72 heures. Ce délai inclut la constitution du dossier, la coordination avec le consulat et le transport aérien.</p>
+          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Le rapatriement vers l&apos;Algérie depuis la <Link href="/normandie" className="text-[#2D6A2D] font-medium hover:underline">Normandie</Link> ou <Link href="/ile-de-france" className="text-[#2D6A2D] font-medium hover:underline">Paris</Link> prend généralement entre 48 et 72 heures. Ce délai inclut la constitution du dossier, la coordination avec le consulat et le transport aérien.</p>
 
           <div className="p-6 bg-[#0D1208] rounded-[12px] text-white">
             <p className="text-[15px] font-medium mb-3">Urgence rapatriement Algérie</p>
