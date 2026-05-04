@@ -19,13 +19,14 @@ export default function MentionsLegales() {
               1. Informations sur l&apos;entreprise
             </h2>
             <div className="bg-[#FAFAFA] p-6 rounded-[8px] border border-[#E5E5E5] space-y-2">
-              <p><strong className="font-medium text-[#111]">Dénomination sociale :</strong> PF AL HAYAAT</p>
+              <p><strong className="font-medium text-[#111]">Raison sociale :</strong> Al Hayaat Pompes Funèbres Musulmanes (PF AL HAYAAT)</p>
               <p><strong className="font-medium text-[#111]">Forme juridique :</strong> SAS (Société par actions simplifiée)</p>
               <p><strong className="font-medium text-[#111]">Capital social :</strong> 1 000,00 €</p>
-              <p><strong className="font-medium text-[#111]">Siège social :</strong> 30 Rue Saint-Jacques, 76600 Le Havre</p>
+              <p><strong className="font-medium text-[#111]">Siège social :</strong> 44 Rue Saint-Jacques, 76600 Le Havre</p>
               <p><strong className="font-medium text-[#111]">SIREN :</strong> 944 387 075</p>
               <p><strong className="font-medium text-[#111]">SIRET :</strong> 944 387 075 00012</p>
-              <p><strong className="font-medium text-[#111]">RCS :</strong> Inscrit au greffe de LE HAVRE (14/05/2025)</p>
+              <p><strong className="font-medium text-[#111]">Habilitation préfectorale :</strong> [Numéro à compléter]</p>
+              <p><strong className="font-medium text-[#111]">RCS :</strong> Inscrit au greffe de LE HAVRE</p>
               <p><strong className="font-medium text-[#111]">Numéro de TVA Intracommunautaire :</strong> FR78944387075</p>
               <p><strong className="font-medium text-[#111]">Code NAF / APE :</strong> 96.03Z (Services funéraires)</p>
             </div>
@@ -55,8 +56,8 @@ export default function MentionsLegales() {
               4. Contact
             </h2>
             <p>
-              <strong className="font-medium text-[#111]">Téléphone :</strong> 07 63 21 46 56<br />
-              <strong className="font-medium text-[#111]">Adresse :</strong> 30 Rue Saint-Jacques, 76600 Le Havre
+              <strong className="font-medium text-[#111]">Téléphone :</strong> <a href="tel:+33763214656" className="hover:text-[#2D6A2D]">07 63 21 46 56</a><br />
+              <strong className="font-medium text-[#111]">Adresse :</strong> 44 Rue Saint-Jacques, 76600 Le Havre
             </p>
           </section>
 

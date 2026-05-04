@@ -15,7 +15,7 @@ export default function PolitiqueConfidentialite() {
 
         <div className="space-y-12 text-[14px] md:text-[15px] font-light leading-[1.7] text-[#444]">
           <p>
-            Chez <strong className="font-medium text-[#111]">PF AL HAYAAT</strong>, nous accordons une importance primordiale à la protection de vos données personnelles. Cette politique vise à vous informer sur la manière dont nous collectons, utilisons et protégeons vos informations.
+            Chez <strong className="font-medium text-[#111]">Al Hayaat Pompes Funèbres Musulmanes</strong>, nous accordons une importance primordiale à la protection de vos données personnelles. Cette politique vise à vous informer sur la manière dont nous collectons, utilisons et protégeons vos informations.
           </p>
 
           <section className="space-y-4">
@@ -42,7 +42,7 @@ export default function PolitiqueConfidentialite() {
               <li>L&apos;organisation et la coordination des services funéraires et démarches administratives associées</li>
             </ul>
             <p className="mt-4 text-[#666] italic">
-              PF AL HAYAAT s&apos;oppose strictement à l&apos;utilisation de ses données à des fins de prospection commerciale par des tiers, et nous appliquons cette même règle à vos données : elles ne seront jamais revendues ou cédées à des fins publicitaires.
+              Al Hayaat Pompes Funèbres Musulmanes s&apos;oppose strictement à l&apos;utilisation de ses données à des fins de prospection commerciale par des tiers, et nous appliquons cette même règle à vos données : elles ne seront jamais revendues ou cédées à des fins publicitaires.
             </p>
           </section>
 
@@ -66,8 +66,8 @@ export default function PolitiqueConfidentialite() {
               Pour exercer ces droits, veuillez nous contacter :
             </p>
             <ul className="list-disc pl-5 space-y-2 mt-2">
-              <li>Par courrier : PF AL HAYAAT, 30 Rue Saint-Jacques, 76600 Le Havre</li>
-              <li>Par téléphone : 07 63 21 46 56</li>
+              <li>Par courrier : Al Hayaat Pompes Funèbres Musulmanes, 44 Rue Saint-Jacques, 76600 Le Havre</li>
+              <li>Par téléphone : <a href="tel:+33763214656" className="hover:text-[#2D6A2D]">07 63 21 46 56</a></li>
             </ul>
           </section>
 

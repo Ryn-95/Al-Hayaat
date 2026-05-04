@@ -7,16 +7,16 @@ import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/guide/doua-deces-islam";
   return {
-    title: "Doua pour un Mort en Islam — Invocations (Arabe + Français)",
-    description: "Douas complètes pour un défunt en Islam : texte arabe, phonétique et traduction française. Invocations Salat Janaza, cimetière, proches endeuillés.",
+    title: "Doua pour un Mort en Islam — Invocations Complètes Arabe & Traduction | Al Hayaat",
+    description: "Toutes les douas pour un défunt : invocation pour le mort, pour la tombe, au cimetière, à l'annonce du décès. Texte arabe, phonétique et traduction. Référencé sur hadith authentiques.",
     keywords: ["doua pour un mort"],
     
     alternates: {
       canonical: url,
     },
     openGraph: {
-      title: "Doua pour un Mort en Islam — Invocations (Arabe + Français)",
-      description: "Douas complètes pour un défunt en Islam : texte arabe, phonétique et traduction française. Invocations Salat Janaza, cimetière, proches endeuillés.",
+      title: "Doua pour un Mort en Islam — Invocations Complètes Arabe & Traduction | Al Hayaat",
+      description: "Toutes les douas pour un défunt : invocation pour le mort, pour la tombe, au cimetière, à l'annonce du décès. Texte arabe, phonétique et traduction. Référencé sur hadith authentiques.",
       url: url,
       siteName: "Al Hayaat Pompes Funèbres Musulmanes",
       locale: "fr_FR",
@@ -36,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
 const faqs = [
   { question: "Quelle doua réciter pour un mort en Islam ?", answer: "La doua la plus connue est : Allahoumma ighfir lahu warhamhu, wa 'afihi wa'fou 'anhu (Ô Allah, pardonne-lui et accorde-lui Ta miséricorde). Elle est tirée du hadith rapporté par Muslim (n°963)." },
   { question: "Quand réciter les douas pour le défunt ?", answer: "Les douas peuvent être récitées à tout moment : à l'annonce du décès, lors de la toilette rituelle, pendant la Salat al-Janaza (3e Takbir), à l'enterrement, lors des visites au cimetière, et dans vos prières quotidiennes." },
-  { question: "Peut-on réciter des douas pour le mort en français ?", answer: "Oui, les douas personnelles peuvent être récitées dans toute langue. Seules les douas de la Salat al-Janaza doivent être en arabe selon la majorité des savants. L'essentiel est la sincérité du cœur." },
+  { question: "Quelle doua pour un mort algérien, marocain ou tunisien ?", answer: "Les douas sont universelles en Islam et s'appliquent à tous les défunts, quelle que soit leur origine. La doua principale est : Allahoumma ighfir lahu warhamhu wa 'afihi wa'fou 'anhu (Ô Allah, pardonne-lui, accorde-lui Ta miséricorde et Ton pardon). Elle est valable pour tout défunt musulman." },
   { question: "Les douas des vivants profitent-elles au mort ?", answer: "Oui, le Prophète ﷺ a dit : Quand le fils d'Adam meurt, ses œuvres s'arrêtent sauf trois : une aumône continue, une science utile, et un enfant pieux qui invoque Allah en sa faveur (Sahih Muslim, n°1631)." },
   { question: "Combien de temps doit-on faire des douas pour un défunt ?", answer: "Il n'y a pas de limite dans le temps. Les douas pour un défunt peuvent être faites indéfiniment. Le Prophète ﷺ visitait régulièrement le cimetière de Baqi' pour invoquer Allah en faveur des morts." },
 ];
@@ -53,7 +53,7 @@ export default function DouaDecesIslamPage() {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8 md:px-12">
           <Breadcrumbs items={[{ label: "Guide", href: "/guide" }, { label: "Doua pour un Mort", href: "/guide/doua-deces-islam" }]} />
           <h1 className="text-[2.2rem] md:text-[3rem] font-semibold leading-[1.1] tracking-[-0.02em] text-white mb-6 mt-6 max-w-[700px]">
-            Doua pour un Mort en Islam : Les Invocations Essentielles
+            Doua pour un Mort en Islam : Toutes les Invocations Essentielles
           </h1>
           <p className="text-[15px] font-light leading-[1.8] text-white/70 max-w-[640px]">
             La doua (دعاء) est l&apos;une des plus belles formes d&apos;adoration en Islam — et l&apos;un des rares actes qui continue de profiter au défunt après sa mort. Le Prophète ﷺ a dit : « Quand le fils d&apos;Adam meurt, ses œuvres s&apos;arrêtent sauf trois : une aumône continue (sadaqa jariya), une science utile, et un enfant pieux qui invoque Allah en sa faveur » (Sahih Muslim, n°1631). Ce guide rassemble les douas authentiques pour le défunt, tirées du Coran et de la Sunnah, avec le texte arabe, la phonétique française et la traduction complète. Que vous soyez en deuil ou que vous souhaitiez accompagner un proche, ces invocations vous aideront à accomplir ce devoir de foi.
@@ -111,16 +111,38 @@ export default function DouaDecesIslamPage() {
             <p className="text-[12px] text-[#999] mt-3">Contexte : Doua d&apos;espérance pour le défunt, lui souhaitant le meilleur dans l&apos;au-delà. Rapportée par Muslim dans le chapitre des funérailles.</p>
           </div>
 
-          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Doua à l&apos;annonce du décès</h2>
+          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Doua à l'annonce du décès</h2>
           <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">
-            Lorsqu&apos;un musulman apprend le décès d&apos;un proche, la première parole à prononcer est l&apos;istirja&apos; — la formule de résignation à la volonté d&apos;Allah :
+            Lorsqu'un musulman apprend le décès d'un proche, la première parole à prononcer est l'istirja' — la formule de résignation à la volonté d'Allah :
           </p>
           <div className="p-6 bg-white border border-[#E8E2D9] rounded-[12px] mb-8">
-            <p className="text-[11px] tracking-[0.14em] font-semibold text-[#7A5C3A] uppercase mb-3">Istirja&apos; — Coran, Sourate Al-Baqara, 2:156</p>
+            <p className="text-[11px] tracking-[0.14em] font-semibold text-[#7A5C3A] uppercase mb-3">Istirja' — Coran, Sourate Al-Baqara, 2:156</p>
             <p className="text-[22px] text-right font-light text-[#1A1A1A] mb-3 leading-[2]" dir="rtl">إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ</p>
-            <p className="text-[14px] text-[#7A5C3A] font-medium mb-2">Inna lillahi wa inna ilayhi raji&apos;oun</p>
-            <p className="text-[14px] text-[#555] font-light leading-[1.7]">« Nous appartenons à Allah et c&apos;est vers Lui que nous retournons. »</p>
-            <p className="text-[12px] text-[#999] mt-3">Cette formule est citée dans le Coran comme la parole des patients face à l&apos;épreuve. Allah dit : « Ceux-là recevront des bénédictions de leur Seigneur, ainsi que la miséricorde » (2:157).</p>
+            <p className="text-[14px] text-[#7A5C3A] font-medium mb-2">Inna lillahi wa inna ilayhi raji'oun</p>
+            <p className="text-[14px] text-[#555] font-light leading-[1.7]">« Nous appartenons à Allah et c'est vers Lui que nous retournons. »</p>
+            <p className="text-[12px] text-[#999] mt-3">Cette formule est citée dans le Coran comme la parole des patients face à l'épreuve. Allah dit : « Ceux-là recevront des bénédictions de leur Seigneur, ainsi que la miséricorde » (2:157).</p>
+          </div>
+
+          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Doua Spéciale pour les Parents Décédés</h2>
+          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">
+            Allah dit dans le Coran : « Seigneur ! Fais-leur miséricorde comme ils m'ont élevé lorsque j'étais petit » (Sourate Al-Isra, 17:24). Cette doua coranique est la plus belle que l'on puisse réciter pour ses parents décédés :
+          </p>
+          <div className="p-6 bg-white border border-[#E8E2D9] rounded-[12px] mb-8">
+            <p className="text-[11px] tracking-[0.14em] font-semibold text-[#7A5C3A] uppercase mb-3">Doua pour les parents</p>
+            <p className="text-[22px] text-right font-light text-[#1A1A1A] mb-3 leading-[2]" dir="rtl">رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا</p>
+            <p className="text-[14px] text-[#7A5C3A] font-medium mb-2">Rabbi irhamhouma kama rabbayanî saghîrâ</p>
+            <p className="text-[14px] text-[#555] font-light leading-[1.7]">« Seigneur, aie pitié d'eux tous les deux, comme ils ont pris soin de moi quand j'étais enfant. »</p>
+          </div>
+
+          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Doua après l'Enterrement — La Mise en Terre</h2>
+          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">
+            Le Prophète ﷺ avait l'habitude, après avoir enterré le défunt, de se tenir debout devant la tombe et de dire aux présents : « Demandez le pardon pour votre frère et priez pour qu'il soit affermi, car on va l'interroger maintenant » (Sunan Abu Dawud, n°3221).
+          </p>
+          <div className="p-6 bg-white border border-[#E8E2D9] rounded-[12px] mb-8">
+            <p className="text-[11px] tracking-[0.14em] font-semibold text-[#7A5C3A] uppercase mb-3">Doua de la mise en terre</p>
+            <p className="text-[22px] text-right font-light text-[#1A1A1A] mb-3 leading-[2]" dir="rtl">مِنْهَا خَلَقْنَاكُمْ وَفِيهَا نُعِيدُكُمْ وَمِنْهَا نُخْرِجُكُمْ تَارَةً أُخْرَى</p>
+            <p className="text-[14px] text-[#7A5C3A] font-medium mb-2">Minha khalaqnakum wa fiha nu'idoukum wa minha noukhrijoukoum taran oukhra</p>
+            <p className="text-[14px] text-[#555] font-light leading-[1.7]">« De cette terre Nous vous avons créés, en elle Nous vous ramènerons, et d'elle Nous vous ferons sortir une autre fois. » (Sourate Ta-Ha, 20:55)</p>
           </div>
 
           <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Douas au cimetière</h2>

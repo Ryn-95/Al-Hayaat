@@ -153,28 +153,6 @@ export function ServicePageContent({ data }: { data: ServicePageData }) {
           </div>
         </section>
       )}
-
-      {/* CTA */}
-      <section className="bg-primary section-padding py-16 lg:py-20">
-        <div className="max-w-[600px] mx-auto text-center">
-          <AnimateOnScroll>
-            <h2 className="font-playfair italic text-[1.8rem] text-white mb-4">
-              Besoin d&apos;aide ? Nous sommes là.
-            </h2>
-          </AnimateOnScroll>
-          <AnimateOnScroll delay={0.1}>
-            <p className="font-inter font-light text-white/80 text-[15px] mb-8">
-              Disponible 24h/24, 7j/7. Appelez-nous ou écrivez-nous sur WhatsApp.
-            </p>
-          </AnimateOnScroll>
-          <AnimateOnScroll delay={0.2}>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Button variant="white" size="lg" href="tel:+33XXXXXXXXX">Appeler</Button>
-              <Button variant="whiteGhost" size="lg" href="https://wa.me/33XXXXXXXXX">WhatsApp</Button>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
     </>
   );
 }

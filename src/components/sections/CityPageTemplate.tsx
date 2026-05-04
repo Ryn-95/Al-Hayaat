@@ -262,27 +262,6 @@ export default function CityPageTemplate({ data, breadcrumbs }: CityPageTemplate
         </section>
       )}
 
-      {/* ═══ CTA Contact ═══ */}
-      <section className="w-full bg-[#0D1208] py-20 text-white">
-        <div className="w-full max-w-[1280px] mx-auto px-8 md:px-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-          <div>
-            <h2 className="text-[24px] md:text-[32px] font-semibold leading-[1.15] tracking-tight text-white mb-2">
-              Nous contacter à {data.city}
-            </h2>
-            <p className="text-[15px] text-white/50 font-light">Disponibles 24h/24 — 7j/7</p>
-          </div>
-          <div className="flex flex-col gap-3 shrink-0">
-            <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, "")}`} className="flex items-center gap-3 bg-[#2D6A2D] text-white px-7 py-4 rounded-[6px] font-medium text-[15px] hover:bg-[#255525] transition-colors">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-              Urgence 24/7
-            </a>
-            <Link href="/contact" className="text-[13px] text-white/50 hover:text-white text-center transition-colors">
-              Ou nous envoyer un message →
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Date de mise à jour (SEO) */}
       <div className="w-full max-w-[1280px] mx-auto px-8 md:px-12 py-4">
         <p className="text-[11px] text-[#999] font-light">Dernière mise à jour : mai 2025</p>

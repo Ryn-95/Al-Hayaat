@@ -54,12 +54,71 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     }));
 
-  // Pages du Guide Islamique et Blog (Priorité 0.7)
+  // Pages du Blog (Priorité 0.7)
   const blogPages = getBlogPages().map((blog) => ({
     url: `${SITE_URL}${blog.path}`,
     lastModified: currentDate,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
+  }));
+
+  // Pages Guide Islamique (Priorité 0.8)
+  const guidePaths = [
+    '/guide/40-jours-islam',
+    '/guide/assurance-rapatriement-comparatif',
+    '/guide/certificat-deces-demarches',
+    '/guide/condoleances-islam',
+    '/guide/coran-pour-les-morts',
+    '/guide/declaration-deces-mairie',
+    '/guide/deuil-islam',
+    '/guide/doua-apres-enterrement',
+    '/guide/doua-deces-islam',
+    '/guide/doua-pour-les-parents-decedes',
+    '/guide/enterrement-islam-vetement',
+    '/guide/invocations-cimetiere-islam',
+    '/guide/kafan-linceul-islam',
+    '/guide/lavage-mortuaire-islam',
+    '/guide/message-condoleances-arabe',
+    '/guide/nuit-du-deces-islam',
+    '/guide/prix-obseques-musulmanes',
+    '/guide/que-faire-apres-un-deces',
+    '/guide/rites-funeraires-islam-etapes',
+    '/guide/sadaqa-en-memoire-defunt',
+    '/guide/salat-janaza-comment-faire',
+    '/guide/transport-corps-france',
+    '/guide/visite-tombe-islam'
+  ];
+  
+  const guidePages = guidePaths.map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  // Pages Services additionnelles
+  const additionalServicesPaths = [
+    '/rapatriement-corps-algerie',
+    '/rapatriement-corps-maroc',
+    '/rapatriement-corps-tunisie',
+    '/rapatriement-corps-afrique',
+    '/rapatriement-corps-mali-senegal',
+    '/rapatriement-corps-pakistan-bangladesh',
+    '/salat-al-janaza',
+    '/toilette-rituelle-musulmane',
+    '/inhumation-carre-musulman',
+    '/demarches-administratives-deces',
+    '/assurance-deces-musulmane',
+    '/cercueil-musulman',
+    '/carre-musulman-normandie',
+    '/carre-musulman-paris-ile-de-france'
+  ];
+
+  const additionalServicesPages = additionalServicesPaths.map((path) => ({
+    url: `${SITE_URL}${path}`,
+    lastModified: currentDate,
+    changeFrequency: 'weekly' as const,
+    priority: 0.9,
   }));
 
   // Pages Légales (Priorité 0.3)
@@ -78,5 +137,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...mainPages, ...servicesPages, ...geoPages, ...blogPages, ...legalPages];
+  return [...mainPages, ...servicesPages, ...additionalServicesPages, ...geoPages, ...blogPages, ...guidePages, ...legalPages];
 }

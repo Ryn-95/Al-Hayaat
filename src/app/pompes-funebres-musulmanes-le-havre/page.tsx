@@ -2,14 +2,14 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Pompes Funèbres Musulmanes au Havre (76) | Al Hayaat",
-  description: "PF Al Hayaat, pompes funèbres musulmanes au Havre (76600). Organisation complète d'obsèques, toilette rituelle (ghusl), inhumation et rapatriement 24h/24.",
+  title: "Pompes Funèbres Musulmanes Le Havre (76) | Al Hayaat — Siège | 24h/7j",
+  description: "Al Hayaat, pompes funèbres musulmanes basées au Havre (44 Rue Saint-Jacques, 76600). Toilette rituelle, carré musulman, rapatriement. Siège Normandie. Habilitation préfectorale. 24h/24.",
   alternates: {
     canonical: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
   },
   openGraph: {
-    title: "Pompes Funèbres Musulmanes au Havre (76) | Al Hayaat",
-    description: "PF Al Hayaat, pompes funèbres musulmanes au Havre (76600). Organisation complète d'obsèques, toilette rituelle (ghusl), inhumation et rapatriement 24h/24.",
+    title: "Pompes Funèbres Musulmanes Le Havre (76) | Al Hayaat — Siège | 24h/7j",
+    description: "Al Hayaat, pompes funèbres musulmanes basées au Havre (44 Rue Saint-Jacques, 76600). Toilette rituelle, carré musulman, rapatriement. Siège Normandie. Habilitation préfectorale. 24h/24.",
     url: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
     siteName: "Al Hayaat Pompes Funèbres Musulmanes",
     locale: "fr_FR",
@@ -104,10 +104,16 @@ export default function PompesFunebresLeHavre() {
             <span className="text-[10px] tracking-[0.2em] font-medium text-[#666] uppercase">Normandie • Seine-Maritime</span>
           </div>
           <h1 className="text-[36px] md:text-[52px] font-medium leading-[1.1] tracking-tight text-[#111] mb-8">
-            Pompes Funèbres Musulmanes<br className="hidden md:block" /> à Le Havre (76)
+            Pompes Funèbres Musulmanes au Havre (76) — Siège Al Hayaat
           </h1>
+          <p className="text-[15px] md:text-[16px] font-light leading-[1.7] text-[#555] max-w-[700px] mb-8">
+            La perte d&apos;un proche est une épreuve douloureuse. Au Havre (76600) et dans toute l&apos;agglomération havraise, <strong>PF Al Hayaat</strong> (habilitation préfectorale) vous accompagne avec dignité et humanité. Située au 44 Rue Saint-Jacques au Havre, notre équipe est disponible 24h/24 et 7j/7 pour organiser des obsèques strictement conformes au rite islamique, vous déchargeant ainsi de tout le poids administratif et logistique.
+          </p>
+          <h2 className="text-[24px] font-medium text-[#111] tracking-tight mb-4">
+            Le Havre : Le Cœur de l'Activité d'Al Hayaat en Normandie
+          </h2>
           <p className="text-[15px] md:text-[16px] font-light leading-[1.7] text-[#555] max-w-[700px]">
-            La perte d&apos;un proche est une épreuve douloureuse. Au Havre (76600) et dans toute l&apos;agglomération havraise, <strong>PF Al Hayaat</strong> (habilitation préfectorale) vous accompagne avec dignité et humanité. Située au 30 Rue Saint-Jacques au Havre, notre équipe est disponible 24h/24 et 7j/7 pour organiser des obsèques strictement conformes au rite islamique, vous déchargeant ainsi de tout le poids administratif et logistique.
+            Notre siège social est établi au 44 Rue Saint-Jacques, 76600 Le Havre. Depuis cette base, Al Hayaat rayonne sur toute la Seine-Maritime et l'ensemble de la Normandie. Le Havre est une ville à forte population musulmane, notamment dans les quartiers de Caucriauville, Mont-Gaillard, Sanvic et Les Neiges. Notre connaissance de ces quartiers et de leurs mosquées nous permet d'intervenir avec une réactivité maximale.
           </p>
         </div>
       </section>
@@ -136,10 +142,10 @@ export default function PompesFunebresLeHavre() {
               Inhumation dans un carré musulman au Havre
             </h2>
             <p>
-              L&apos;inhumation en pleine terre et l&apos;orientation du défunt vers La Mecque (Qibla) sont des piliers du rite funéraire musulman. Au Havre, plusieurs infrastructures permettent d&apos;accueillir les défunts de confession musulmane dans des carrés dédiés, notamment au sein des grands cimetières de l&apos;agglomération havraise (Cimetière Nord, Cimetière Sainte-Marie, etc., selon les disponibilités et réglementations communales). 
+              L&apos;inhumation en pleine terre et l&apos;orientation du défunt vers La Mecque (Qibla) sont des piliers du rite funéraire musulman. Au Havre, plusieurs infrastructures permettent d&apos;accueillir les défunts de confession musulmane dans des carrés dédiés, notamment au sein des grands cimetières de l&apos;agglomération havraise.
             </p>
             <p>
-              Nous gérons pour vous l&apos;acquisition de la concession funéraire auprès des services de l&apos;état civil du Havre, ainsi que les travaux de fossoyage (ouverture et fermeture du caveau ou de la fosse).
+              Le Cimetière Nord du Havre (Rue Jule Lecesne) et le Cimetière Sainte-Marie disposent d'espaces permettant l'inhumation selon le rite islamique. Al Hayaat gère la demande de concession auprès des services d'état civil du Havre, et s'assure de l'orientation correcte du corps vers la Qibla.
             </p>
           </div>
 

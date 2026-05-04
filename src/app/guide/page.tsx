@@ -5,16 +5,16 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/guide";
   return {
-    title: "Guide Islam & Funérailles — Al Hayat",
-    description: "Guides complets sur les rites funéraires islamiques : douas, condoléances, deuil, salat janaza, kafan. Ressources en arabe et français.",
+    title: "Guide des Rites Funéraires Islamiques — Invocations, Deuil, Obsèques | Al Hayaat",
+    description: "Guide complet des rites funéraires islamiques : douas pour le mort, condoléances en islam, Salat al-Janaza, kafan, deuil, 40 jours. Invocations en arabe avec traduction.",
     
     
     alternates: {
       canonical: url,
     },
     openGraph: {
-      title: "Guide Islam & Funérailles — Al Hayat",
-      description: "Guides complets sur les rites funéraires islamiques : douas, condoléances, deuil, salat janaza, kafan. Ressources en arabe et français.",
+      title: "Guide des Rites Funéraires Islamiques — Invocations, Deuil, Obsèques | Al Hayaat",
+      description: "Guide complet des rites funéraires islamiques : douas pour le mort, condoléances en islam, Salat al-Janaza, kafan, deuil, 40 jours. Invocations en arabe avec traduction.",
       url: url,
       siteName: "Al Hayaat Pompes Funèbres Musulmanes",
       locale: "fr_FR",
@@ -57,7 +57,7 @@ export default function GuidePage() {
             Guide des Rites Funéraires Islamiques
           </h1>
           <p className="text-[15px] font-light leading-[1.7] text-white/60 max-w-[520px]">
-            Ressources complètes sur les traditions funéraires musulmanes. Invocations en arabe avec traduction, guides pratiques, explications des rites.
+            Ce guide a été rédigé par Al Hayaat pour aider les familles musulmanes à comprendre et accomplir correctement les rites funéraires islamiques. Face à la perte d'un proche, connaître les obligations et les recommandations de la Sunnah apporte une forme de paix et de structure dans la douleur. Toutes les invocations (douas) sont présentées avec le texte arabe original, la phonétique française et la traduction, avec les références hadith authentifiées.
           </p>
         </div>
       </section>

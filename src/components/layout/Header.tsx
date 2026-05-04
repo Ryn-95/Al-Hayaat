@@ -85,7 +85,7 @@ export function Header() {
           <div className="hidden md:flex items-center gap-4">
             <div className={`hidden lg:flex flex-col items-end mr-2 ${scrolled || !isHome ? "text-[#111]" : "text-white"}`}>
               <span className="text-[10px] font-semibold tracking-[0.1em] uppercase opacity-70">Urgence 24h/7j</span>
-              <a href="tel:+33763214656" className="text-[13px] font-bold tracking-wider">07 63 21 46 56</a>
+              <a href="tel:+33763214656" className="text-[13px] font-bold tracking-wider text-[#A83232]">07 63 21 46 56</a>
             </div>
             <Link
               href="/contact"

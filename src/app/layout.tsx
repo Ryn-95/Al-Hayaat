@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CookieBanner } from "@/components/layout/CookieBanner";
+import { ConditionalUniversalCTA } from "@/components/layout/ConditionalUniversalCTA";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -104,6 +105,7 @@ export default function RootLayout({
       <body className="font-inter bg-white text-ink antialiased selection:bg-black selection:text-white">
         <Header />
         <main>{children}</main>
+        <ConditionalUniversalCTA />
         <Footer />
         <CookieBanner />
       </body>

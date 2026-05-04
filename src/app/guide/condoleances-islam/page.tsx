@@ -7,8 +7,8 @@ import { buildArticleSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/guide/condoleances-islam";
   return {
-    title: "Condoléances en Islam : Messages, Prières et Formules Complètes",
-    description: "Comment exprimer ses condoléances en Islam ? Prière, messages en arabe et en français, gestes à faire, durée du deuil. Guide complet.",
+    title: "Condoléances en Islam — Formules, Messages et Prières | Al Hayaat",
+    description: "Comment présenter des condoléances en Islam ? Formules en arabe, messages en français, douas pour la famille en deuil. Guide complet avec références coraniques.",
     keywords: ["condoléances islam"],
     
     alternates: {
@@ -40,15 +40,16 @@ export default function CondoleancesIslamPage() {
       <section className="relative w-full pt-28 pb-16 bg-[#0D1208] text-white">
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8 md:px-12">
           <Breadcrumbs items={[{ label: "Guide", href: "/guide" }, { label: "Condoléances Islam", href: "/guide/condoleances-islam" }]} />
-          <h1 className="text-[2.2rem] md:text-[3rem] font-semibold leading-[1.1] tracking-[-0.02em] text-white mb-6 mt-6 max-w-[700px]">Condoléances Musulmanes : Comment les Exprimer ?</h1>
+          <h1 className="text-[2.2rem] md:text-[3rem] font-semibold leading-[1.1] tracking-[-0.02em] text-white mb-6 mt-6 max-w-[700px]">Condoléances Musulmanes : Comment les Exprimer en Islam ?</h1>
+          <p className="text-[15px] font-light leading-[1.8] text-white/70 max-w-[640px]">Présenter ses condoléances (ta'azia — التعزية) est une obligation morale et un devoir spirituel en Islam. Le Prophète ﷺ a dit : « Tout musulman qui présente ses condoléances à son frère dans l'épreuve sera revêtu d'un vêtement de dignité au Jour du Jugement » (Sunan Ibn Majah, n°1601). En Islam, les condoléances ne sont pas de simples formules de politesse — elles constituent un acte d'adoration et un soutien concret à la famille endeuillée. Ce guide vous accompagne pour exprimer vos condoléances de manière juste et touchante.</p>
         </div>
       </section>
       <section className="w-full bg-[#F5F0E8] py-20 md:py-28">
         <div className="w-full max-w-[1280px] mx-auto px-8 md:px-12"><div className="max-w-[780px]">
-          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">L&apos;importance des condoléances en Islam</h2>
-          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Présenter ses condoléances (ta&apos;azia) est une obligation morale et spirituelle en Islam. Le Prophète ﷺ a dit : « Tout musulman qui présente ses condoléances à son frère éprouvé sera revêtu d&apos;un vêtement de dignité au Jour du Jugement. » Il est recommandé de rendre visite à la famille endeuillée dans les 3 premiers jours suivant le décès.</p>
+                    <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Quand Présenter ses Condoléances ?</h2>
+          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">Les condoléances doivent être présentées dans les 3 jours suivant le décès. Il est recommandé de rendre visite à la famille en deuil à son domicile. Si la distance ne le permet pas, un appel téléphonique, un message ou une carte écrite sont acceptés. Il n'y a pas de limite dans le temps pour exprimer ses condoléances, mais la priorité est aux 3 premiers jours.</p>
 
-          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La formule essentielle</h2>
+<h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La formule essentielle</h2>
           <div className="p-6 bg-white border border-[#E8E2D9] rounded-[12px] mb-8">
             <p className="text-[28px] text-right font-light text-[#1A1A1A] mb-3 leading-[2]" dir="rtl">إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ</p>
             <p className="text-[14px] text-[#7A5C3A] font-medium mb-2">Inna lillahi wa inna ilayhi raji&apos;oun</p>
@@ -70,17 +71,41 @@ export default function CondoleancesIslamPage() {
             </div>
           ))}
 
-          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6 mt-8">Messages en français pour une famille musulmane</h2>
-          <div className="flex flex-col gap-3 mb-8">{[
-            "« Nous vous présentons nos plus sincères condoléances. Qu'Allah accorde Sa miséricorde au défunt et vous accorde patience et courage. »",
-            "« En cette épreuve douloureuse, sachez que nous pensons à vous et à votre famille. Qu'Allah lui accorde le Firdaws. »",
-            "« Inna lillahi wa inna ilayhi raji'oun. Toute la famille vous adresse ses condoléances les plus attristées. »",
-          ].map((msg, i) => (<p key={i} className="text-[14.5px] text-[#555] font-light leading-[1.7] italic p-4 bg-white border-l-2 border-[#2D6A2D] rounded-r-[8px]">{msg}</p>))}</div>
+                    <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6 mt-8">Messages de Condoléances Complets en Français</h2>
+          <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-6">Voici des messages adaptés à différentes situations, prêts à envoyer par message ou WhatsApp :</p>
+          <div className="flex flex-col gap-4 mb-8">
+            <div className="p-4 bg-white border-l-2 border-[#2D6A2D] rounded-r-[8px]">
+              <p className="text-[13px] font-semibold text-[#1A1A1A] mb-1">Pour un ami :</p>
+              <p className="text-[14.5px] text-[#555] font-light leading-[1.7] italic">"Inna lillahi wa inna ilayhi raji'oun. Nous apprenons avec une grande tristesse le décès de [prénom]. Que Allah lui accorde Sa miséricorde et le Firdaws, et vous accorde patience et réconfort. Nous sommes à vos côtés."</p>
+            </div>
+            <div className="p-4 bg-white border-l-2 border-[#2D6A2D] rounded-r-[8px]">
+              <p className="text-[13px] font-semibold text-[#1A1A1A] mb-1">Pour un collègue :</p>
+              <p className="text-[14.5px] text-[#555] font-light leading-[1.7] italic">"En cette épreuve douloureuse, je vous adresse mes sincères condoléances. Qu'Allah couvre votre défunt de Sa miséricorde et vous donne la force de traverser ce moment difficile."</p>
+            </div>
+            <div className="p-4 bg-white border-l-2 border-[#2D6A2D] rounded-r-[8px]">
+              <p className="text-[13px] font-semibold text-[#1A1A1A] mb-1">Pour une famille dont le proche est décédé à l'étranger :</p>
+              <p className="text-[14.5px] text-[#555] font-light leading-[1.7] italic">"Inna lillahi wa inna ilayhi raji'oun. Nous pensons à vous et prions pour le défunt. Qu'Allah facilite le rapatriement et accorde une belle résurrection à votre proche."</p>
+            </div>
+          </div>
 
-          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Ce qu&apos;il faut faire lors des condoléances</h2>
-          <ul className="flex flex-col gap-2 mb-8">{["Rendre visite à la famille endeuillée", "Préparer un repas pour la famille (Sunnah)", "Réciter des douas pour le défunt", "S'abstenir de rires ou divertissements", "Faire des dons (sadaqa) en mémoire du défunt"].map((t, i) => (<li key={i} className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#2D6A2D] mt-2 shrink-0" />{t}</li>))}</ul>
+<h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Ce qu'il Faut Faire et Éviter lors des Condoléances</h2>
+          <p className="text-[16px] font-medium text-[#1A1A1A] mb-3">À faire :</p>
+          <ul className="flex flex-col gap-2 mb-6">
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#2D6A2D] mt-2 shrink-0" />Réciter l'istirja' (Inna lillahi wa inna ilayhi raji'oun) à l'annonce du décès</li>
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#2D6A2D] mt-2 shrink-0" />Préparer un repas pour la famille endeuillée (Sunnah confirmée)</li>
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#2D6A2D] mt-2 shrink-0" />Réciter des douas pour le défunt en leur présence</li>
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#2D6A2D] mt-2 shrink-0" />Rappeler à la famille les récompenses de la patience (sabr)</li>
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#2D6A2D] mt-2 shrink-0" />Faire un don (sadaqa) en mémoire du défunt</li>
+          </ul>
+          <p className="text-[16px] font-medium text-[#1A1A1A] mb-3">À éviter :</p>
+          <ul className="flex flex-col gap-2 mb-8">
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#A83232] mt-2 shrink-0" />Les lamentations excessives et les pleurs bruyants</li>
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#A83232] mt-2 shrink-0" />Les rires et divertissements en présence de la famille</li>
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#A83232] mt-2 shrink-0" />Prolonger trop longtemps la visite si la famille est épuisée</li>
+            <li className="flex items-start gap-3 text-[14.5px] text-[#555] font-light"><span className="w-1.5 h-1.5 rounded-full bg-[#A83232] mt-2 shrink-0" />Les questions indiscrètes sur les circonstances du décès</li>
+          </ul>
 
-          <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La période de deuil</h2>
+<h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La période de deuil</h2>
           <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">En savoir plus sur <Link href="/guide/deuil-islam" className="text-[#2D6A2D] font-medium hover:underline">le deuil en Islam</Link> et <Link href="/guide/40-jours-islam" className="text-[#2D6A2D] font-medium hover:underline">les 40 jours après un décès</Link>.</p>
 
           <div className="p-6 bg-[#0D1208] rounded-[12px] text-white mt-10">

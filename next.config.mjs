@@ -50,6 +50,26 @@ const nextConfig = {
         source: "/rapatriement-maroc",
         destination: "/rapatriement-corps-maroc",
         permanent: true,
+      },
+      {
+        source: "/rapatriement-corps-comores",
+        destination: "/rapatriement-corps-afrique",
+        permanent: true,
+      },
+      {
+        source: "/rapatriement-corps-guinee",
+        destination: "/rapatriement-corps-afrique",
+        permanent: true,
+      },
+      {
+        source: "/rapatriement-corps-mauritanie",
+        destination: "/rapatriement-corps-afrique",
+        permanent: true,
+      },
+      {
+        source: "/rapatriement-corps-cote-divoire",
+        destination: "/rapatriement-corps-afrique",
+        permanent: true,
       }
     ];
   },

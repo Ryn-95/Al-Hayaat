@@ -18,8 +18,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-[13px] text-[#666] leading-[1.7] font-light max-w-[300px]">
-              Al Hayaat — Pompes Funèbres Musulmanes<br/>
-              Spécialisée dans les obsèques islamiques en Normandie et à Paris. Toilette rituelle (Ghusl), Salat al-Janaza, inhumation en carré musulman, rapatriement vers l&apos;Algérie, le Maroc, la Tunisie et +20 pays. Habilitation préfectorale. Disponibles 24h/24, 7j/7.
+              Al Hayaat — Pompes Funèbres Musulmanes spécialisées dans les obsèques islamiques en Normandie et à Paris. Toilette rituelle (Ghusl al-Mayyit), Salat al-Janaza, inhumation en carré musulman, rapatriement de corps vers l&apos;Algérie, le Maroc, la Tunisie, le Mali, le Sénégal et +20 pays. Habilitation préfectorale. Disponibles 24h/24, 7j/7.
             </p>
           </div>
 
@@ -54,10 +53,15 @@ export function Footer() {
               { label: "Caen", href: "/pompes-funebres-musulmanes-caen" },
               { label: "Dieppe", href: "/pompes-funebres-musulmanes-dieppe" },
               { label: "Évreux", href: "/pompes-funebres-musulmanes-evreux" },
+              { label: "Cherbourg", href: "/pompes-funebres-musulmanes-cherbourg" },
+              { label: "Alençon", href: "/pompes-funebres-musulmanes-alencon" },
+              { label: "Sotteville-lès-Rouen", href: "/pompes-funebres-musulmanes-sotteville-les-rouen" },
+              { label: "Val-de-Reuil", href: "/pompes-funebres-musulmanes-val-de-reuil" },
               { label: "Paris", href: "/pompes-funebres-musulmanes-paris" },
-              { label: "Saint-Denis (93)", href: "/pompes-funebres-musulmanes-saint-denis" },
-              { label: "Argenteuil (95)", href: "/pompes-funebres-musulmanes-argenteuil" },
-              { label: "Toute l'Île-de-France", href: "/ile-de-france" }
+              { label: "Saint-Denis", href: "/pompes-funebres-musulmanes-saint-denis" },
+              { label: "Argenteuil", href: "/pompes-funebres-musulmanes-argenteuil" },
+              { label: "Sarcelles", href: "/pompes-funebres-musulmanes-95-sarcelles" },
+              { label: "Bobigny", href: "/pompes-funebres-musulmanes-93-bobigny" }
             ].map((l) => (
               <Link
                 key={l.label}
@@ -79,8 +83,10 @@ export function Footer() {
               { label: "Salat al-Janaza", href: "/salat-al-janaza" },
               { label: "Rapatriement Algérie", href: "/rapatriement-corps-algerie" },
               { label: "Rapatriement Maroc", href: "/rapatriement-corps-maroc" },
+              { label: "Rapatriement Tunisie", href: "/rapatriement-corps-tunisie" },
               { label: "Carré Musulman", href: "/inhumation-carre-musulman" },
-              { label: "Démarches Admin.", href: "/demarches-administratives-deces" }
+              { label: "Démarches Administratives", href: "/demarches-administratives-deces" },
+              { label: "Assurance Décès", href: "/assurance-deces-musulmane" }
             ].map((l) => (
               <Link
                 key={l.label}
