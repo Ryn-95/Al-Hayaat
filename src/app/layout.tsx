@@ -20,8 +20,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Pompes Funèbres Musulmanes Rouen, Le Havre & Paris | Al Hayaat | 24h/7j",
-  description: "Al Hayaat accompagne les familles musulmanes en Normandie (Rouen, Le Havre, Caen) et Paris. Toilette rituelle ghusl, Salat Janaza, rapatriement Algérie Maroc Tunisie. Disponible 24h/24 7j/7.",
+  title: "Pompes Funèbres Musulmanes Normandie & Paris | Al Hayaat | 24h/7j",
+  description: "Al Hayaat accompagne les familles musulmanes de Normandie (Rouen, Le Havre, Caen) et de Paris. Toilette rituelle, Salat al-Janaza, rapatriement Algérie/Maroc/Tunisie. Habilitation préfectorale. Disponibles 24h/24.",
   alternates: {
     canonical: "https://pompesfunebres-alhayaat.fr",
   },

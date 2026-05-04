@@ -7,16 +7,16 @@ import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/demarches-administratives-deces";
   return {
-    title: "Démarches Administratives Décès Musulman — Al Hayat",
-    description: "Que faire après un décès musulman ? Déclaration en mairie, acte de décès, formalités consulaires pour rapatriement. Al Hayat gère tout pour vous, 24h/24.",
+    title: "Démarches Administratives après un Décès Musulman | Al Hayaat — Normandie & Paris",
+    description: "Déclaration de décès, acte de décès, autorisation d'inhumer, formalités consulaires : Al Hayaat gère 100% des démarches administratives pour les familles musulmanes de Normandie et Paris.",
     keywords: ["démarches administratives décès", "que faire après un deces musulman", "déclaration décès", "acte de décès", "formalités obsèques"],
     
     alternates: {
       canonical: url,
     },
     openGraph: {
-      title: "Démarches Administratives Décès Musulman — Al Hayat",
-      description: "Que faire après un décès musulman ? Déclaration en mairie, acte de décès, formalités consulaires pour rapatriement. Al Hayat gère tout pour vous, 24h/24.",
+      title: "Démarches Administratives après un Décès Musulman | Al Hayaat — Normandie & Paris",
+      description: "Déclaration de décès, acte de décès, autorisation d'inhumer, formalités consulaires : Al Hayaat gère 100% des démarches administratives pour les familles musulmanes de Normandie et Paris.",
       url: url,
       siteName: "Al Hayaat Pompes Funèbres Musulmanes",
       locale: "fr_FR",
@@ -39,6 +39,8 @@ const faqs = [
   { question: "Quels documents faut-il pour le rapatriement ?", answer: "Pour le rapatriement, il faut : l\u0027acte de décès, le certificat de non-contagion, l\u0027autorisation préfectorale de transfert, et les documents consulaires du pays de destination." },
   { question: "Al Hayat gère-t-il les formalités avec les consulats ?", answer: "Oui, Al Hayat coordonne toutes les formalités consulaires : Algérie, Maroc, Tunisie, Mali, Sénégal, et tous les pays de destination pour le rapatriement." },
   { question: "Combien de temps a-t-on pour inhumer en France ?", answer: "La loi française impose un délai maximum de 6 jours ouvrables après le décès pour procéder à l\u0027inhumation. En Islam, la rapidité est recommandée — idéalement dans les 24 heures." },
+  { question: "Qui peut déclarer un décès en mairie ?", answer: "Tout proche du défunt peut déclarer le décès. Al Hayaat effectue systématiquement cette démarche pour vous, avec une procuration si nécessaire." },
+  { question: "Combien de copies de l'acte de décès faut-il demander ?", answer: "Il faut demander au moins 10 copies de l'acte de décès. Chaque organisme (banque, assurance, mutuelle, CAF, retraite, sécurité sociale) exigera un original. Al Hayaat s'en charge pour vous." }
 ];
 
 export default function DemarchesAdminPage() {
@@ -49,10 +51,10 @@ export default function DemarchesAdminPage() {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8 md:px-12">
           <Breadcrumbs items={[{ label: "Services", href: "#" }, { label: "Démarches Administratives", href: "/demarches-administratives-deces" }]} />
           <h1 className="text-[2.2rem] md:text-[3rem] font-semibold leading-[1.1] tracking-[-0.02em] text-white mb-6 mt-6 max-w-[700px]">
-            Démarches Administratives après un Décès Musulman
+            Démarches Administratives après un Décès Musulman — Al Hayaat s'en occupe
           </h1>
           <p className="text-[15px] font-light leading-[1.8] text-white/70 max-w-[640px]">
-            Un décès entraîne une cascade de formalités administratives que la famille doit accomplir dans des délais souvent très courts. Du certificat de décès à l&apos;autorisation d&apos;inhumer, en passant par les formalités consulaires pour le rapatriement, chaque étape requiert des documents précis et des interlocuteurs spécifiques. Al Hayat Pompes Funèbres Musulmanes prend en charge l&apos;intégralité de ces démarches pour que les familles puissent se consacrer au recueillement et à la prière. Notre équipe connaît les procédures de chaque mairie, chaque préfecture et chaque consulat en Normandie et en Île-de-France.
+            Un décès entraîne une série de formalités administratives urgentes que les familles en deuil doivent accomplir dans des délais très courts — souvent 24 à 48 heures. Pour une famille musulmane, ces démarches s'ajoutent à la nécessité d'organiser rapidement les rites islamiques conformément à la Sunnah. Al Hayaat Pompes Funèbres Musulmanes, habilitée par la préfecture, prend en charge l'intégralité de ces procédures en Normandie (Rouen, Le Havre, Caen, Dieppe, Évreux) et en Île-de-France (Paris, Saint-Denis, Argenteuil). Vous vous concentrez sur le deuil et la prière — nous gérons le reste.
           </p>
         </div>
       </section>

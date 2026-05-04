@@ -7,16 +7,16 @@ import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/inhumation-carre-musulman";
   return {
-    title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayat",
-    description: "Inhumation islamique dans un carré musulman en Normandie et Île-de-France. Orientation Qibla, démarches de concession, loi française. Al Hayat 24h/24.",
+    title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayaat",
+    description: "Al Hayaat organise l'inhumation dans un carré musulman en Normandie et à Paris. Orientation Qibla, démarches mairie, fossoyage. Corps orienté vers La Mecque. Disponible 24h/24.",
     keywords: ["inhumation islamique"],
     
     alternates: {
       canonical: url,
     },
     openGraph: {
-      title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayat",
-      description: "Inhumation islamique dans un carré musulman en Normandie et Île-de-France. Orientation Qibla, démarches de concession, loi française. Al Hayat 24h/24.",
+      title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayaat",
+      description: "Al Hayaat organise l'inhumation dans un carré musulman en Normandie et à Paris. Orientation Qibla, démarches mairie, fossoyage. Corps orienté vers La Mecque. Disponible 24h/24.",
       url: url,
       siteName: "Al Hayaat Pompes Funèbres Musulmanes",
       locale: "fr_FR",
@@ -39,6 +39,8 @@ const faqs = [
   { question: "Comment obtenir une concession dans un carré musulman ?", answer: "La demande se fait auprès de la mairie de la commune où se situe le cimetière. Al Hayat effectue ces démarches pour vous et vous informe des disponibilités dans votre zone." },
   { question: "Le corps doit-il être orienté vers La Mecque ?", answer: "Oui, selon la Sunnah, le défunt est placé sur le côté droit, face tournée vers la Qibla (direction de La Mecque). Al Hayat vérifie l\u0027orientation de chaque tombe avant l\u0027inhumation." },
   { question: "Peut-on fleurir une tombe musulmane ?", answer: "Les fleurs ne sont pas interdites en Islam mais la sobriété est recommandée. La tradition privilégie la simplicité. Le Prophète ﷺ a placé une branche verte sur une tombe (Sahih al-Bukhari), ce qui autorise la végétation naturelle." },
+  { question: "Comment Al Hayaat trouve-t-il une place dans un carré musulman ?", answer: "Al Hayaat contacte directement les services d'état civil de la mairie concernée pour vérifier les disponibilités et réserver une concession. Nous connaissons la situation exacte de chaque cimetière en Normandie et en IDF." },
+  { question: "Peut-on visiter la tombe d'un musulman en Islam ?", answer: "Oui, la visite au cimetière est recommandée en Islam (mustahabb). Elle rappelle la mort et permet de faire des douas pour le défunt. Le Prophète ﷺ visitait régulièrement le cimetière de Baqi'." }
 ];
 
 export default function InhumationCarreMusulmanPage() {
@@ -50,7 +52,7 @@ export default function InhumationCarreMusulmanPage() {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8 md:px-12">
           <Breadcrumbs items={[{ label: "Services", href: "#" }, { label: "Inhumation Carré Musulman", href: "/inhumation-carre-musulman" }]} />
           <h1 className="text-[2.2rem] md:text-[3rem] font-semibold leading-[1.1] tracking-[-0.02em] text-white mb-6 mt-6 max-w-[700px]">
-            Inhumation dans un Carré Musulman en France
+            Inhumation dans un Carré Musulman en Normandie et à Paris
           </h1>
           <p className="text-[15px] font-light leading-[1.8] text-white/70 max-w-[640px]">
             L&apos;inhumation est l&apos;unique mode de sépulture autorisé en Islam — la crémation est strictement interdite par consensus des savants. En France, les familles musulmanes disposent de carrés confessionnels dans certains cimetières communaux pour inhumer leurs défunts selon les rites islamiques. Al Hayat Pompes Funèbres Musulmanes accompagne les familles de Normandie et d&apos;Île-de-France dans chaque étape : recherche de concession, démarches administratives, et mise en terre conforme à la Sunnah. Notre équipe, habilitée par la préfecture, garantit que l&apos;inhumation respecte à la fois le droit français et les prescriptions religieuses.
@@ -119,6 +121,15 @@ export default function InhumationCarreMusulmanPage() {
                 <Link key={c.l} href={c.h} className="px-4 py-2 bg-white border border-[#E8E2D9] rounded-full text-[13px] text-[#2D6A2D] font-medium hover:border-[#2D6A2D]/30 transition-all">{c.l}</Link>
               ))}
             </div>
+
+            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Les Cimetières avec Carré Musulman en Normandie</h2>
+            <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">
+              Al Hayaat connaît la situation exacte des carrés musulmans dans chaque commune de Normandie. Voici les principaux cimetières disposant d'un espace confessionnel musulman :<br /><br />
+              <strong>Rouen (76) :</strong> Le cimetière monumental de Rouen (Route de Darnétal) dispose d'un carré musulman. Les cimetières de Bonsecours, Sotteville-lès-Rouen et Saint-Étienne-du-Rouvray accueillent également des inhumations islamiques.<br /><br />
+              <strong>Le Havre (76) :</strong> Le cimetière Nord et le cimetière Sainte-Marie du Havre disposent d'espaces dédiés aux inhumations musulmanes, selon les disponibilités et la réglementation communale.<br /><br />
+              <strong>Caen (14) :</strong> Le cimetière de la Côte de Nacre à Caen propose un carré musulman. Contactez Al Hayaat pour vérifier les disponibilités.<br /><br />
+              <strong>Évreux (27) :</strong> Le cimetière municipal d'Évreux accueille les inhumations islamiques dans un espace dédié.
+            </p>
 
             <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Carrés musulmans en Île-de-France</h2>
             <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">

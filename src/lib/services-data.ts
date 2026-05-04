@@ -13,46 +13,59 @@ export interface ServicePageData {
     href: string;
     description: string;
   }[];
+  faqs?: {
+    question: string;
+    answer: string;
+  }[];
 }
 
 export const servicesData: ServicePageData[] = [
   {
     slug: "obseques-musulmanes",
-    title: "Obsèques musulmanes en Île-de-France — Al Hayaat",
-    h1: "Obsèques musulmanes en Île-de-France",
+    title: "Obsèques Musulmanes en Normandie et Paris | Al Hayaat | 24h/7j",
+    h1: "Organisation des Obsèques Musulmanes — Normandie & Paris",
     metaDescription:
-      "Organisation complète d'obsèques musulmanes à Paris et en Île-de-France. Respect des rites islamiques, disponibilité 24h/24. Devis gratuit — Al Hayaat.",
+      "Al Hayaat organise des obsèques musulmanes complètes en Normandie et à Paris. Toilette rituelle, Salat al-Janaza, inhumation en carré musulman, rapatriement. Habilitation préfectorale. Devis gratuit.",
     heroDescription:
-      "Al Hayaat organise l'intégralité des obsèques musulmanes en Île-de-France et en Normandie, dans le strict respect des rites islamiques. De la mise en bière à l'inhumation en carré musulman, nous prenons en charge chaque étape avec dignité, discrétion et professionnalisme.",
+      "Organiser des obsèques musulmanes dans le respect de la Sunnah nécessite une expertise que peu d'entreprises funéraires maîtrisent vraiment. Al Hayaat est née de cette nécessité : offrir aux familles musulmanes de Normandie et d'Île-de-France un accompagnement complet, rigoureux et humain, de la première heure jusqu'à la mise en terre. Habilitée par la préfecture, notre équipe connaît chaque étape du rite funéraire islamique — toilette rituelle, mise en kafan, Salat al-Janaza, inhumation dans un carré musulman — et maîtrise le cadre légal français qui s'y applique. Nous intervenons à Rouen, Le Havre, Caen, Paris, Saint-Denis et partout en Normandie et en IDF, 24h/24.",
     sections: [
       {
-        title: "Un accompagnement de A à Z",
+        title: "Les Étapes des Obsèques Musulmanes",
         content:
-          "Dès la survenue du décès, notre équipe se déplace à votre domicile, à l'hôpital ou en maison de retraite. Nous prenons en charge le transport du défunt, les démarches administratives (certificat de décès, déclaration en mairie, autorisations), la préparation selon les rites islamiques (toilette rituelle, mise en bière), et l'organisation de l'inhumation en carré musulman. Un interlocuteur unique vous accompagne tout au long du processus.",
+          "**1. La prise en charge immédiate du défunt**\nDès le décès constaté, Al Hayaat intervient pour le transport du corps vers une chambre funéraire. Conformément à la Sunnah, la rapidité est essentielle. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Notre équipe se déplace à domicile, à l'hôpital ou en EHPAD dans les meilleurs délais.\n\n**2. La toilette rituelle (Ghusl al-Mayyit)**\nLe Ghusl est une obligation collective (fard kifaya) prescrite par le Prophète ﷺ. Notre équipe, composée d'hommes pour les défunts masculins et de femmes pour les défuntes féminines, accomplit ce rite avec pudeur et recueillement. Le corps est lavé un nombre impair de fois à l'eau mélangée de jujubier, puis parfumé au camphre, avant d'être enveloppé dans le kafan.\n\n**3. La mise en kafan (linceul)**\nLe défunt est enveloppé dans le kafan — trois pièces de tissu blanc pour l'homme, cinq pour la femme — selon les prescriptions du Prophète ﷺ. Al Hayaat fournit le kafan en coton ou en lin naturel.\n\n**4. La Salat al-Janaza**\nAl Hayaat coordonne la prière funèbre avec l'imam et la mosquée de votre choix. La Salat al-Janaza peut se tenir à la mosquée ou directement au cimetière avant l'inhumation, selon la volonté de la famille.\n\n**5. L'inhumation en carré musulman**\nLe défunt est inhumé dans un carré confessionnel d'un cimetière municipal, le corps orienté vers la Qibla (direction de La Mecque). Al Hayaat gère la recherche de concession, les démarches en mairie et le fossoyage.",
       },
       {
-        title: "Conformité aux rites islamiques",
+        title: "Ce qu'Al Hayaat Prend en Charge",
         content:
-          "Chaque étape des obsèques est réalisée en conformité avec les prescriptions de l'islam sunnite. La toilette rituelle (ghusl) est effectuée par des professionnels formés du même sexe que le défunt. Le linceul (kafan) est préparé selon la tradition. La salat al-janaza est coordonnée avec l'imam. L'inhumation est réalisée avec le corps orienté vers la Qibla.",
-      },
-      {
-        title: "Disponibilité et réactivité",
-        content:
-          "Un décès ne prévient pas. C'est pourquoi Al Hayaat est joignable 24 heures sur 24, 7 jours sur 7. Notre équipe peut intervenir en moins d'une heure sur l'ensemble de l'Île-de-France. En Normandie, nous intervenons dans les meilleurs délais grâce à notre réseau de partenaires locaux.",
-      },
+          "✓ Transport du corps (domicile, hôpital, EHPAD)\n✓ Toilette rituelle (Ghusl) par équipe qualifiée homme/femme\n✓ Mise en kafan (linceul blanc fourni)\n✓ Fourniture du cercueil en bois naturel\n✓ Salat al-Janaza (coordination avec l'imam)\n✓ Inhumation en carré musulman (orientation Qibla)\n✓ Démarches administratives complètes (mairie, préfecture)\n✓ Rapatriement international (Algérie, Maroc, Tunisie, +20 pays)",
+      }
     ],
     relatedServices: [
       {
-        title: "Toilette rituelle (ghusl)",
-        href: "/toilette-rituelle-ghusl",
-        description: "Le ghusl, réalisé dans le respect absolu des prescriptions coraniques.",
+        title: "Toilette rituelle (Ghusl)",
+        href: "/toilette-rituelle-musulmane",
+        description: "Lavage rituel du corps selon la Sunnah, réalisé par notre équipe qualifiée.",
       },
       {
-        title: "Gestion administrative",
-        href: "/gestion-administrative",
+        title: "Démarches Administratives",
+        href: "/demarches-administratives-deces",
         description: "Toutes les démarches prises en charge pour soulager la famille.",
       },
     ],
+    faqs: [
+      {
+        question: "Combien de temps faut-il pour organiser des obsèques musulmanes ?",
+        answer: "En France, la loi impose un délai minimum de 24h et maximum de 6 jours ouvrables entre le décès et l'inhumation. Al Hayaat s'efforce d'organiser les obsèques dans les 48 à 72 heures, conformément à la recommandation islamique de rapidité."
+      },
+      {
+        question: "La crémation est-elle possible pour un musulman ?",
+        answer: "Non. Le consensus des savants musulmans interdit la crémation. L'inhumation est la seule sépulture conforme à l'Islam. Al Hayaat propose exclusivement l'inhumation et le rapatriement."
+      },
+      {
+        question: "Peut-on organiser des obsèques musulmanes en France pour quelqu'un décédé à l'étranger ?",
+        answer: "Oui. Al Hayaat peut organiser le rapatriement du corps depuis l'étranger vers la France pour une inhumation locale. Contactez-nous immédiatement — les délais sont souvent très courts."
+      }
+    ]
   },
   {
     slug: "rapatriement-corps",

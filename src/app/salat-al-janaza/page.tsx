@@ -7,16 +7,16 @@ import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/salat-al-janaza";
   return {
-    title: "Salat al-Janaza — Prière Funèbre Musulmane | Al Hayat",
-    description: "Organisation de la Salat al-Janaza en Normandie et Paris. Coordination avec les mosquées, les 4 Takbir expliqués. Al Hayat disponible 24h/24.",
+    title: "Salat al-Janaza (Prière Funèbre) — Organisation en Normandie & Paris | Al Hayaat",
+    description: "Al Hayaat organise la Salat al-Janaza avec l'imam de votre choix en Normandie et à Paris. Coordination mosquée, horaires, déroulement complet. Disponible 24h/24.",
     keywords: ["salat al-janaza"],
     
     alternates: {
       canonical: url,
     },
     openGraph: {
-      title: "Salat al-Janaza — Prière Funèbre Musulmane | Al Hayat",
-      description: "Organisation de la Salat al-Janaza en Normandie et Paris. Coordination avec les mosquées, les 4 Takbir expliqués. Al Hayat disponible 24h/24.",
+      title: "Salat al-Janaza (Prière Funèbre) — Organisation en Normandie & Paris | Al Hayaat",
+      description: "Al Hayaat organise la Salat al-Janaza avec l'imam de votre choix en Normandie et à Paris. Coordination mosquée, horaires, déroulement complet. Disponible 24h/24.",
       url: url,
       siteName: "Al Hayaat Pompes Funèbres Musulmanes",
       locale: "fr_FR",
@@ -34,11 +34,9 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 const faqs = [
-  { question: "La Salat al-Janaza est-elle obligatoire ?", answer: "Oui, la Salat al-Janaza est une obligation collective (fard kifaya). Si un groupe suffisant de musulmans l\u0027accomplit, l\u0027obligation est levée pour les autres. Si personne ne l\u0027accomplit, toute la communauté est en péché." },
-  { question: "Combien de Takbir dans la Salat al-Janaza ?", answer: "La Salat al-Janaza comporte 4 Takbir (Allahu Akbar). Après le 1er : la Fatiha. Après le 2e : les salutations sur le Prophète. Après le 3e : la doua pour le défunt. Après le 4e : une courte invocation puis le Salam." },
-  { question: "Les femmes peuvent-elles prier la Salat al-Janaza ?", answer: "Oui, les femmes peuvent accomplir la Salat al-Janaza. Le Prophète ﷺ n\u0027a jamais interdit aux femmes de prier la prière funèbre." },
-  { question: "Peut-on prier la Salat al-Janaza au cimetière ?", answer: "Oui, la Salat al-Janaza peut se tenir à la mosquée, dans une salle de prière ou au cimetière. Al Hayat organise la prière selon les souhaits de la famille." },
-  { question: "Faut-il être en état de pureté pour la Salat al-Janaza ?", answer: "Oui, comme pour toute prière en Islam, les ablutions (wudhu) sont nécessaires avant d\u0027accomplir la Salat al-Janaza." },
+  { question: "La Salat al-Janaza est-elle obligatoire ?", answer: "Oui, c'est une obligation communautaire (fard kifaya). Si personne ne l'accomplit, tous les membres de la communauté sont en faute. Al Hayaat s'assure que cette prière est organisée dans tous les cas." },
+  { question: "Peut-on faire la Salat al-Janaza sans mosquée ?", answer: "Oui. La Salat al-Janaza peut être réalisée en extérieur, au cimetière, ou dans tout espace propre. L'imam peut se déplacer sur place avec Al Hayaat." },
+  { question: "Combien de personnes minimum pour la Salat al-Janaza ?", answer: "Théoriquement, un seul croyant peut accomplir la Salat al-Janaza. Cependant, plus la communauté est nombreuse, plus la récompense est grande pour le défunt." }
 ];
 
 export default function SalatAlJanazaPage() {
@@ -50,10 +48,10 @@ export default function SalatAlJanazaPage() {
         <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8 md:px-12">
           <Breadcrumbs items={[{ label: "Services", href: "#" }, { label: "Salat al-Janaza", href: "/salat-al-janaza" }]} />
           <h1 className="text-[2.2rem] md:text-[3rem] font-semibold leading-[1.1] tracking-[-0.02em] text-white mb-6 mt-6 max-w-[700px]">
-            La Salat al-Janaza — Prière Funèbre en Islam
+            Organisation de la Salat al-Janaza en Normandie et à Paris
           </h1>
           <p className="text-[15px] font-light leading-[1.8] text-white/70 max-w-[640px]">
-            La Salat al-Janaza (صلاة الجنازة) est la prière funèbre que la communauté musulmane accomplit pour le défunt avant son inhumation. Cette prière est une obligation collective (fard kifaya) qui constitue le dernier acte de solidarité envers le musulman décédé. Le Prophète ﷺ a dit : « Priez sur vos morts » (Sunan Ibn Majah). Al Hayat coordonne l&apos;organisation de cette prière avec les mosquées de Normandie et d&apos;Île-de-France, en veillant à ce que chaque famille puisse rendre cet ultime hommage dans la dignité et la sérénité.
+            La Salat al-Janaza (صَلَاةُ الْجَنَازَة) est la prière funèbre que la communauté musulmane accomplit collectivement pour son défunt. C'est une obligation communautaire (fard kifaya) : si un groupe s'en acquitte, les autres en sont dispensés. Négliger cette obligation lorsque personne ne la remplit constitue un péché pour l'ensemble de la communauté. Al Hayaat coordonne l'organisation de la Salat al-Janaza dans toute la Normandie et en Île-de-France — en lien avec la mosquée de votre choix ou l'imam disponible.
           </p>
         </div>
       </section>
@@ -62,21 +60,16 @@ export default function SalatAlJanazaPage() {
         <div className="w-full max-w-[1280px] mx-auto px-8 md:px-12">
           <div className="max-w-[780px]">
 
-            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Qu&apos;est-ce que la Salat al-Janaza ?</h2>
+            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Comment se déroule la Salat al-Janaza ?</h2>
             <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">
-              La Salat al-Janaza est une prière spéciale qui se distingue des cinq prières quotidiennes. Elle ne comporte ni ruku (inclinaison) ni sujud (prosternation). Le prieur reste debout du début à la fin. Elle se compose de quatre Takbir (proclamations de la grandeur d&apos;Allah), entre lesquels des invocations spécifiques sont récitées.
+              La Salat al-Janaza se prie debout, sans roukou ni soujoud. L'imam se place au niveau de la poitrine du défunt (homme) ou au niveau du milieu du corps (femme). Les fidèles doivent être en état de pureté rituelle (wudhu) et faire face à la Qibla.
             </p>
-            <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">
-              Cette prière est un droit du défunt sur la communauté musulmane. Le Prophète ﷺ a dit : « Les droits du musulman sur le musulman sont au nombre de cinq : répondre au salut, visiter le malade, suivre le cortège funèbre, accepter l&apos;invitation et dire yarhamuk Allah à celui qui éternue » (Sahih al-Bukhari, n°1240). Al Hayat facilite l&apos;exercice de ce droit en coordonnant chaque aspect de la prière funèbre.
-            </p>
-
-            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Les 4 Takbir de la Salat al-Janaza</h2>
             <div className="flex flex-col gap-5 mb-8">
               {[
-                { step: "1er Takbir", title: "Récitation de la Fatiha", desc: "Après le premier « Allahu Akbar », on récite la sourate Al-Fatiha. Selon certains savants, on peut aussi réciter une courte sourate après la Fatiha." },
-                { step: "2e Takbir", title: "Salutations sur le Prophète ﷺ", desc: "Après le deuxième Takbir, on récite les salutations sur le Prophète (Salat Ibrahimiyya), la même formule que celle utilisée dans le Tachahoud final des prières." },
-                { step: "3e Takbir", title: "Doua pour le défunt", desc: "C\u0027est le cœur de la prière. On invoque Allah en faveur du défunt : « Allahoumma ighfir lahu warhamhu, wa \u0027afihi wa\u0027fou \u0027anhu » — Ô Allah, pardonne-lui, accorde-lui Ta miséricorde, accorde-lui le salut et pardonne-lui." },
-                { step: "4e Takbir", title: "Invocation finale et Salam", desc: "Après le quatrième Takbir, on fait une courte doua pour l\u0027ensemble des musulmans, puis on conclut par le Taslim (As-salamou alaykoum wa rahmatullah) en tournant la tête à droite." },
+                { step: "1er Takbir", title: "Récitation de la sourate Al-Fatiha", desc: "Après le premier Takbir, on récite silencieusement la sourate Al-Fatiha." },
+                { step: "2e Takbir", title: "Récitation des Salawat sur le Prophète ﷺ", desc: "Après le deuxième Takbir, on récite la prière ibrahimiyya." },
+                { step: "3e Takbir", title: "Doua pour le défunt", desc: "On invoque Allah en faveur du défunt : « Allahoumma ighfir lahu warhamhu... »" },
+                { step: "4e Takbir", title: "Salam final", desc: "Après le quatrième Takbir, on tourne la tête à droite puis à gauche pour le Salam." },
               ].map((s) => (
                 <div key={s.step} className="flex gap-4 items-start p-5 bg-white border border-[#E8E2D9] rounded-[10px]">
                   <div className="w-10 h-8 rounded-full bg-[#7A5C3A] flex items-center justify-center shrink-0">
@@ -90,17 +83,17 @@ export default function SalatAlJanazaPage() {
               ))}
             </div>
 
-            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Comment Al Hayat organise la prière funèbre</h2>
+            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">Mosquées Partenaires en Normandie</h2>
             <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-4">
-              Dès la prise en charge du défunt, Al Hayat contacte la mosquée choisie par la famille pour convenir du moment de la Salat al-Janaza. En Normandie, nous travaillons avec les principales mosquées de Rouen, Le Havre et Caen. En Île-de-France, nos partenariats couvrent Paris et la banlieue proche.
+              Al Hayaat collabore avec les principales mosquées de Normandie pour organiser la Salat al-Janaza dans les meilleures conditions :<br /><br />
+              <strong>Rouen :</strong> Grande Mosquée de Rouen (Rue Jean Jaurès) et mosquées de Sotteville, Grand-Quevilly, Saint-Étienne-du-Rouvray.<br /><br />
+              <strong>Le Havre :</strong> Mosquée En-Nour (Caucriauville), Mosquée de Mont-Gaillard, mosquées de Harfleur et Montivilliers.<br /><br />
+              <strong>Caen :</strong> Mosquée de Caen et lieux de culte du Calvados.
             </p>
-            <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-8">
-              L&apos;imam est prévenu, la communauté informée via les canaux de la mosquée, et le corps du défunt est préparé (toilette rituelle et mise en kafan) avant la prière. Al Hayat assure également le transport du cercueil vers la mosquée et, après la prière, vers le <Link href="/inhumation-carre-musulman" className="text-[#2D6A2D] font-medium hover:underline">carré musulman</Link> ou l&apos;aéroport en cas de <Link href="/rapatriement-corps" className="text-[#2D6A2D] font-medium hover:underline">rapatriement</Link>.
-            </p>
-
-            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La Salat al-Janaza en Normandie et à Paris</h2>
+            
+            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La Salat al-Janaza à Domicile ou au Cimetière</h2>
             <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-6">
-              Al Hayat coordonne la prière funèbre dans toute notre zone d&apos;intervention. Les mosquées partenaires incluent notamment la Mosquée Arrahma de Rouen, la Grande Mosquée du Havre, la Mosquée de Caen, et en Île-de-France, les mosquées de Saint-Denis, Argenteuil et du 18e arrondissement de Paris.
+              Sur demande de la famille, la Salat al-Janaza peut se tenir directement au cimetière avant l'inhumation, ou en chambre funéraire. Al Hayaat s'adapte à chaque situation et coordonne avec l'imam pour trouver l'horaire le plus respectueux des délais islamiques.
             </p>
             <div className="flex flex-wrap gap-2 mb-10">
               {[

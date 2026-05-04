@@ -13,44 +13,44 @@ const ease = [0.16, 1, 0.3, 1] as const;
 const servicesList = [
   {
     num: "01",
-    title: "Obsèques Musulmanes en France",
-    desc: "Organisation complète des funérailles islamiques en Normandie et en Île-de-France : mise en bière selon les règles islamiques, Salat al-Janaza organisée avec l'imam de votre choix, inhumation en carré musulman. Nous intervenons dans tout le 76, le 14, le 27 et le 75/92/93/94/95.",
-    href: "/obseques-musulmanes",
-    img: "/Image/OBSÈQUES MUSULMANES (MISE EN BIÈRE : INHUMATION).png"
-  },
-  {
-    num: "02",
-    title: "Rapatriement de Corps vers l'étranger",
-    desc: "Transport du défunt vers son pays d'origine en 48 à 72h. Algérie, Maroc, Tunisie, Mali, Sénégal, Guinée, Pakistan, Bangladesh, Comores, Côte d'Ivoire et plus de 20 destinations. Coordination complète avec les consulats, préfectures et compagnies aériennes.",
-    href: "/rapatriement-corps",
-    img: "/Image/RAPATRIEMENT (AÉROPORT : LOGISTIQUE).png"
-  },
-  {
-    num: "03",
-    title: "Toilette Rituelle — Ghusl al-Mayyit",
-    desc: "Le lavage mortuaire est réalisé selon la Sunnah du Prophète ﷺ, par des professionnels formés et expérimentés. Équipes séparées hommes et femmes, dans un cadre de dignité absolue.",
+    title: "Toilette Rituelle (Ghusl)",
+    desc: "Lavage rituel du corps selon la Sunnah, réalisé par notre équipe qualifiée — hommes et femmes formés aux prescriptions islamiques.",
     href: "/toilette-rituelle-musulmane",
     img: "/Image/TOILETTE RITUELLE (GHUSL — VERSION SYMBOLIQUE).png"
   },
   {
-    num: "04",
-    title: "Démarches Administratives complètes",
-    desc: "Prise en charge de toutes les formalités : déclaration de décès en mairie, acte de décès, autorisation de fermeture de cercueil, autorisation de transport, certificat de non-contagion, coordination consulaire. Vous n'avez rien à gérer.",
-    href: "/demarches-administratives-deces",
-    img: "/Image/DÉMARCHES ADMINISTRATIVES (CRÉDIBILITÉ).png"
+    num: "02",
+    title: "Salat al-Janaza",
+    desc: "Organisation de la prière funèbre en coordination avec la mosquée de votre choix, en Normandie et à Paris.",
+    href: "/salat-al-janaza",
+    img: "/Image/OBSÈQUES MUSULMANES (MISE EN BIÈRE : INHUMATION).png"
   },
   {
-    num: "05",
-    title: "Fossoyage & Carré Musulman",
-    desc: "Acquisition de concession dans un carré musulman en Normandie et en Île-de-France. Ouverture et fermeture de caveau. Inhumation orientée vers La Mecque (Qibla), selon les prescriptions islamiques.",
+    num: "03",
+    title: "Inhumation Carré Musulman",
+    desc: "Inhumation selon les rites islamiques dans un carré musulman. Le défunt est orienté vers la Qibla, conformément à la Sunnah.",
     href: "/inhumation-carre-musulman",
     img: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1600&auto=format&fit=crop"
   },
   {
+    num: "04",
+    title: "Rapatriement de Corps",
+    desc: "Rapatriement vers l'Algérie, le Maroc, la Tunisie, le Mali, le Sénégal et +20 pays. Prise en charge complète des démarches consulaires.",
+    href: "/rapatriement-corps",
+    img: "/Image/RAPATRIEMENT (AÉROPORT : LOGISTIQUE).png"
+  },
+  {
+    num: "05",
+    title: "Démarches Administratives",
+    desc: "Certificat de décès, déclaration en mairie, autorisation d'inhumer — Al Hayaat gère 100% des formalités pour vous.",
+    href: "/demarches-administratives-deces",
+    img: "/Image/DÉMARCHES ADMINISTRATIVES (CRÉDIBILITÉ).png"
+  },
+  {
     num: "06",
-    title: "Accompagnement Familial personnalisé",
-    desc: "Un conseiller unique dédié à votre famille, disponible 24h/24 et 7j/7. Présent du premier appel jusqu'après l'inhumation — démarches résiduelles, assurances, organismes. Parce que vous ne devez pas traverser ça seuls.",
-    href: "/accompagnement",
+    title: "Assurance Décès Musulmane",
+    desc: "Préparez l'avenir de votre famille avec une assurance décès conforme aux principes islamiques. Devis gratuit.",
+    href: "/assurance-deces-musulmane",
     img: "https://images.unsplash.com/photo-1528696892704-5e1122852276?q=80&w=1600&auto=format&fit=crop"
   }
 ];
@@ -102,7 +102,7 @@ export default function HomePage() {
           >
             <motion.div variants={fadeUp} className="flex items-center gap-2 mb-8">
               <span className="w-1.5 h-1.5 rounded-full bg-[#6BAA6B]" />
-              <span className="text-[10.5px] tracking-[0.18em] font-medium text-white/70 uppercase">Pompes Funèbres Musulmanes — Normandie & Paris · Habilitation Préfectorale</span>
+              <span className="text-[10.5px] tracking-[0.18em] font-medium text-white/70 uppercase">Disponibles 24h/24 — 7j/7 — Habilitation préfectorale</span>
             </motion.div>
 
             <motion.h1 variants={fadeUp} className="text-[2.2rem] md:text-[3.8rem] font-semibold leading-[1.08] tracking-[-0.03em] text-white mb-4 md:mb-6">
@@ -111,7 +111,7 @@ export default function HomePage() {
             </motion.h1>
 
             <motion.p variants={fadeUp} className="text-[14px] md:text-[15px] font-light leading-[1.6] md:leading-[1.7] text-white/65 max-w-[550px] mb-8 md:mb-10">
-              Al Hayaat prend en charge l&apos;ensemble des obsèques islamiques — toilette rituelle (Ghusl), Salat al-Janaza, inhumation en carré musulman ou rapatriement vers l&apos;Algérie, le Maroc, la Tunisie et au-delà. Disponibles 24h/24, 7j/7, sans exception.
+              Accompagner vos proches avec dignité, foi et professionnalisme. Al Hayaat prend en charge l&apos;ensemble des obsèques islamiques — du premier appel jusqu&apos;à l&apos;inhumation ou le rapatriement.
             </motion.p>
 
             <motion.div variants={fadeUp} className="flex flex-wrap items-center gap-4 md:gap-6 mt-4">
@@ -316,7 +316,7 @@ export default function HomePage() {
           <div className="w-full lg:w-[50%] flex flex-col justify-center py-16 md:py-20 px-6 md:px-14 order-2 lg:order-1">
             <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }}>
               <p className="text-[14px] md:text-[15px] font-light text-white/60 leading-[1.6] md:leading-[1.7] mb-10 md:mb-12 max-w-[420px]">
-                Notre service d&apos;accompagnement aide les familles à traverser chaque étape avec sérénité — de la première heure jusqu&apos;à l&apos;inhumation. Voici comment nous vous soutenons :
+                Al Hayaat est une entreprise de pompes funèbres spécialisée dans les obsèques musulmanes, fondée pour répondre aux besoins des familles de confession islamique résidant en Normandie et en Île-de-France. Nous intervenons à Rouen, Le Havre, Caen, Dieppe, Évreux et dans toute la Seine-Maritime, l'Eure, le Calvados, la Manche et l'Orne — ainsi qu'à Paris et dans tout le 93, 95 et toute l'IDF.
               </p>
               <div className="flex flex-col gap-6 md:gap-8">
                 {[
@@ -427,16 +427,17 @@ export default function HomePage() {
           <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-40px" }} className="mb-12 md:mb-16">
             <span className="text-[10px] tracking-[0.3em] font-medium text-[#999] uppercase block mb-4">03 — Zones d'intervention</span>
             <h2 className="text-[32px] md:text-[48px] font-medium leading-[1] tracking-tight text-[#111] max-w-[600px] mb-6">
-              Nous intervenons dans toute la Normandie et en Île-de-France.
+              Nos Zones d'Intervention
             </h2>
             <p className="text-[14px] md:text-[15px] font-light text-[#666] leading-[1.6] max-w-[600px]">
-              Al Hayaat est basée au Havre et couvre l'ensemble du territoire normand — Seine-Maritime (76), Calvados (14), Eure (27), Manche (50), Orne (61) — ainsi que Paris et toute l'Île-de-France. Nos équipes se déplacent 24h/24, sans surcoût pour les interventions de nuit ou le week-end.
+              Al Hayaat intervient dans <strong>toute la Normandie</strong> et <strong>toute l'Île-de-France</strong>, 24h/24 et 7j/7. Basée au Havre (76600), notre équipe se déplace sur l'ensemble du territoire dans les meilleurs délais, car en Islam, la rapidité est une obligation.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 border-t border-[#E5E5E5] pt-12 md:pt-16">
             <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-40px" }} className="flex flex-col">
-              <h3 className="text-[18px] font-medium text-[#111] mb-6">Normandie :</h3>
+              <h3 className="text-[18px] font-medium text-[#111] mb-4">Normandie :</h3>
+              <p className="text-[14px] text-[#666] leading-[1.6] mb-6">Rouen · Le Havre · Caen · Dieppe · Évreux · Cherbourg · Alençon · Elbeuf · Saint-Étienne-du-Rouvray · Sotteville-lès-Rouen · Val-de-Reuil · Louviers · Vernon · Lisieux · Bayeux · Flers · Argentan</p>
               <ul className="flex flex-col gap-4">
                 <li><Link href="/pompes-funebres-musulmanes-rouen" className="group flex items-center justify-between py-2 border-b border-[#E5E5E5] text-[14px] text-[#555] hover:text-[#111] transition-colors"><span className="group-hover:translate-x-1 transition-transform">Pompes funèbres Rouen</span> <span>→</span></Link></li>
                 <li><Link href="/pompes-funebres-musulmanes-le-havre" className="group flex items-center justify-between py-2 border-b border-[#E5E5E5] text-[14px] text-[#555] hover:text-[#111] transition-colors"><span className="group-hover:translate-x-1 transition-transform">Pompes funèbres Le Havre</span> <span>→</span></Link></li>
@@ -448,7 +449,8 @@ export default function HomePage() {
             </motion.div>
 
             <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-40px" }} className="flex flex-col">
-              <h3 className="text-[18px] font-medium text-[#111] mb-6">Paris / Île-de-France :</h3>
+              <h3 className="text-[18px] font-medium text-[#111] mb-4">Paris / Île-de-France :</h3>
+              <p className="text-[14px] text-[#666] leading-[1.6] mb-6">Paris (75) · Seine-Saint-Denis 93 · Val-d'Oise 95 · Hauts-de-Seine 92 · Val-de-Marne 94 · Saint-Denis · Argenteuil · Sarcelles · Garges-lès-Gonesse · Bobigny · Aubervilliers</p>
               <ul className="flex flex-col gap-4">
                 <li><Link href="/pompes-funebres-musulmanes-paris" className="group flex items-center justify-between py-2 border-b border-[#E5E5E5] text-[14px] text-[#555] hover:text-[#111] transition-colors"><span className="group-hover:translate-x-1 transition-transform">Pompes funèbres Paris</span> <span>→</span></Link></li>
                 <li><Link href="/pompes-funebres-musulmanes-saint-denis" className="group flex items-center justify-between py-2 border-b border-[#E5E5E5] text-[14px] text-[#555] hover:text-[#111] transition-colors"><span className="group-hover:translate-x-1 transition-transform">Pompes funèbres Saint-Denis</span> <span>→</span></Link></li>
@@ -658,6 +660,29 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── SECTION SEO ── */}
+      <section className="w-full bg-[#FAFAFA] py-16 md:py-24 border-t border-[#E5E5E5]">
+        <div className="max-w-[800px] mx-auto px-6 md:px-12">
+          <h2 className="text-[20px] md:text-[24px] font-medium text-[#111] mb-6">
+            Des Obsèques Islamiques Conformes à la Sunnah
+          </h2>
+          <div className="flex flex-col gap-4 text-[13px] md:text-[14px] text-[#666] leading-[1.7] font-light">
+            <p>
+              Al Hayaat est une entreprise de pompes funèbres musulmanes habilitée par la préfecture, spécialisée dans l'organisation des obsèques islamiques en Normandie et en Île-de-France. Notre équipe allie une connaissance approfondie des rites funéraires islamiques — toilette rituelle (Ghusl al-Mayyit), mise en kafan, Salat al-Janaza, inhumation dans un carré musulman — à une parfaite maîtrise du droit funéraire français.
+            </p>
+            <p>
+              Le Prophète ﷺ a dit : <em>« Hâtez-vous de préparer les obsèques du défunt »</em> (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, de jour comme de nuit, quel que soit le lieu du décès en Normandie ou en Île-de-France.
+            </p>
+            <p>
+              Nous prenons en charge l'intégralité des démarches : déclaration de décès en mairie, obtention de l'acte de décès, autorisation d'inhumer, recherche de concession en carré musulman, coordination avec la mosquée pour la Salat al-Janaza, et organisation du rapatriement de corps vers l'Algérie, le Maroc, la Tunisie, le Sénégal, le Mali ou tout autre pays d'origine.
+            </p>
+            <p>
+              Al Hayaat accompagne les familles musulmanes de Rouen, Le Havre, Caen, Dieppe, Évreux et de toute la Seine-Maritime (76), de l'Eure (27), du Calvados (14), de la Manche (50) et de l'Orne (61), ainsi que dans tout Paris et l'Île-de-France.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* ── FAQ ── */}
       <section className="w-full bg-white py-20 md:py-32 border-b border-[#E5E5E5]">
         <div className="max-w-[800px] mx-auto px-6 md:px-12">
@@ -672,24 +697,24 @@ export default function HomePage() {
           <div className="flex flex-col border-t border-[#E5E5E5]">
             {[
               {
-                q: "Dans quel délai intervenez-vous après un décès en Normandie ?",
-                a: "Notre équipe intervient dans les 2 à 4 heures suivant votre appel, 24h/24 et 7j/7, dans tout le 76, le 14, le 27, le 50 et le 61. Aucun délai supplémentaire la nuit ou le week-end."
+                q: "Combien coûtent des obsèques musulmanes complètes ?",
+                a: "Un forfait obsèques complètes chez Al Hayaat (toilette rituelle, mise en kafan, Salat al-Janaza, cercueil et inhumation en carré musulman) débute aux alentours de 1 490 €. Contactez-nous pour un devis gratuit et transparent, sans frais cachés."
               },
               {
-                q: "Organisez-vous le rapatriement vers l'Algérie et le Maroc ?",
-                a: "Oui. Nous gérons le rapatriement vers plus de 20 destinations, dont l'Algérie, le Maroc, la Tunisie, le Mali, le Sénégal, la Guinée, le Pakistan, les Comores et bien d'autres. Nous prenons en charge 100% des formalités administratives et consulaires."
+                q: "Intervenez-vous la nuit et le week-end ?",
+                a: "Oui. Al Hayaat est disponible 24h/24 et 7j/7, y compris les nuits, week-ends et jours fériés. Un décès ne prévient pas — notre équipe répond immédiatement au 07 63 21 46 56."
               },
               {
-                q: "La toilette rituelle (Ghusl) est-elle réalisée selon la Sunnah ?",
-                a: "Absolument. Notre équipe est formée spécifiquement aux rites islamiques. Le Ghusl al-Mayyit est réalisé séparément pour les hommes et les femmes, dans le respect total de la Sunnah du Prophète ﷺ."
+                q: "Couvrez-vous toute la Normandie ?",
+                a: "Oui. Basés au Havre, nous intervenons dans toute la Normandie : Seine-Maritime (76), Calvados (14), Eure (27), Manche (50) et Orne (61). Rouen, Le Havre, Caen, Dieppe, Évreux et toutes les communes environnantes."
               },
               {
-                q: "Y a-t-il des carrés musulmans en Normandie ?",
-                a: "Oui. Nous connaissons tous les cimetières normands disposant d'un espace réservé aux inhumations islamiques à Rouen, Le Havre, Caen et dans les communes environnantes. Nous vous guidons pour l'acquisition de la concession."
+                q: "Organisez-vous le rapatriement de corps ?",
+                a: "Oui. Al Hayaat organise le rapatriement vers l'Algérie, le Maroc, la Tunisie, le Mali, le Sénégal, la Guinée, les Comores et +20 pays. Délai habituel : 48 à 96 heures selon la destination."
               },
               {
-                q: "Vos tarifs sont-ils transparents ?",
-                a: "Nous remettons un devis détaillé dès le premier appel, sans engagement. Aucun coût caché. Nous vous informons également des aides disponibles : fonds solidarité algérien, aides consulaires marocaines, assurances rapatriement."
+                q: "Al Hayaat est-elle habilitée par la préfecture ?",
+                a: "Oui. Al Hayaat dispose de l'habilitation préfectorale obligatoire pour l'exercice de l'activité funéraire. C'est une garantie légale de conformité et de sérieux."
               }
             ].map((faq, i) => (
               <details key={i} className="group border-b border-[#E5E5E5]">

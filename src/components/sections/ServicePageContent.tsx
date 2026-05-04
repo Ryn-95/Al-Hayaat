@@ -6,6 +6,19 @@ import { Button } from "@/components/ui/Button";
 import type { ServicePageData } from "@/lib/services-data";
 
 export function ServicePageContent({ data }: { data: ServicePageData }) {
+  const faqSchema = data.faqs && data.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: data.faqs.map(faq => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer
+      }
+    }))
+  } : null;
+
   return (
     <>
       {/* Breadcrumb Schema */}
@@ -22,6 +35,12 @@ export function ServicePageContent({ data }: { data: ServicePageData }) {
           }),
         }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Hero */}
       <section className="section-padding pt-32 pb-16 lg:pt-40 lg:pb-20">
@@ -105,6 +124,35 @@ export function ServicePageContent({ data }: { data: ServicePageData }) {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      {data.faqs && data.faqs.length > 0 && (
+        <section className="w-full bg-white py-16 lg:py-20 border-t border-[#E5E5E5]">
+          <div className="max-w-[800px] mx-auto px-6 md:px-0">
+            <AnimateOnScroll>
+              <h2 className="font-playfair text-[1.6rem] lg:text-[2rem] text-[#1A1A1A] mb-8">
+                Questions fréquentes
+              </h2>
+            </AnimateOnScroll>
+            <div className="flex flex-col border-t border-[#E5E5E5]">
+              {data.faqs.map((faq, i) => (
+                <details key={i} className="group border-b border-[#E5E5E5]">
+                  <summary className="flex items-center justify-between py-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                    <span className="text-[15px] md:text-[16px] font-medium text-[#111] pr-6">{faq.question}</span>
+                    <span className="relative flex items-center justify-center w-6 h-6 shrink-0 transition-transform duration-300 group-open:rotate-180">
+                      <span className="absolute w-[14px] h-[1.5px] bg-[#111] transition-transform duration-300 group-open:rotate-180" />
+                      <span className="absolute w-[1.5px] h-[14px] bg-[#111] transition-transform duration-300 group-open:rotate-90" />
+                    </span>
+                  </summary>
+                  <div className="pb-6 pr-12 text-[14px] font-light text-[#666] leading-[1.6]">
+                    {faq.answer}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA */}
       <section className="bg-primary section-padding py-16 lg:py-20">

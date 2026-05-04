@@ -7,16 +7,16 @@ import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
   const url = "https://pompesfunebres-alhayaat.fr/toilette-rituelle-musulmane";
   return {
-    title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayat",
-    description: "Toilette rituelle musulmane (Ghusl) réalisée selon la Sunnah par une équipe qualifiée. Hommes et femmes. Al Hayat en Normandie et Paris, 24h/24.",
+    title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayaat | Normandie & Paris",
+    description: "Al Hayaat réalise la toilette rituelle islamique (Ghusl al-Mayyit) en Normandie et à Paris. Équipe homme et femme formée à la Sunnah. Disponible 24h/24. Habilitation préfectorale.",
     keywords: ["toilette rituelle musulmane"],
     
     alternates: {
       canonical: url,
     },
     openGraph: {
-      title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayat",
-      description: "Toilette rituelle musulmane (Ghusl) réalisée selon la Sunnah par une équipe qualifiée. Hommes et femmes. Al Hayat en Normandie et Paris, 24h/24.",
+      title: "Toilette Rituelle Musulmane (Ghusl al-Mayyit) — Al Hayaat | Normandie & Paris",
+      description: "Al Hayaat réalise la toilette rituelle islamique (Ghusl al-Mayyit) en Normandie et à Paris. Équipe homme et femme formée à la Sunnah. Disponible 24h/24. Habilitation préfectorale.",
       url: url,
       siteName: "Al Hayaat Pompes Funèbres Musulmanes",
       locale: "fr_FR",
@@ -39,6 +39,8 @@ const faqs = [
   { question: "Peut-on faire la toilette rituelle à domicile ?", answer: "Oui, si les conditions le permettent (espace suffisant, eau courante). Al Hayat peut aussi réaliser le Ghusl en chambre funéraire ou à l\u0027hôpital." },
   { question: "La toilette rituelle est-elle obligatoire en Islam ?", answer: "Oui, le Ghusl al-Mayyit est une obligation collective (fard kifaya). Si un groupe s\u0027en acquitte, les autres en sont dispensés. Le Prophète ﷺ l\u0027a prescrit explicitement." },
   { question: "Combien coûte la toilette rituelle chez Al Hayat ?", answer: "La toilette rituelle est incluse dans nos forfaits obsèques. Pour un service isolé, contactez-nous pour un devis gratuit. Nos tarifs sont transparents et communiqués dès le premier appel." },
+  { question: "Al Hayaat peut-il réaliser la toilette rituelle à domicile à Rouen ?", answer: "Oui. Notre équipe intervient à domicile, à l'hôpital ou en chambre funéraire dans toute la Seine-Maritime, y compris Rouen et son agglomération." },
+  { question: "Que se passe-t-il si le défunt est décédé à l'hôpital du Havre ?", answer: "Al Hayaat coordonne avec l'hôpital pour le transport du corps vers notre chambre funéraire ou un local adapté, où le Ghusl est réalisé dans les meilleures conditions." }
 ];
 
 export default function ToiletteRituellePage() {
@@ -54,7 +56,7 @@ export default function ToiletteRituellePage() {
             La Toilette Rituelle Musulmane (Ghusl al-Mayyit)
           </h1>
           <p className="text-[15px] font-light leading-[1.8] text-white/70 max-w-[640px]">
-            La toilette rituelle musulmane est l&apos;un des derniers devoirs que la communauté rend au défunt. Le Ghusl al-Mayyit est une obligation religieuse (fard kifaya) prescrite par le Prophète ﷺ, qui a dit : « Lavez-le avec de l&apos;eau et du jujubier » (Sahih al-Bukhari, n°1253 ; Sahih Muslim, n°939). Chez Al Hayat, cette étape sacrée est confiée à des professionnels formés aux prescriptions coraniques et à la Sunnah, disponibles 24h/24 en Normandie et en Île-de-France. Notre équipe, habilitée par la préfecture, accomplit ce rituel avec le soin, la pudeur et la dignité que chaque défunt mérite.
+            La toilette rituelle (Ghusl al-Mayyit) est l'un des actes les plus sacrés que la communauté accomplit pour son défunt. C'est une obligation collective (fard kifaya) fondée sur la parole du Prophète ﷺ : <em>« Lavez-le avec de l'eau et du jujubier »</em> (Sahih al-Bukhari, n°1253). Chez Al Hayaat, cette mission est confiée à des professionnels formés aux prescriptions coraniques et à la Sunnah — hommes pour les défunts masculins, femmes pour les défuntes féminines — disponibles 24h/24 en Normandie (Rouen, Le Havre, Caen) et en Île-de-France (Paris, Saint-Denis, Argenteuil).
           </p>
         </div>
       </section>
@@ -115,9 +117,11 @@ export default function ToiletteRituellePage() {
             </p>
 
             {/* H2: Normandie et Paris */}
-            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La toilette rituelle en Normandie et à Paris</h2>
+            <h2 className="text-[24px] md:text-[28px] font-semibold text-[#1A1A1A] mb-6">La Toilette Rituelle en Normandie et à Paris</h2>
             <p className="text-[15px] font-light text-[#555] leading-[1.8] mb-6">
-              Al Hayat intervient dans toute la Normandie et en Île-de-France pour réaliser la toilette rituelle musulmane. Nous nous déplaçons au domicile, à l&apos;hôpital ou en chambre funéraire. Notre équipe est disponible 24h/24 et se rend sur place dans les plus brefs délais, car en Islam, les obsèques doivent être organisées rapidement.
+              Al Hayaat intervient dans toute la Normandie pour accomplir le Ghusl al-Mayyit. Nous nous déplaçons au domicile du défunt, à l'hôpital ou en chambre funéraire, dans les communes suivantes et leurs environs :<br /><br />
+              <strong>Normandie :</strong> Rouen · Le Havre · Caen · Dieppe · Évreux · Elbeuf · Saint-Étienne-du-Rouvray · Sotteville-lès-Rouen · Harfleur · Montivilliers<br /><br />
+              <strong>Île-de-France :</strong> Paris · Saint-Denis · Argenteuil · Sarcelles · Bobigny · Aubervilliers · Garges-lès-Gonesse
             </p>
             <div className="flex flex-wrap gap-2 mb-10">
               {[
