@@ -43,7 +43,7 @@ export function Header() {
         <div className="w-full max-w-[1280px] mx-auto px-6 md:px-12 flex items-center justify-between">
           
           {/* Logo */}
-          <Link href="/" className="flex items-center transition-transform duration-300 hover:scale-105 relative z-[70] group h-14 md:h-16 w-32 md:w-40">
+          <Link href="/" className="flex items-center transition-transform duration-300 hover:scale-105 relative z-[70] group h-12 md:h-16 w-28 md:w-40">
             <Image 
               src="/Image/Logo_ALHAYAAT.jpeg" 
               alt="Al Hayaat Pompes Funèbres Musulmanes" 
@@ -104,14 +104,14 @@ export function Header() {
           {/* Mobile Menu Toggle (Minimalist) */}
           <button 
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className={`md:hidden relative z-[70] w-10 h-10 flex flex-col items-center justify-center gap-[5px] transition-colors ${
+            className={`md:hidden relative z-[70] w-12 h-12 -mr-2 flex flex-col items-center justify-center gap-[5px] transition-colors ${
               scrolled || !isHome || mobileMenuOpen ? "text-[#111]" : "text-white"
             }`}
             aria-label="Toggle menu"
           >
-            <span className={`block w-5 h-[1.5px] rounded-full bg-currentColor transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${mobileMenuOpen ? "translate-y-[6.5px] rotate-45" : ""}`} />
-            <span className={`block w-5 h-[1.5px] rounded-full bg-currentColor transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${mobileMenuOpen ? "opacity-0" : ""}`} />
-            <span className={`block w-5 h-[1.5px] rounded-full bg-currentColor transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${mobileMenuOpen ? "-translate-y-[6.5px] -rotate-45" : ""}`} />
+            <span className={`block w-6 h-[1.5px] rounded-full bg-current transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${mobileMenuOpen ? "translate-y-[6.5px] rotate-45" : ""}`} />
+            <span className={`block w-6 h-[1.5px] rounded-full bg-current transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${mobileMenuOpen ? "opacity-0" : ""}`} />
+            <span className={`block w-6 h-[1.5px] rounded-full bg-current transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${mobileMenuOpen ? "-translate-y-[6.5px] -rotate-45" : ""}`} />
           </button>
         </div>
       </header>

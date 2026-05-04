@@ -105,12 +105,12 @@ export default function HomePage() {
               <span className="text-[10.5px] tracking-[0.18em] font-medium text-white/70 uppercase">Pompes Funèbres Musulmanes — Normandie & Paris · Habilitation Préfectorale</span>
             </motion.div>
 
-            <motion.h1 variants={fadeUp} className="text-[2.6rem] md:text-[3.8rem] font-semibold leading-[1.08] tracking-[-0.03em] text-white mb-6">
+            <motion.h1 variants={fadeUp} className="text-[2.2rem] md:text-[3.8rem] font-semibold leading-[1.08] tracking-[-0.03em] text-white mb-4 md:mb-6">
               Pompes Funèbres Musulmanes<br />
               <span className="text-white/60">en Normandie et à Paris</span>
             </motion.h1>
 
-            <motion.p variants={fadeUp} className="text-[15px] font-light leading-[1.7] text-white/65 max-w-[550px] mb-10">
+            <motion.p variants={fadeUp} className="text-[14px] md:text-[15px] font-light leading-[1.6] md:leading-[1.7] text-white/65 max-w-[550px] mb-8 md:mb-10">
               Al Hayaat prend en charge l&apos;ensemble des obsèques islamiques — toilette rituelle (Ghusl), Salat al-Janaza, inhumation en carré musulman ou rapatriement vers l&apos;Algérie, le Maroc, la Tunisie et au-delà. Disponibles 24h/24, 7j/7, sans exception.
             </motion.p>
 
@@ -168,7 +168,7 @@ export default function HomePage() {
               <span className="text-[10px] font-medium tracking-[0.2em] text-[#999] uppercase mb-6 md:mb-8 block">
                 01 — Engagement
               </span>
-              <h2 className="text-[22px] md:text-[26px] font-normal text-[#111] leading-[1.3] tracking-tight mb-5 md:mb-6">
+              <h2 className="text-[20px] md:text-[26px] font-normal text-[#111] leading-[1.3] tracking-tight mb-4 md:mb-6">
                 Des obsèques islamiques organisées<br className="hidden md:block" />de A à Z, en Normandie et à Paris.
               </h2>
               <p className="text-[13px] md:text-[14px] font-light text-[#666] leading-[1.6] md:leading-[1.7] max-w-[600px] mb-8 md:mb-12">
