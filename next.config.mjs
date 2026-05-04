@@ -26,6 +26,21 @@ const nextConfig = {
         destination: "/inhumation-carre-musulman",
         permanent: true,
       },
+      {
+        source: "/pompes-funebres-musulmanes-argenteuil",
+        destination: "/pompes-funebres-musulmanes-95-argenteuil",
+        permanent: true,
+      },
+      {
+        source: "/pompes-funebres-musulmanes-saint-denis",
+        destination: "/pompes-funebres-musulmanes-93-saint-denis",
+        permanent: true,
+      },
+      {
+        source: "/ile-de-france",
+        destination: "/paris-ile-de-france",
+        permanent: true,
+      },
     ];
   },
 };
