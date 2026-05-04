@@ -9,8 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        green: "var(--green)",
+        "green-dark": "var(--green-dark)",
+        "green-tint": "var(--green-tint)",
+        brown: "var(--brown)",
+        parchment: "var(--parchment)",
+        "parchment-dark": "var(--parchment-dark)",
+        ink: "var(--ink)",
+        dust: "var(--dust)",
+      },
+      fontFamily: {
+        inter: ["var(--font-inter)", "sans-serif"],
+        playfair: ["var(--font-playfair)", "serif"],
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
     },
   },
