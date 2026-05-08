@@ -51,11 +51,11 @@ export default function Page() { return (<div className="bg-[#F5F0E8] text-[#1A1
       </thead>
       <tbody>
         {[
-          ["Forfait obsèques complet (Ghusl + kafan + cercueil + Salat + inhumation)", "À partir de 1 490 €"],
-          ["Toilette rituelle (Ghusl) seule", "À partir de 350 €"],
-          ["Cercueil bois naturel", "400 à 800 €"],
-          ["Concession cimetière (30 ans)", "500 à 3 000 € (selon commune)"],
-          ["Transport du corps", "200 à 600 € (selon distance)"],
+          ["Forfait obsèques complet (Ghusl + kafan + cercueil + Salat + inhumation)", "Sur devis"],
+          ["Toilette rituelle (Ghusl) seule", "Sur devis"],
+          ["Cercueil bois naturel", "Sur devis"],
+          ["Concession cimetière (30 ans)", "Selon les tarifs de la commune"],
+          ["Transport du corps", "Sur devis (selon la distance)"],
           ["Démarches administratives", "Incluses dans le forfait Al Hayaat"]
         ].map((row, i) => (
           <tr key={i} className="text-[14px] text-[#555] font-light bg-white">
@@ -78,10 +78,10 @@ export default function Page() { return (<div className="bg-[#F5F0E8] text-[#1A1
       </thead>
       <tbody>
         {[
-          ["Rapatriement Algérie", "2 500 à 5 000 €"],
-          ["Rapatriement Maroc", "2 500 à 5 000 €"],
-          ["Rapatriement Tunisie", "2 500 à 4 500 €"],
-          ["Rapatriement Mali/Sénégal", "3 500 à 6 500 €"]
+          ["Rapatriement Algérie", "Sur devis"],
+          ["Rapatriement Maroc", "Sur devis"],
+          ["Rapatriement Tunisie", "Sur devis"],
+          ["Rapatriement Mali/Sénégal", "Sur devis"]
         ].map((row, i) => (
           <tr key={i} className="text-[14px] text-[#555] font-light bg-white">
             <td className="p-3 border border-[#E8E2D9]">{row[0]}</td>

@@ -72,7 +72,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Délais et coûts",
-        text: "Un rapatriement vers le Maghreb prend généralement entre 3 et 7 jours, selon les délais d'obtention des documents et la disponibilité des vols. Chez Al Hayaat, le rapatriement débute à partir de 2 900 €, incluant le cercueil de transport, la liasse documentaire, l'accompagnement aéroport et la coordination dans le pays d'accueil. Chaque devis est détaillé et sans frais cachés.",
+        text: "Un rapatriement vers le Maghreb prend généralement entre 3 et 7 jours, selon les délais d'obtention des documents et la disponibilité des vols. Chez Al Hayaat, le rapatriement inclut le cercueil de transport, la liasse documentaire, l'accompagnement aéroport et la coordination dans le pays d'accueil. Chaque devis est détaillé et sans frais cachés.",
       },
     ],
     relatedSlugs: ["rapatriement-international-documents-necessaires", "demarches-administratives-deces-france", "cout-obseques-musulmanes-france"],
@@ -118,7 +118,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Tarifs indicatifs",
-        text: "Des obsèques musulmanes locales en Île-de-France débutent à partir de 1 490 €, incluant l'organisation complète, le cercueil, le transport du corps et les démarches administratives. Un rapatriement vers le Maghreb ou ailleurs commence à partir de 2 900 €. Un pack complet combinant obsèques, rapatriement, toilette rituelle et gestion administrative complète est disponible sur devis personnalisé.",
+        text: "Le prix varie en fonction de nombreux critères : le lieu du décès, le choix du cercueil, les options de cérémonie, ou encore la destination s'il s'agit d'un rapatriement. Un pack complet combinant obsèques, rapatriement, toilette rituelle et gestion administrative complète est disponible sur devis personnalisé.",
       },
       {
         heading: "Aides financières possibles",

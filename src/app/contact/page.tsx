@@ -107,7 +107,7 @@ export default function ContactPage() {
                     <rect x="2" y="4" width="20" height="16" rx="2" />
                     <path d="M22 7l-10 7L2 7" />
                   </svg>
-                  <span>contact@al-hayaat.fr</span>
+                  <span>pf.alhayaat@gmail.com</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2B6140" strokeWidth="1.5" className="mt-0.5 flex-shrink-0">

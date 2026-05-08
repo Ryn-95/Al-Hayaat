@@ -61,25 +61,33 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5" id="contact-form">
+    <form action="https://formsubmit.co/pf.alhayaat@gmail.com" method="POST" className="space-y-5" id="contact-form">
+      {/* Honeypot & Config FormSubmit */}
+      <input type="hidden" name="_subject" value="Nouveau message depuis le site Al Hayaat" />
+      <input type="text" name="_honey" style={{ display: 'none' }} />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
           <label htmlFor="firstName" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Prénom</label>
           <input
-            id="firstName" type="text" value={formData.firstName}
+            id="firstName" name="Prénom" type="text" value={formData.firstName}
             onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
             className={`w-full px-4 py-3 rounded-button border ${errors.firstName ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="Votre prénom"
+            required
           />
           {errors.firstName && <p className="text-red-500 text-[12px] mt-1">{errors.firstName}</p>}
         </div>
         <div>
           <label htmlFor="lastName" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Nom</label>
           <input
-            id="lastName" type="text" value={formData.lastName}
+            id="lastName" name="Nom" type="text" value={formData.lastName}
             onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
             className={`w-full px-4 py-3 rounded-button border ${errors.lastName ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="Votre nom"
+            required
           />
           {errors.lastName && <p className="text-red-500 text-[12px] mt-1">{errors.lastName}</p>}
         </div>
@@ -88,20 +96,22 @@ export function ContactForm() {
         <div>
           <label htmlFor="phone" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Téléphone</label>
           <input
-            id="phone" type="tel" value={formData.phone}
+            id="phone" name="Téléphone" type="tel" value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
             className={`w-full px-4 py-3 rounded-button border ${errors.phone ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="06 XX XX XX XX"
+            required
           />
           {errors.phone && <p className="text-red-500 text-[12px] mt-1">{errors.phone}</p>}
         </div>
         <div>
           <label htmlFor="email" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Email</label>
           <input
-            id="email" type="email" value={formData.email}
+            id="email" name="email" type="email" value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
             className={`w-full px-4 py-3 rounded-button border ${errors.email ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="votre@email.com"
+            required
           />
           {errors.email && <p className="text-red-500 text-[12px] mt-1">{errors.email}</p>}
         </div>
@@ -109,9 +119,10 @@ export function ContactForm() {
       <div>
         <label htmlFor="requestType" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Type de demande</label>
         <select
-          id="requestType" value={formData.requestType}
+          id="requestType" name="Type de demande" value={formData.requestType}
           onChange={(e) => setFormData({ ...formData, requestType: e.target.value })}
           className={`w-full px-4 py-3 rounded-button border ${errors.requestType ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors appearance-none`}
+          required
         >
           <option value="">Sélectionnez...</option>
           {requestTypes.map((type) => (<option key={type} value={type}>{type}</option>))}
@@ -121,16 +132,21 @@ export function ContactForm() {
       <div>
         <label htmlFor="message" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Message</label>
         <textarea
-          id="message" rows={5} value={formData.message}
+          id="message" name="Message" rows={5} value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
           className={`w-full px-4 py-3 rounded-button border ${errors.message ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors resize-none`}
           placeholder="Décrivez votre situation ou votre demande..."
+          required
         />
         {errors.message && <p className="text-red-500 text-[12px] mt-1">{errors.message}</p>}
       </div>
-      <Button variant="primary" size="lg" type="submit" id="contact-submit">
+      <button 
+        type="submit" 
+        id="contact-submit"
+        className="w-full inline-flex items-center justify-center font-medium font-inter transition-all duration-200 bg-primary text-white hover:bg-primary-dark h-12 px-6 rounded-button text-[14px]"
+      >
         Envoyer le message
-      </Button>
+      </button>
     </form>
   );
 }

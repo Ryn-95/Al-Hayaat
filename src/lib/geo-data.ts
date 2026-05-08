@@ -51,7 +51,7 @@ export const normandieCities: CityPageData[] = [
     faqs: [
       { question: "Y a-t-il un carré musulman au cimetière de Rouen ?", answer: "Oui. Le cimetière monumental de Rouen dispose d'un carré musulman. Les cimetières de Sotteville-lès-Rouen et Saint-Étienne-du-Rouvray proposent également des inhumations islamiques. Al Hayaat vérifie les disponibilités et gère les démarches." },
       { question: "Al Hayaat intervient-il la nuit à Rouen ?", answer: "Oui, 24h/24 et 7j/7. Appelez le 07 63 21 46 56 à tout moment." },
-      { question: "Combien coûtent des obsèques musulmanes à Rouen ?", answer: "Un forfait complet (toilette rituelle, kafan, cercueil, Salat al-Janaza, inhumation) débute aux alentours de 1 490 €. Contactez-nous pour un devis gratuit et transparent." },
+      { question: "Combien coûtent des obsèques musulmanes à Rouen ?", answer: "Un forfait complet (toilette rituelle, kafan, cercueil, Salat al-Janaza, inhumation) dépend des prestations choisies (rapatriement ou inhumation locale). Contactez-nous pour un devis gratuit et transparent." },
       { question: "Al Hayaat organise-t-il le rapatriement depuis Rouen vers l'Algérie ?", answer: "Oui. Al Hayaat organise le rapatriement depuis Rouen vers l'Algérie, le Maroc, la Tunisie et +20 pays. Le corps est acheminé via l'aéroport CDG (environ 1h30 de route). Délai habituel : 48 à 72 heures." }
     ],
     hasUniqueContent: true
@@ -114,7 +114,7 @@ export const normandieCities: CityPageData[] = [
       { question: "Al Hayaat intervient-il à Bayeux et Lisieux ?", answer: "Oui. Al Hayaat intervient dans tout le Calvados, y compris Bayeux, Lisieux, Falaise et Vire." },
       { question: "Quel est le délai pour un rapatriement depuis Caen ?", answer: "Le rapatriement depuis Caen vers l\u0027Algérie ou le Maroc prend en moyenne 72 à 96 heures, le temps d\u0027organiser le transfert vers l\u0027aéroport CDG et d\u0027obtenir les autorisations consulaires." },
       { question: "Peut-on faire la toilette rituelle à domicile à Caen ?", answer: "Oui, notre équipe peut réaliser le Ghusl à domicile si les conditions le permettent. La toilette peut aussi être effectuée à l\u0027hôpital ou en chambre funéraire, selon la préférence de la famille." },
-      { question: "Combien coûte un enterrement musulman à Caen ?", answer: "Les tarifs varient selon les prestations. Un forfait obsèques musulmanes complet à Caen commence à partir de 1 490 €. Nous proposons un devis gratuit et détaillé sur simple appel." },
+      { question: "Combien coûte un enterrement musulman à Caen ?", answer: "Les tarifs varient selon les prestations. Un forfait obsèques musulmanes complet à Caen dépend des prestations choisies. Nous proposons un devis gratuit et détaillé sur simple appel." },
     ],
   },
   {
@@ -196,7 +196,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Cherbourg ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Cherbourg et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Cherbourg ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Cherbourg ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Cherbourg ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Cherbourg et dans tout le Manche. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Cherbourg ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Cherbourg." },
       { question: "La toilette rituelle est-elle possible à Cherbourg ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -226,7 +226,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Alençon ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Alençon et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Alençon ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Alençon ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Alençon ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Alençon et dans tout le Orne. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Alençon ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Alençon." },
       { question: "La toilette rituelle est-elle possible à Alençon ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -256,7 +256,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Elbeuf ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Elbeuf et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Elbeuf ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Elbeuf ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Elbeuf ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Elbeuf et dans tout le Seine-Maritime. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Elbeuf ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Elbeuf." },
       { question: "La toilette rituelle est-elle possible à Elbeuf ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -287,7 +287,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Saint-Étienne-du-Rouvray ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Saint-Étienne-du-Rouvray et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Saint-Étienne-du-Rouvray ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Saint-Étienne-du-Rouvray ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Saint-Étienne-du-Rouvray ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Saint-Étienne-du-Rouvray et dans tout le Seine-Maritime. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Saint-Étienne-du-Rouvray ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Saint-Étienne-du-Rouvray." },
       { question: "La toilette rituelle est-elle possible à Saint-Étienne-du-Rouvray ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -318,7 +318,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Grand-Quevilly ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Grand-Quevilly et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Grand-Quevilly ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Grand-Quevilly ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Grand-Quevilly ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Grand-Quevilly et dans tout le Seine-Maritime. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Grand-Quevilly ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Grand-Quevilly." },
       { question: "La toilette rituelle est-elle possible à Grand-Quevilly ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -345,7 +345,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Sotteville-lès-Rouen ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Sotteville-lès-Rouen et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Sotteville-lès-Rouen ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Sotteville-lès-Rouen ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Sotteville-lès-Rouen ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Sotteville-lès-Rouen et dans tout le Seine-Maritime. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Sotteville-lès-Rouen ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Sotteville-lès-Rouen." },
       { question: "La toilette rituelle est-elle possible à Sotteville-lès-Rouen ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -373,7 +373,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Petit-Quevilly, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Petit-Quevilly ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Petit-Quevilly ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Petit-Quevilly ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Petit-Quevilly ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Petit-Quevilly et dans tout le Seine-Maritime." },
       { question: "Comment rapatrier un corps depuis Petit-Quevilly ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Petit-Quevilly." },
       { question: "La toilette rituelle est-elle possible a Petit-Quevilly ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -400,7 +400,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Mont-Saint-Aignan, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Mont-Saint-Aignan ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Mont-Saint-Aignan ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Mont-Saint-Aignan ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Mont-Saint-Aignan ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Mont-Saint-Aignan et dans tout le Seine-Maritime." },
       { question: "Comment rapatrier un corps depuis Mont-Saint-Aignan ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Mont-Saint-Aignan." },
       { question: "La toilette rituelle est-elle possible a Mont-Saint-Aignan ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -427,7 +427,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Harfleur, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Harfleur ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Harfleur et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Harfleur ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Harfleur ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Harfleur ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Harfleur et dans tout le Seine-Maritime. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Harfleur ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Harfleur." },
       { question: "La toilette rituelle est-elle possible à Harfleur ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -455,7 +455,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Montivilliers, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Montivilliers ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Montivilliers et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Montivilliers ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Montivilliers ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Montivilliers ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Montivilliers et dans tout le Seine-Maritime. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Montivilliers ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Montivilliers." },
       { question: "La toilette rituelle est-elle possible à Montivilliers ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -483,7 +483,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Val-de-Reuil, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Val-de-Reuil ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Val-de-Reuil et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Val-de-Reuil ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Val-de-Reuil ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Val-de-Reuil ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Val-de-Reuil et dans tout le Eure. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Val-de-Reuil ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Val-de-Reuil." },
       { question: "La toilette rituelle est-elle possible à Val-de-Reuil ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -511,7 +511,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Louviers, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Louviers ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Louviers et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Louviers ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Louviers ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Louviers ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Louviers et dans tout le Eure. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Louviers ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Louviers." },
       { question: "La toilette rituelle est-elle possible à Louviers ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -539,7 +539,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Vernon, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Vernon ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Vernon ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Vernon ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Vernon ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Vernon et dans tout le Eure." },
       { question: "Comment rapatrier un corps depuis Vernon ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Vernon." },
       { question: "La toilette rituelle est-elle possible a Vernon ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -566,7 +566,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Lisieux, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Lisieux ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Lisieux et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Lisieux ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Lisieux ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Lisieux ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Lisieux et dans tout le Calvados. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Lisieux ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Lisieux." },
       { question: "La toilette rituelle est-elle possible à Lisieux ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -594,7 +594,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Bayeux, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Bayeux ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Bayeux et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Bayeux ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Bayeux ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Bayeux ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Bayeux et dans tout le Calvados. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Bayeux ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Bayeux." },
       { question: "La toilette rituelle est-elle possible à Bayeux ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -622,7 +622,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Argentan, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Argentan ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Argentan et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Argentan ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Argentan ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Argentan ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Argentan et dans tout le Orne. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Argentan ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Argentan." },
       { question: "La toilette rituelle est-elle possible à Argentan ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -650,7 +650,7 @@ export const normandieCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Flers, 24h/24.",
     faqs: [
       { question: "Où inhumer un musulman à Flers ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Flers et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Flers ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Flers ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Flers ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Flers et dans tout le Orne. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Flers ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Flers." },
       { question: "La toilette rituelle est-elle possible à Flers ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." }
@@ -682,7 +682,7 @@ export const normandieDepartments: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Seine-Maritime, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Seine-Maritime ?", answer: "Cimetière monumental de Rouen dispose d'un carre musulman. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Seine-Maritime ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Seine-Maritime ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Seine-Maritime ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Seine-Maritime et dans tout le Seine-Maritime." },
       { question: "Comment rapatrier un corps depuis Seine-Maritime ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Seine-Maritime." },
       { question: "La toilette rituelle est-elle possible a Seine-Maritime ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -710,7 +710,7 @@ export const normandieDepartments: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Calvados, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Calvados ?", answer: "Cimetière de Caen dispose d'un carre musulman. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Calvados ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Calvados ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Calvados ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Calvados et dans tout le Calvados." },
       { question: "Comment rapatrier un corps depuis Calvados ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Calvados." },
       { question: "La toilette rituelle est-elle possible a Calvados ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -738,7 +738,7 @@ export const normandieDepartments: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Eure, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Eure ?", answer: "Cimetière de Caen dispose d'un carre musulman. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Eure ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Eure ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Eure ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Eure et dans tout le Eure." },
       { question: "Comment rapatrier un corps depuis Eure ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Eure." },
       { question: "La toilette rituelle est-elle possible a Eure ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -766,7 +766,7 @@ export const normandieDepartments: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Manche, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Manche ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Manche ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Manche ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Manche ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Manche et dans tout le Manche." },
       { question: "Comment rapatrier un corps depuis Manche ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Manche." },
       { question: "La toilette rituelle est-elle possible a Manche ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -794,7 +794,7 @@ export const normandieDepartments: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Orne, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Orne ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Orne ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Orne ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Orne ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Orne et dans tout le Orne." },
       { question: "Comment rapatrier un corps depuis Orne ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Orne." },
       { question: "La toilette rituelle est-elle possible a Orne ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -828,7 +828,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Paris ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Paris et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Paris ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Paris ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Paris ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Paris et dans tout le Paris. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Paris ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Paris." },
       { question: "La toilette rituelle est-elle possible à Paris ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -859,7 +859,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Paris 18e ?", answer: "Cimetière musulman de Bobigny dispose d'un carré musulman. Al Hayaat se charge des démarches de concession auprès de la mairie." },
-      { question: "Combien coûtent des obsèques musulmanes à Paris 18e ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Paris 18e ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Paris 18e ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Paris 18e et dans tout le Paris. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Paris 18e ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Paris 18e." },
       { question: "La toilette rituelle est-elle possible à Paris 18e ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -890,7 +890,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Paris 19e ?", answer: "Cimetière de Montmartre dispose d'un carré musulman. Al Hayaat se charge des démarches de concession auprès de la mairie." },
-      { question: "Combien coûtent des obsèques musulmanes à Paris 19e ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Paris 19e ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Paris 19e ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Paris 19e et dans tout le Paris. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Paris 19e ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Paris 19e." },
       { question: "La toilette rituelle est-elle possible à Paris 19e ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -921,7 +921,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Paris 20e ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Paris 20e et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Paris 20e ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Paris 20e ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Paris 20e ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Paris 20e et dans tout le Paris. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Paris 20e ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Paris 20e." },
       { question: "La toilette rituelle est-elle possible à Paris 20e ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -952,7 +952,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Seine-Saint-Denis ?", answer: "Cimetière du Père-Lachaise dispose d'un carré musulman. Al Hayaat se charge des démarches de concession auprès de la mairie." },
-      { question: "Combien coûtent des obsèques musulmanes à Seine-Saint-Denis ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Seine-Saint-Denis ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Seine-Saint-Denis ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Seine-Saint-Denis et dans tout le Seine-Saint-Denis. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Seine-Saint-Denis ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Seine-Saint-Denis." },
       { question: "La toilette rituelle est-elle possible à Seine-Saint-Denis ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -982,7 +982,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Val-d'Oise ?", answer: "Cimetière musulman de Bobigny dispose d'un carré musulman. Al Hayaat se charge des démarches de concession auprès de la mairie." },
-      { question: "Combien coûtent des obsèques musulmanes à Val-d'Oise ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Val-d'Oise ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Val-d'Oise ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Val-d'Oise et dans tout le Val-d'Oise. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Val-d'Oise ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Val-d'Oise." },
       { question: "La toilette rituelle est-elle possible à Val-d'Oise ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -1009,7 +1009,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitée par la préfecture pour l'exercice de l'activité funéraire — une garantie de conformité et de sérieux. Notre équipe allie connaissance approfondie des rites islamiques et maîtrise du droit funéraire français. Le Prophète ﷺ a dit : « Hâtez-vous de préparer les obsèques du défunt » (Sahih al-Bukhari, n°1315). Fidèles à cet enseignement, nous intervenons sans délai, 24h/24 et 7j/7.",
     faqs: [
       { question: "Où inhumer un musulman à Val-d'Oise ?", answer: "Al Hayaat vous accompagne dans la recherche d'un espace confessionnel musulman dans les cimetières de Val-d'Oise et des communes voisines." },
-      { question: "Combien coûtent des obsèques musulmanes à Val-d'Oise ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation débute aux alentours de 1 490 €. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coûtent des obsèques musulmanes à Val-d'Oise ?", answer: "Le tarif dépend des prestations choisies. Un forfait complet incluant toilette rituelle, cercueil, transport et inhumation dépend des prestations choisies (rapatriement ou inhumation locale). Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit à Val-d'Oise ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 à Val-d'Oise et dans tout le Val-d'Oise. Un décès ne prévient pas — notre équipe est joignable immédiatement." },
       { question: "Comment organiser un rapatriement depuis Val-d'Oise ?", answer: "Contactez Al Hayaat immédiatement. Nous organisons le rapatriement vers l'Algérie, le Maroc, la Tunisie et d'autres destinations en 48 à 96h depuis Val-d'Oise." },
       { question: "La toilette rituelle est-elle possible à Val-d'Oise ?", answer: "Oui, la toilette rituelle (Ghusl) est réalisée sur place par notre équipe qualifiée, hommes et femmes formés aux rites islamiques." },
@@ -1037,7 +1037,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Paris 11e, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Paris 11e ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Paris 11e ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Paris 11e ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Paris 11e ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Paris 11e et dans tout le Paris." },
       { question: "Comment rapatrier un corps depuis Paris 11e ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Paris 11e." },
       { question: "La toilette rituelle est-elle possible a Paris 11e ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -1065,7 +1065,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Paris 13e, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Paris 13e ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Paris 13e ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Paris 13e ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Paris 13e ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Paris 13e et dans tout le Paris." },
       { question: "Comment rapatrier un corps depuis Paris 13e ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Paris 13e." },
       { question: "La toilette rituelle est-elle possible a Paris 13e ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -1118,7 +1118,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Aubervilliers, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Aubervilliers ?", answer: "Cimetière de Saint-Denis dispose d'un carre musulman. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Aubervilliers ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Aubervilliers ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Aubervilliers ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Aubervilliers et dans tout le Seine-Saint-Denis." },
       { question: "Comment rapatrier un corps depuis Aubervilliers ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Aubervilliers." },
       { question: "La toilette rituelle est-elle possible a Aubervilliers ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -1146,7 +1146,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Le Blanc-Mesnil, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Le Blanc-Mesnil ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Le Blanc-Mesnil ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Le Blanc-Mesnil ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Le Blanc-Mesnil ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Le Blanc-Mesnil et dans tout le Seine-Saint-Denis." },
       { question: "Comment rapatrier un corps depuis Le Blanc-Mesnil ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Le Blanc-Mesnil." },
       { question: "La toilette rituelle est-elle possible a Le Blanc-Mesnil ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -1174,7 +1174,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Bobigny, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Bobigny ?", answer: "Cimetière musulman de Bobigny dispose d'un carre musulman. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Bobigny ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Bobigny ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Bobigny ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Bobigny et dans tout le Seine-Saint-Denis." },
       { question: "Comment rapatrier un corps depuis Bobigny ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Bobigny." },
       { question: "La toilette rituelle est-elle possible a Bobigny ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -1226,7 +1226,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Sarcelles, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Sarcelles ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Sarcelles ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Sarcelles ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Sarcelles ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Sarcelles et dans tout le Val-d'Oise." },
       { question: "Comment rapatrier un corps depuis Sarcelles ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Sarcelles." },
       { question: "La toilette rituelle est-elle possible a Sarcelles ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },
@@ -1254,7 +1254,7 @@ export const parisCities: CityPageData[] = [
     whyAlHayatContent: "Al Hayaat est habilitee par la prefecture pour l'activite funeraire. Le Prophete a dit : Hatez-vous de preparer les obseques du defunt (Sahih al-Bukhari, n1315). Fideles a cet enseignement, nous intervenons sans delai a Garges-lès-Gonesse, 24h/24.",
     faqs: [
       { question: "Ou inhumer un musulman a Garges-lès-Gonesse ?", answer: "Al Hayaat vous guide vers les espaces confessionnels disponibles. Al Hayaat se charge des demarches de concession." },
-      { question: "Combien coutent des obseques musulmanes a Garges-lès-Gonesse ?", answer: "Un forfait complet debute aux alentours de 1 490 euros. Contactez Al Hayaat pour un devis gratuit." },
+      { question: "Combien coutent des obseques musulmanes a Garges-lès-Gonesse ?", answer: "Le tarif dépend des prestations choisies. Contactez Al Hayaat pour un devis gratuit." },
       { question: "Al Hayaat intervient-il la nuit a Garges-lès-Gonesse ?", answer: "Oui, Al Hayaat est disponible 24h/24 et 7j/7 a Garges-lès-Gonesse et dans tout le Val-d'Oise." },
       { question: "Comment rapatrier un corps depuis Garges-lès-Gonesse ?", answer: "Al Hayaat organise le rapatriement vers le Maghreb et l'Afrique en 48 a 96h depuis Garges-lès-Gonesse." },
       { question: "La toilette rituelle est-elle possible a Garges-lès-Gonesse ?", answer: "Oui, le Ghusl est realise sur place par notre equipe qualifiee." },

@@ -6,12 +6,12 @@ import Link from "next/link";
 const pricingItems = [
   {
     title: "Obsèques locales",
-    price: "1 490 €",
+    price: "Sur devis",
     includes: "Démarches, Toilette rituelle (Ghusl), Mise en bière, Transport, Inhumation",
   },
   {
     title: "Rapatriement",
-    price: "2 900 €",
+    price: "Sur devis",
     includes: "Démarches consulaires, Soins, Cercueil de transport, Vol international, Coordination",
   },
   {

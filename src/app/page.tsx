@@ -698,7 +698,7 @@ export default function HomePage() {
             {[
               {
                 q: "Combien coûtent des obsèques musulmanes complètes ?",
-                a: "Un forfait obsèques complètes chez Al Hayaat (toilette rituelle, mise en kafan, Salat al-Janaza, cercueil et inhumation en carré musulman) débute aux alentours de 1 490 €. Contactez-nous pour un devis gratuit et transparent, sans frais cachés."
+                a: "Le coût varie en fonction de vos besoins (obsèques locales ou rapatriement). Contactez-nous pour un devis gratuit et transparent, sans frais cachés."
               },
               {
                 q: "Intervenez-vous la nuit et le week-end ?",

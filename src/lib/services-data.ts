@@ -89,7 +89,7 @@ export const servicesData: ServicePageData[] = [
       {
         title: "Transparence des coûts",
         content:
-          "Le rapatriement international débute à partir de 2 900 €. Ce tarif inclut le cercueil de transport agréé, la liasse documentaire complète, l'accompagnement aéroport et la coordination avec les partenaires dans le pays d'accueil. Chaque devis est détaillé et sans frais cachés.",
+          "Chaque rapatriement international fait l'objet d'un devis détaillé. Ce tarif inclut le cercueil de transport agréé, la liasse documentaire complète, l'accompagnement aéroport et la coordination avec les partenaires dans le pays d'accueil. Aucun frais caché.",
       },
     ],
     relatedServices: [

@@ -68,7 +68,7 @@ const faqSchema = {
       name: "Combien coûtent des obsèques musulmanes à Rouen ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Un forfait complet (toilette rituelle, kafan, cercueil, Salat al-Janaza, inhumation) débute aux alentours de 1 490 €. Contactez-nous pour un devis gratuit et transparent."
+        text: "Le coût dépend des prestations choisies (rapatriement ou inhumation locale). Contactez-nous pour un devis gratuit et transparent."
       }
     },
     {
