@@ -68,13 +68,13 @@ export function ContactForm() {
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_template" value="table" />
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-5">
         <div>
           <label htmlFor="firstName" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Prénom</label>
           <input
             id="firstName" name="Prénom" type="text" value={formData.firstName}
             onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
-            className={`w-full px-4 py-3 rounded-button border ${errors.firstName ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
+            className={`w-full px-4 py-3 md:py-3.5 rounded-button border ${errors.firstName ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] md:text-[15px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="Votre prénom"
             required
           />
@@ -85,20 +85,20 @@ export function ContactForm() {
           <input
             id="lastName" name="Nom" type="text" value={formData.lastName}
             onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
-            className={`w-full px-4 py-3 rounded-button border ${errors.lastName ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
+            className={`w-full px-4 py-3 md:py-3.5 rounded-button border ${errors.lastName ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] md:text-[15px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="Votre nom"
             required
           />
           {errors.lastName && <p className="text-red-500 text-[12px] mt-1">{errors.lastName}</p>}
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-5">
         <div>
           <label htmlFor="phone" className="block text-[13px] font-inter font-medium text-text-primary mb-1.5">Téléphone</label>
           <input
             id="phone" name="Téléphone" type="tel" value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-            className={`w-full px-4 py-3 rounded-button border ${errors.phone ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
+            className={`w-full px-4 py-3 md:py-3.5 rounded-button border ${errors.phone ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] md:text-[15px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="06 XX XX XX XX"
             required
           />
@@ -109,7 +109,7 @@ export function ContactForm() {
           <input
             id="email" name="email" type="email" value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-            className={`w-full px-4 py-3 rounded-button border ${errors.email ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors`}
+            className={`w-full px-4 py-3 md:py-3.5 rounded-button border ${errors.email ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] md:text-[15px] focus:outline-none focus:border-primary transition-colors`}
             placeholder="votre@email.com"
             required
           />
@@ -121,7 +121,7 @@ export function ContactForm() {
         <select
           id="requestType" name="Type de demande" value={formData.requestType}
           onChange={(e) => setFormData({ ...formData, requestType: e.target.value })}
-          className={`w-full px-4 py-3 rounded-button border ${errors.requestType ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors appearance-none`}
+          className={`w-full px-4 py-3 md:py-3.5 rounded-button border ${errors.requestType ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] md:text-[15px] focus:outline-none focus:border-primary transition-colors appearance-none`}
           required
         >
           <option value="">Sélectionnez...</option>
@@ -134,7 +134,7 @@ export function ContactForm() {
         <textarea
           id="message" name="Message" rows={5} value={formData.message}
           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-          className={`w-full px-4 py-3 rounded-button border ${errors.message ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] focus:outline-none focus:border-primary transition-colors resize-none`}
+          className={`w-full px-4 py-3 md:py-3.5 rounded-button border ${errors.message ? "border-red-400" : "border-[rgba(43,97,64,0.15)]"} bg-cream font-inter text-[14px] md:text-[15px] focus:outline-none focus:border-primary transition-colors resize-none`}
           placeholder="Décrivez votre situation ou votre demande..."
           required
         />
@@ -143,7 +143,7 @@ export function ContactForm() {
       <button 
         type="submit" 
         id="contact-submit"
-        className="w-full inline-flex items-center justify-center font-medium font-inter transition-all duration-200 bg-primary text-white hover:bg-primary-dark h-12 px-6 rounded-button text-[14px]"
+        className="w-full inline-flex items-center justify-center font-medium font-inter transition-all duration-200 bg-primary text-white hover:bg-primary-dark h-14 md:h-12 px-6 rounded-button text-[15px] md:text-[14px] mt-4 md:mt-2 shadow-sm"
       >
         Envoyer le message
       </button>
