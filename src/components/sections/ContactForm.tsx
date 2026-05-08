@@ -67,6 +67,7 @@ export function ContactForm() {
       <input type="text" name="_honey" style={{ display: 'none' }} />
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_next" value="https://pompesfunebres-alhayaat.fr/merci" />
       
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-5">
         <div>

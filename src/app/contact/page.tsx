@@ -63,7 +63,7 @@ export default function ContactPage() {
               {/* Quick Contact */}
               <div className="space-y-5 mb-12">
                 <a
-                  href="tel:+33XXXXXXXXX"
+                  href="tel:+33763214656"
                   className="flex items-center gap-4 bg-primary text-white p-5 rounded-card hover:bg-primary-dark transition-colors"
                   id="contact-phone-cta"
                 >
@@ -72,12 +72,12 @@ export default function ContactPage() {
                   </svg>
                   <div>
                     <span className="block font-inter font-medium text-[15px]">Appeler maintenant</span>
-                    <span className="block font-inter text-[13px] text-white/70">01 XX XX XX XX</span>
+                    <span className="block font-inter text-[13px] text-white/70">07 63 21 46 56</span>
                   </div>
                 </a>
 
                 <a
-                  href="https://wa.me/33XXXXXXXXX"
+                  href="https://wa.me/33763214656"
                   className="flex items-center gap-4 bg-cream border border-[rgba(43,97,64,0.15)] p-5 rounded-card hover:border-primary transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
