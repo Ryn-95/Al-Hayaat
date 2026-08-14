@@ -3,7 +3,9 @@ import { getGeoPages } from '@/lib/geo-data';
 import { getServicesPages } from '@/lib/services-data';
 import { getBlogPages } from '@/lib/blog-data';
 
-const SITE_URL = 'https://pompesfunebres-alhayaat.fr';
+import { SITE_CONFIG } from '@/lib/seo-config';
+
+const SITE_URL = SITE_CONFIG.baseUrl;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date();

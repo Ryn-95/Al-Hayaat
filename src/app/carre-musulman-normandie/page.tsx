@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/carre-musulman-normandie";
+  const url = "https://www.pompesfunebres-alhayaat.fr/carre-musulman-normandie";
   return {
     title: "Carrés Musulmans en Normandie : Rouen, Le Havre, Caen — Guide Complet",
     description: "Où se trouvent les carrés musulmans en Normandie ? Rouen, Le Havre, Caen : adresses, conditions, démarches. Guide complet par Al Hayat.",
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

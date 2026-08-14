@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-afrique";
+  const url = "https://www.pompesfunebres-alhayaat.fr/rapatriement-corps-afrique";
   return {
     title: "Rapatriement de Corps — Comores, Guinée, Mauritanie | Al Hayaat",
     description: "Al Hayaat organise le rapatriement de corps vers les Comores, la Guinée, la Mauritanie et d'autres pays africains depuis la France. 24h/24.",
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

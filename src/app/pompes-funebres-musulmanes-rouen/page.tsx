@@ -5,18 +5,18 @@ export const metadata: Metadata = {
   title: "Pompes Funèbres Musulmanes Rouen (76) | Al Hayaat | Urgence 24h/7j",
   description: "Al Hayaat, pompes funèbres musulmanes à Rouen. Toilette rituelle, Salat Janaza, carré musulman, rapatriement Algérie/Maroc. Disponible 24h/24 dans tout le 76. Habilitation préfectorale.",
   alternates: {
-    canonical: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
+    canonical: "https://www.pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
   },
   openGraph: {
     title: "Pompes Funèbres Musulmanes Rouen (76) | Al Hayaat | Urgence 24h/7j",
     description: "Al Hayaat, pompes funèbres musulmanes à Rouen. Toilette rituelle, Salat Janaza, carré musulman, rapatriement Algérie/Maroc. Disponible 24h/24 dans tout le 76. Habilitation préfectorale.",
-    url: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
+    url: "https://www.pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
     siteName: "Al Hayaat Pompes Funèbres Musulmanes",
     locale: "fr_FR",
     type: "website",
     images: [
       {
-        url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+        url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
         width: 1200,
         height: 630,
         alt: "Al Hayaat Pompes Funèbres Musulmanes Rouen",
@@ -39,7 +39,7 @@ const jsonLd = {
   },
   areaServed: ["Rouen", "Sotteville-lès-Rouen", "Saint-Étienne-du-Rouvray", "Petit-Quevilly", "Grand-Quevilly"],
   openingHours: "Mo-Su 00:00-23:59",
-  url: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
+  url: "https://www.pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-rouen",
   priceRange: "À partir de 1490€",
 };
 

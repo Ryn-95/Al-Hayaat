@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/doua-pour-les-parents-decedes";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/doua-pour-les-parents-decedes";
   return {
     title: "Doua pour les Parents Décédés en Islam",
     description: "Invocations pour les parents décédés en arabe et français.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

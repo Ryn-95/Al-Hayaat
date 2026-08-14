@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/salat-janaza-comment-faire";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/salat-janaza-comment-faire";
   return {
     title: "Comment Faire la Salat Janaza ? Les 4 Takbir Expliqués",
     description: "Guide complet pour faire la Salat al-Janaza : étapes, takbir, douas, règles. Avec les textes en arabe, phonétique et traduction française.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

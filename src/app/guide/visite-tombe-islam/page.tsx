@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/visite-tombe-islam";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/visite-tombe-islam";
   return {
     title: "Visite de Tombe en Islam : Règles et Invocations",
     description: "Comment visiter une tombe en Islam ? Règles, douas.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

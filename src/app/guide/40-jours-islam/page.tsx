@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/40-jours-islam";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/40-jours-islam";
   return {
     title: "Les 40 Jours en Islam après un Décès — Ce que dit la Religion | Al Hayaat",
     description: "Que dit l'Islam sur les 40 jours après un décès ? L'avis des savants, les pratiques culturelles et ce qui est permis. Guide honnête et référencé.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

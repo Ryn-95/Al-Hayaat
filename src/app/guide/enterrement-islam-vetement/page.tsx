@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/enterrement-islam-vetement";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/enterrement-islam-vetement";
   return {
     title: "Comment s'Habiller pour un Enterrement Musulman ? | Al Hayaat",
     description: "Quelle tenue porter pour un enterrement musulman ? Guide hommes et femmes : couleurs, couvrir la tête, règles islamiques. Conseils pratiques pour participer à des obsèques musulmanes.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

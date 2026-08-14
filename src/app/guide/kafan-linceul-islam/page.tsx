@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/kafan-linceul-islam";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/kafan-linceul-islam";
   return {
     title: "Le Kafan — Linceul Islamique : Règles et Mise en Place | Al Hayaat",
     description: "Tout savoir sur le kafan en Islam : nombre de pièces pour l'homme et la femme, type de tissu, mise en place. Guide complet avec références hadith.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

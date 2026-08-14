@@ -5,7 +5,7 @@
 export const SITE_CONFIG = {
   name: "Al Hayaat Pompes Funèbres Musulmanes",
   shortName: "Al Hayaat",
-  baseUrl: "https://pompesfunebres-alhayaat.fr",
+  baseUrl: "https://www.pompesfunebres-alhayaat.fr",
   phone: "+33763214656",
   phoneDisplay: "07 63 21 46 56",
   email: "contact@pompesfunebres-alhayaat.fr",

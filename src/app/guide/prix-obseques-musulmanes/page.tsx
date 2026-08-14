@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/prix-obseques-musulmanes";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/prix-obseques-musulmanes";
   return {
     title: "Prix des Obsèques Musulmanes en France 2025 | Al Hayaat",
     description: "Combien coûtent des obsèques musulmanes en France ? Forfait inhumation, rapatriement Algérie/Maroc, toilette rituelle. Tarifs transparents Al Hayaat. Devis gratuit.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

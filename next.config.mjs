@@ -70,6 +70,12 @@ const nextConfig = {
         source: "/rapatriement-corps-cote-divoire",
         destination: "/rapatriement-corps-afrique",
         permanent: true,
+      },
+      // 404 signalée par la Search Console
+      {
+        source: "/accompagnement",
+        destination: "/accompagnement-famille",
+        permanent: true,
       }
     ];
   },

@@ -5,18 +5,18 @@ export const metadata: Metadata = {
   title: "Pompes Funèbres Musulmanes Le Havre (76) | Al Hayaat — Siège | 24h/7j",
   description: "Al Hayaat, pompes funèbres musulmanes basées au Havre (44 Rue Saint-Jacques, 76600). Toilette rituelle, carré musulman, rapatriement. Siège Normandie. Habilitation préfectorale. 24h/24.",
   alternates: {
-    canonical: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
+    canonical: "https://www.pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
   },
   openGraph: {
     title: "Pompes Funèbres Musulmanes Le Havre (76) | Al Hayaat — Siège | 24h/7j",
     description: "Al Hayaat, pompes funèbres musulmanes basées au Havre (44 Rue Saint-Jacques, 76600). Toilette rituelle, carré musulman, rapatriement. Siège Normandie. Habilitation préfectorale. 24h/24.",
-    url: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
+    url: "https://www.pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
     siteName: "Al Hayaat Pompes Funèbres Musulmanes",
     locale: "fr_FR",
     type: "website",
     images: [
       {
-        url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+        url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
         width: 1200,
         height: 630,
         alt: "Al Hayaat Pompes Funèbres Musulmanes Le Havre",
@@ -39,7 +39,7 @@ const jsonLd = {
   },
   areaServed: ["Le Havre", "Sainte-Adresse", "Harfleur", "Montivilliers", "Normandie"],
   openingHours: "Mo-Su 00:00-23:59",
-  url: "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
+  url: "https://www.pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-le-havre",
   priceRange: "À partir de 1490€",
 };
 

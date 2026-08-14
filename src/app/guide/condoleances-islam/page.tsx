@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/condoleances-islam";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/condoleances-islam";
   return {
     title: "Condoléances en Islam — Formules, Messages et Prières | Al Hayaat",
     description: "Comment présenter des condoléances en Islam ? Formules en arabe, messages en français, douas pour la famille en deuil. Guide complet avec références coraniques.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

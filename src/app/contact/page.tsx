@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { ContactForm } from "@/components/sections/ContactForm";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/contact";
+  const url = "https://www.pompesfunebres-alhayaat.fr/contact";
   return {
     title: "Contact — Al Hayaat Pompes Funèbres Musulmanes",
     description: "Contactez Al Hayaat 24h/24, 7j/7. Par téléphone, WhatsApp ou formulaire. Devis gratuit pour obsèques musulmanes et rapatriement.",
@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

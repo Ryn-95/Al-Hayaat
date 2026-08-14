@@ -11,7 +11,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = getPostBySlug(params.slug);
   if (!post) return { title: "Article introuvable" };
-  const url = `https://pompesfunebres-alhayaat.fr/blog/${post.slug}`;
+  const url = `https://www.pompesfunebres-alhayaat.fr/blog/${post.slug}`;
   return {
     title: post.title,
     description: post.metaDescription,
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       type: "article",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: post.title,
@@ -54,9 +54,9 @@ export default function BlogArticlePage({ params }: { params: { slug: string } }
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               itemListElement: [
-                { "@type": "ListItem", position: 1, name: "Accueil", item: "https://pompesfunebres-alhayaat.fr" },
-                { "@type": "ListItem", position: 2, name: "Blog", item: "https://pompesfunebres-alhayaat.fr/blog" },
-                { "@type": "ListItem", position: 3, name: post.title, item: `https://pompesfunebres-alhayaat.fr/blog/${post.slug}` },
+                { "@type": "ListItem", position: 1, name: "Accueil", item: "https://www.pompesfunebres-alhayaat.fr" },
+                { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.pompesfunebres-alhayaat.fr/blog" },
+                { "@type": "ListItem", position: 3, name: post.title, item: `https://www.pompesfunebres-alhayaat.fr/blog/${post.slug}` },
               ],
             },
             {

@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/certificat-deces-demarches";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/certificat-deces-demarches";
   return {
     title: "Certificat de Décès : Démarches et Obtention",
     description: "Comment obtenir un certificat de décès en France ?",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

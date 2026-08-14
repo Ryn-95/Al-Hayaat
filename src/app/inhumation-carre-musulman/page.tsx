@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/inhumation-carre-musulman";
+  const url = "https://www.pompesfunebres-alhayaat.fr/inhumation-carre-musulman";
   return {
     title: "Inhumation Carré Musulman — Normandie & Paris | Al Hayaat",
     description: "Al Hayaat organise l'inhumation dans un carré musulman en Normandie et à Paris. Orientation Qibla, démarches mairie, fossoyage. Corps orienté vers La Mecque. Disponible 24h/24.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-pakistan-bangladesh";
+  const url = "https://www.pompesfunebres-alhayaat.fr/rapatriement-corps-pakistan-bangladesh";
   return {
     title: "Rapatriement de Corps au Pakistan et Bangladesh — Al Hayat",
     description: "Rapatriement de corps au Pakistan et au Bangladesh depuis la France. Al Hayat gère toutes les démarches.",
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

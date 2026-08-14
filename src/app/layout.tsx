@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { CookieBanner } from "@/components/layout/CookieBanner";
 import { ConditionalUniversalCTA } from "@/components/layout/ConditionalUniversalCTA";
+import { SITE_CONFIG } from "@/lib/seo-config";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,15 +22,16 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_CONFIG.baseUrl),
   title: "Pompes Funèbres Musulmanes Normandie & Paris | Al Hayaat | 24h/7j",
   description: "Al Hayaat accompagne les familles musulmanes de Normandie (Rouen, Le Havre, Caen) et de Paris. Toilette rituelle, Salat al-Janaza, rapatriement Algérie/Maroc/Tunisie. Habilitation préfectorale. Disponibles 24h/24.",
   alternates: {
-    canonical: "https://pompesfunebres-alhayaat.fr",
+    canonical: "https://www.pompesfunebres-alhayaat.fr",
   },
   openGraph: {
     title: "Pompes Funèbres Musulmanes Normandie & Paris | Al Hayaat",
     description: "Toilette rituelle, Salat al-Janaza, rapatriement de corps Algérie/Maroc. Disponible 24h/24 7j/7. Habilitation préfectorale.",
-    url: "https://pompesfunebres-alhayaat.fr",
+    url: "https://www.pompesfunebres-alhayaat.fr",
     siteName: "Al Hayaat Pompes Funèbres Musulmanes",
     locale: "fr_FR",
     type: "website",
@@ -75,7 +77,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "FuneralHome",
               name: "Al Hayaat Pompes Funèbres Musulmanes",
-              url: "https://pompesfunebres-alhayaat.fr",
+              url: "https://www.pompesfunebres-alhayaat.fr",
               telephone: "+33763214656",
               description: "Pompes funèbres musulmanes en Normandie (Rouen, Le Havre, Caen) et Paris. Toilette rituelle Ghusl, Salat al-Janaza, rapatriement Algérie Maroc Tunisie. Disponibles 24h/24.",
               address: {

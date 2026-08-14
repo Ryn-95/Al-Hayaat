@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/assurance-deces-musulmane";
+  const url = "https://www.pompesfunebres-alhayaat.fr/assurance-deces-musulmane";
   return {
     title: "Assurance Décès Musulmane — Conforme à l'Islam | Al Hayaat",
     description: "Préparez les obsèques et le rapatriement de vos proches avec une assurance décès conforme aux principes islamiques. Al Hayaat vous conseille. Devis gratuit.",
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

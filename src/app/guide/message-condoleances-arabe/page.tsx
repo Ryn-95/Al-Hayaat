@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/message-condoleances-arabe";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/message-condoleances-arabe";
   return {
     title: "Messages de Condoléances en Arabe — 20 Exemples avec Traduction | Al Hayaat",
     description: "20 messages de condoléances en arabe prêts à envoyer, avec traduction française. Formules islamiques authentiques pour exprimer votre soutien à une famille en deuil.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/que-faire-apres-un-deces";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/que-faire-apres-un-deces";
   return {
     title: "Que Faire après un Décès Musulman ? — Premières Démarches | Al Hayaat",
     description: "Décès d'un proche : que faire dans les premières heures ? Certificat de décès, appeler Al Hayaat, démarches en mairie. Guide pas à pas pour les familles musulmanes.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

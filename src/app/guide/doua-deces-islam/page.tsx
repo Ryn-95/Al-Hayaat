@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/doua-deces-islam";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/doua-deces-islam";
   return {
     title: "Doua pour un Mort en Islam — Invocations Complètes Arabe & Traduction | Al Hayaat",
     description: "Toutes les douas pour un défunt : invocation pour le mort, pour la tombe, au cimetière, à l'annonce du décès. Texte arabe, phonétique et traduction. Référencé sur hadith authentiques.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

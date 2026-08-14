@@ -3,7 +3,7 @@ import Link from "next/link";
 import { blogPosts } from "@/lib/blog-data";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/blog";
+  const url = "https://www.pompesfunebres-alhayaat.fr/blog";
   return {
     title: "Blog — Guides pratiques pour les familles musulmanes en deuil",
     description: "Ressources, guides et articles pour accompagner les familles musulmanes : obsèques islamiques, rapatriement, ghusl, carrés musulmans, démarches administratives.",
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

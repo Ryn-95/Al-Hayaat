@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/cercueil-musulman";
+  const url = "https://www.pompesfunebres-alhayaat.fr/cercueil-musulman";
   return {
     title: "Cercueil Musulman — Loi, Tradition et Rapatriement | Al Hayat",
     description: "Cercueil musulman en France : matériaux, sobriété islamique, mise en bière, cercueil hermétique pour rapatriement. Guide complet par Al Hayat.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

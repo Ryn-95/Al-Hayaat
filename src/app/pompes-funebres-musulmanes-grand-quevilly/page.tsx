@@ -7,15 +7,11 @@ const city = normandieCities.find((c) => c.slug === "pompes-funebres-musulmanes-
 
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-grand-quevilly";
+  const url = "https://www.pompesfunebres-alhayaat.fr/pompes-funebres-musulmanes-grand-quevilly";
   return {
     title: city.title,
     description: city.metaDescription,
     
-    robots: {
-    index: false,
-    follow: true,
-  },
     alternates: {
       canonical: url,
     },
@@ -28,7 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

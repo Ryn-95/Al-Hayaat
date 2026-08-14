@@ -263,4 +263,16 @@ export function getServiceBySlug(slug: string): ServicePageData | undefined {
   return servicesData.find((s) => s.slug === slug);
 }
 
-export function getServicesPages() { return servicesData.map(s => ({ path: `/${s.slug}` })); }
+// Anciens slugs redirigés en 301 dans next.config.mjs : ils ne doivent jamais
+// apparaître dans le sitemap (Google signale sinon « Page avec redirection »).
+const REDIRECTED_SLUGS = new Set([
+  "toilette-rituelle-ghusl",   // → /toilette-rituelle-musulmane
+  "gestion-administrative",    // → /demarches-administratives-deces
+  "fossoyage-caveau",          // → /inhumation-carre-musulman
+]);
+
+export function getServicesPages() {
+  return servicesData
+    .filter((s) => !REDIRECTED_SLUGS.has(s.slug))
+    .map((s) => ({ path: `/${s.slug}` }));
+}

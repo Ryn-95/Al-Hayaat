@@ -3,6 +3,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Politique de Confidentialité",
   description: "Politique de confidentialité et gestion des données personnelles de PF AL HAYAAT.",
+  alternates: {
+    canonical: "https://www.pompesfunebres-alhayaat.fr/politique-confidentialite",
+  },
 };
 
 export default function PolitiqueConfidentialite() {

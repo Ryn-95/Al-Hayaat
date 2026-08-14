@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema, buildFAQSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/demarches-administratives-deces";
+  const url = "https://www.pompesfunebres-alhayaat.fr/demarches-administratives-deces";
   return {
     title: "Démarches Administratives après un Décès Musulman | Al Hayaat — Normandie & Paris",
     description: "Déclaration de décès, acte de décès, autorisation d'inhumer, formalités consulaires : Al Hayaat gère 100% des démarches administratives pour les familles musulmanes de Normandie et Paris.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

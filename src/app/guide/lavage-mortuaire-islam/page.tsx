@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/lavage-mortuaire-islam";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/lavage-mortuaire-islam";
   return {
     title: "Le Lavage Mortuaire en Islam (Ghusl) : Tout ce qu'il Faut Savoir",
     description: "Guide complet du lavage mortuaire islamique (Ghusl al-Mayyit) : étapes, règles, qui peut le réaliser.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

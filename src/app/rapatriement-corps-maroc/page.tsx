@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildFuneralHomeSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/rapatriement-corps-maroc";
+  const url = "https://www.pompesfunebres-alhayaat.fr/rapatriement-corps-maroc";
   return {
     title: "Rapatriement de Corps au Maroc depuis Normandie & Paris | Al Hayaat",
     description: "Al Hayaat organise le rapatriement de corps au Maroc depuis la Normandie et Paris. Prise en charge par l'État marocain possible. Cercueil IATA, démarches consulaires complètes. 24h/24.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

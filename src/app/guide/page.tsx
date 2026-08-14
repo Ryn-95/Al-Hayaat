@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/ui/Breadcrumbs";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide";
   return {
     title: "Guide des Rites Funéraires Islamiques — Invocations, Deuil, Obsèques | Al Hayaat",
     description: "Guide complet des rites funéraires islamiques : douas pour le mort, condoléances en islam, Salat al-Janaza, kafan, deuil, 40 jours. Invocations en arabe avec traduction.",
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

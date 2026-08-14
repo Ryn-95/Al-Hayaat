@@ -4,7 +4,7 @@ import Breadcrumbs from "@/components/ui/Breadcrumbs";
 import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/rites-funeraires-islam-etapes";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/rites-funeraires-islam-etapes";
   return {
     title: "Rites Funéraires Islamiques — De la Mort à l'Inhumation | Al Hayaat",
     description: "Les étapes des rites funéraires islamiques : toilette rituelle (Ghusl), kafan, Salat al-Janaza, inhumation. Guide complet avec références coraniques et hadith.",
@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",

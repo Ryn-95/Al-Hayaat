@@ -5,7 +5,7 @@ import SchemaOrg from "@/components/ui/SchemaOrg";
 import { buildArticleSchema, buildFAQSchema } from "@/lib/seo-config";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = "https://pompesfunebres-alhayaat.fr/guide/deuil-islam";
+  const url = "https://www.pompesfunebres-alhayaat.fr/guide/deuil-islam";
   return {
     title: "Le Deuil en Islam — Durée, Règles, Obligations | Al Hayaat",
     description: "Le deuil en Islam : combien de temps dure-t-il ? Règles pour les hommes et les femmes, la veuve (iddah), les 40 jours. Guide complet avec références islamiques.",
@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://pompesfunebres-alhayaat.fr/og-default.jpg",
+          url: "https://www.pompesfunebres-alhayaat.fr/og-default.jpg",
           width: 1200,
           height: 630,
           alt: "Al Hayaat Pompes Funèbres Musulmanes",
